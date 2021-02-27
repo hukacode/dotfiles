@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+# Color files
+RFILE="$HOME/.config/rofi/colors.rasi"
+
+# Change colors
+change_color() {	
+	# rofi
+	cat > $RFILE <<- EOF
+	/* colors */
+
+	* {
+	  al:   #00000000;
+	  bg:   ${BG}99;
+	  bga:  ${AC}33;
+	  fga:  ${FGA}FF;
+	  fg:   ${FG}FF;
+	  ac:   ${AC}FF;
+	  se:   ${SE}40;
+	}
+	EOF
+}
+
+hex_to_rgb() {
+    # Convert a hex value WITHOUT the hashtag (#)
+    R=$(printf "%d" 0x${1:0:2})
+    G=$(printf "%d" 0x${1:2:2})
+    B=$(printf "%d" 0x${1:4:2})
+}
+
+# Source the pywal color file
+. "$HOME/.cache/wal/colors.sh"
+
+BG=`printf "%s\n" "$background"`
+FG=`printf "%s\n" "$foreground"`
+FGA=`printf "%s\n" "$foreground"`
+AC=`printf "%s\n" "$color1"`
+SC=`printf "%s\n" "$color2"`
+AL=`printf "%s\n" "$color3"`
+SE=`printf "%s\n" "$color4"`
+
+HEX=${AC:1}
+
+hex_to_rgb $HEX
+change_color

@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd DCVersion="0.9.10 beta" ConfigVersion="10">
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{5C5DA17C-8183-4528-A353-312BF9E7F2DD}</ID>
+          <Icon>cm_refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{6C314D73-6540-4FEB-A1FA-AC0BE4809B00}</ID>
+          <Icon>cm_runterm</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{00B26FEE-D186-461F-83A9-E55C41E578AC}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{3A3B7EF4-1946-490C-97F1-74944B6648E6}</ID>
+          <Icon>cm_briefview</Icon>
+          <Command>cm_BriefView</Command>
+        </Command>
+        <Command>
+          <ID>{8279B155-A289-43AC-8F94-5BEDB2709F43}</ID>
+          <Icon>cm_columnsview</Icon>
+          <Command>cm_ColumnsView</Command>
+        </Command>
+        <Command>
+          <ID>{0C058973-1B12-4DF3-88D6-E4F8B8DB0C44}</ID>
+          <Icon>cm_thumbnailsview</Icon>
+          <Command>cm_ThumbnailsView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{BFD827DB-4663-41E7-B418-7082948CF09D}</ID>
+          <Icon>cm_flatview</Icon>
+          <Command>cm_FlatView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{B616CACE-1C90-40F5-B03C-8617BA68F06C}</ID>
+          <Icon>cm_viewhistoryprev</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{17DCE0AD-9571-4A52-A37E-E0A70920A320}</ID>
+          <Icon>cm_viewhistorynext</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{3BC7A5EE-368E-4811-99BB-C582F2DD1A21}</ID>
+          <Icon>cm_markplus</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{C9A1A77A-DA96-42B0-9C2C-BB7CDF3BCA1E}</ID>
+          <Icon>cm_markminus</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Command>
+          <ID>{5475FC2D-3F5E-477B-AF90-809EE0FE41AD}</ID>
+          <Icon>cm_markinvert</Icon>
+          <Command>cm_MarkInvert</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{40154D57-E71B-4326-BCC9-2421CE8DB898}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{29975139-2130-4D8A-B9C7-261338CDCC1A}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{D4D42F5F-23FC-416A-B509-5B715733D4F5}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{2EDD10EB-2FD0-45F6-A0BF-5A701D7D78AE}</ID>
+          <Icon>cm_multirename</Icon>
+          <Command>cm_MultiRename</Command>
+        </Command>
+        <Command>
+          <ID>{8AD3C2F1-638C-46A3-BA04-523956148864}</ID>
+          <Icon>cm_syncdirs</Icon>
+          <Command>cm_SyncDirs</Command>
+        </Command>
+        <Command>
+          <ID>{D6A301AC-8B8B-4714-86C5-11FF854C0657}</ID>
+          <Icon>cm_copyfullnamestoclip</Icon>
+          <Command>cm_CopyFullNamesToClip</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+  <MainWindow>
+    <Position Save="True">
+      <Left>0</Left>
+      <Top>24</Top>
+      <Width>1600</Width>
+      <Height>876</Height>
+      <PixelsPerInch>96</PixelsPerInch>
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+    </Position>
+  </MainWindow>
+  <Configuration Save="True" SortOrder="1" TreeType="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+    <FolderTabs Save="True"/>
+  </Configuration>
+  <Language>
+    <POFileName>doublecmd.en.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <ActiveRight>False</ActiveRight>
+    <RunInTerminalStayOpenCmd>alacritty</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>alacritty</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>alacritty</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <OperationSizeFormat>0</OperationSizeFormat>
+    <HeaderFooterSizeFormat>0</HeaderFooterSizeFormat>
+    <FileSizeDigits>1</FileSizeDigits>
+    <HeaderFooterDigits>1</HeaderFooterDigits>
+    <OperationSizeDigits>1</OperationSizeDigits>
+    <PersonalizedByte>B</PersonalizedByte>
+    <PersonalizedKilo>KB</PersonalizedKilo>
+    <PersonalizedMega>MB</PersonalizedMega>
+    <PersonalizedGiga>GB</PersonalizedGiga>
+    <PersonalizedTera>TB</PersonalizedTera>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+        <IconClick>0</IconClick>
+      </Selection>
+      <SingleClickStart>0</SingleClickStart>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>False</AutoFillColumns>
+    <AutoSizeColumn>1</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>mm/dd/yy hh:nn:ss</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ExtendCellWidth>False</ExtendCellWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="True">
+      <Path>/usr/bin/code</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="True">
+      <Path>/usr/bin/meld</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>Cascadia Code</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Cascadia Code</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Cascadia Code</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <OptionsTree>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsTree>
+    <OptionsMain>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsMain>
+    <SearchResults>
+      <Name>default</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </SearchResults>
+    <PathEdit>
+      <Name>JetBrainsMono Nerd Font Mono</Name>
+      <Size>8</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </PathEdit>
+    <FunctionButtons>
+      <Name>default</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </FunctionButtons>
+    <Log>
+      <Name>Cascadia Code</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>Cascadia Code</Name>
+      <Size>16</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Cascadia Code</Name>
+      <Size>12</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Console>
+  </Fonts>
+  <Colors>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <UseFrameCursor>False</UseFrameCursor>
+    <Foreground>-2147483640</Foreground>
+    <Background>-2147483643</Background>
+    <Background2>-2147483643</Background2>
+    <Cursor>-2147483635</Cursor>
+    <CursorText>-2147483634</CursorText>
+    <Mark>255</Mark>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <gBorderFrameWidth>1</gBorderFrameWidth>
+    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <FreeSpaceIndicator>
+      <UseGradient>True</UseGradient>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+    </FreeSpaceIndicator>
+    <LogWindow>
+      <Info>8388608</Info>
+      <Error>255</Error>
+      <Success>32768</Success>
+    </LogWindow>
+    <FileFilters/>
+  </Colors>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <ActualToolTipMode>0</ActualToolTipMode>
+    <ToolTipHideTimeOut>0</ToolTipHideTimeOut>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </ButtonBar>
+    <DriveBar1>True</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="False">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>True</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>True</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>True</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>False</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>False</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>True</HorizontalFilePanels>
+    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>0</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+    <ExtraLineSpan>2</ExtraLineSpan>
+    <FolderPrefix>[</FolderPrefix>
+    <FolderPostfix>]</FolderPostfix>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>2</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>3</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <HashBufferSize>8388608</HashBufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <InitiallyClearFileMask>True</InitiallyClearFileMask>
+    <NewSearchClearFiltersAction>0</NewSearchClearFiltersAction>
+    <ShowMenuBarInFindFiles>True</ShowMenuBarInFindFiles>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>False</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <AutoExtractOpenMask/>
+    <SearchDefaultTemplate/>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <Verify>False</Verify>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>False</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+      <ExcludeEmptyTemplateDirectories>True</ExcludeEmptyTemplateDirectories>
+    </Options>
+    <Extract>
+      <Overwrite>False</Overwrite>
+    </Extract>
+  </FileOperations>
+  <Tabs>
+    <Options>49945</Options>
+    <CharacterLimit>16</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>5</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="gdrive">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/gdrive/</Path>
+                  <Path Filename="personal-document">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="calibre-library">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/calibre-library/</Path>
+                  <Path Filename="calibre-library">/home/huka/Dropbox/</Path>
+                  <Path Filename="Downloads">/home/huka/</Path>
+                  <Path Filename="com.pajuelo.plasmaConfSaver">/home/huka/Downloads/</Path>
+                  <Path Filename="contents">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/</Path>
+                  <Path Filename="config">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/contents/</Path>
+                  <Path Filename="..">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/contents/config/</Path>
+                  <Path Filename="config">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/contents/</Path>
+                  <Path Filename="translate">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/</Path>
+                  <Path Filename="..">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/translate/</Path>
+                  <Path Filename="translate">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/</Path>
+                  <Path Filename="com.pajuelo.plasmaConfSaver">/home/huka/Downloads/</Path>
+                  <Path Filename="README.md">/home/huka/Downloads/com.pajuelo.plasmaConfSaver/</Path>
+                  <Path Filename="applet-window-buttons-master">/home/huka/Downloads/</Path>
+                  <Path Filename="uninstall.sh">/home/huka/Downloads/applet-window-buttons-master/</Path>
+                  <Path Filename="rclone-backup-workspace.sh">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="plasmaConfSaver">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/plasmaConfSaver/</Path>
+                  <Path Filename="rclone-script">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="hugo-blog">/home/huka/Dropbox/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/hugo-blog/content/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="rclone-backup-workspace-to-dropbox.sh">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="src-example (1)">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/src-example (1)/</Path>
+                  <Path Filename="src-example">/home/huka/Dropbox/</Path>
+                  <Path Filename="src-example">/home/huka/Dropbox/src-example/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/src-example/src-example/</Path>
+                  <Path Filename="src-example">/home/huka/Dropbox/src-example/</Path>
+                  <Path Filename=".dropbox">/home/huka/Dropbox/</Path>
+                  <Path Filename="crontab">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="mountfuji">/usr/share/dynamic-wallpaper/images/</Path>
+                  <Path Filename="19.jpg">/usr/share/dynamic-wallpaper/images/mountfuji/</Path>
+                  <Path Filename="mountfuji">/usr/share/dynamic-wallpaper/images/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="go">/home/huka/</Path>
+                  <Path Filename="bin">/home/huka/go/</Path>
+                  <Path Filename="..">/home/huka/go/bin/</Path>
+                  <Path Filename="">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="..">/home/huka/Downloads/./</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/rclone-script/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/huka/Dropbox/rclone-script/</LockPath>
+          <Title>rclone-script</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="id_back_hungnlk.JPG">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_tinhltp">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_tinhltp/</Path>
+                  <Path Filename="log-chat">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/log-chat/</Path>
+                  <Path Filename="keeweb">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/keeweb/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="CV_nguyen-le-khanh-hung-2020.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="film.md">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="hugo-blog">/home/huka/Dropbox/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="posts">/home/huka/Dropbox/hugo-blog/content/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="personal-document">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="src-example">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/src-example/</Path>
+                  <Path Filename="rclone-script">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="aliases_linux.fish">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="hugo-blog">/home/huka/Dropbox/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="posts">/home/huka/Dropbox/hugo-blog/content/</Path>
+                  <Path Filename="nguoi-viet-hoi-hot-phan-4">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="VERB-TENSES-IN-ENGLISH.jpg">/home/huka/Dropbox/hugo-blog/content/posts/nguoi-viet-hoi-hot-phan-4/</Path>
+                  <Path Filename="nguoi-viet-hoi-hot-phan-4">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="index.vi.md">/home/huka/Dropbox/hugo-blog/content/posts/nguoi-viet-hoi-hot-phan-4/</Path>
+                  <Path Filename="nguoi-viet-hoi-hot-phan-5">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="index.vi.md">/home/huka/Dropbox/hugo-blog/content/posts/nguoi-viet-hoi-hot-phan-5/</Path>
+                  <Path Filename="nguoi-viet-hoi-hot-phan-2b">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="index.vi.md">/home/huka/Dropbox/hugo-blog/content/posts/nguoi-viet-hoi-hot-phan-2b/</Path>
+                  <Path Filename="nguoi-viet-hoi-hot-phan-2c">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="index.vi.md">/home/huka/Dropbox/hugo-blog/content/posts/nguoi-viet-hoi-hot-phan-2c/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="..">/run/media/huka/data/</Path>
+                  <Path Filename="few-tips-to-improve-logging">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="index.en.md">/home/huka/Dropbox/hugo-blog/content/posts/few-tips-to-improve-logging/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                  <Path Filename="hugo-blog">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/hugo-blog/content/posts/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/huka/Dropbox/hugo-blog/content/posts/</LockPath>
+          <Title>posts</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="CV_nguyen-le-khanh-hung-2020.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/playlist/</Path>
+                  <Path Filename="WE.xlsx">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="personal-document">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="CV_nguyen-le-khanh-hung-2020_1col_avatar.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="cv_nguyen-le-khanh-hung-2020.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/rofi/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="CoverLetter.doc">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="docker-compose">/home/huka/Dropbox/</Path>
+                  <Path Filename="pihole">/home/huka/Dropbox/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/home/huka/Dropbox/docker-compose/pihole/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="hugo-blog">/home/huka/Dropbox/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/hugo-blog/content/</Path>
+                  <Path Filename="content">/home/huka/Dropbox/hugo-blog/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="wallpaper">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="docker-compose">/home/huka/Dropbox/</Path>
+                  <Path Filename="pihole">/home/huka/Dropbox/docker-compose/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/docker-compose/pihole/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/docker-compose/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="qtile">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="settings">/home/huka/Dropbox/dotfiles/.config/qtile/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/qtile/settings/</Path>
+                  <Path Filename="">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/huka/Dropbox/personal-document/cv_hungnlk/</LockPath>
+          <Title>cv_hungnlk</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Dropbox (Maestral)">/run/media/huka/workspace/</Path>
+                  <Path Filename="rclone-script">/run/media/huka/workspace/Dropbox (Maestral)/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="rclone-script">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="codespace">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/codespace/</Path>
+                  <Path Filename="personal-document">/home/huka/Dropbox/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="cv_nguyen-le-khanh-hung-2019.doc">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="rclone-script">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="rclone-script">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/rclone-script/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="cv_nguyen-le-khanh-hung_axon.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="id_back_hungnlk.JPG">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_tinhltp">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_tinhltp/</Path>
+                  <Path Filename="log-chat">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/log-chat/</Path>
+                  <Path Filename="keeweb">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/keeweb/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="cv_hungnlk">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="CV_nguyen-le-khanh-hung-2020.docx">/home/huka/Dropbox/personal-document/cv_hungnlk/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/personal-document/playlist/</Path>
+                  <Path Filename="game-ps1.md">/home/huka/Dropbox/personal-document/</Path>
+                  <Path Filename="Setup">/run/media/huka/entertaiment/</Path>
+                  <Path Filename="Game">/run/media/huka/entertaiment/Setup/</Path>
+                  <Path Filename="s">/run/media/huka/entertaiment/Setup/Game/</Path>
+                  <Path Filename="..">/run/media/huka/entertaiment/Setup/Game/s/</Path>
+                  <Path Filename="Roms PSX">/run/media/huka/entertaiment/Setup/Game/</Path>
+                  <Path Filename="Hermie Hopperhead - Scrap Panic (Japan) [SCPS-91016].rar">/run/media/huka/entertaiment/Setup/Game/Roms PSX/</Path>
+                  <Path Filename="Mame">/run/media/huka/entertaiment/Setup/Game/</Path>
+                  <Path Filename="roms">/run/media/huka/entertaiment/Setup/Game/Mame/</Path>
+                  <Path Filename="..">/run/media/huka/entertaiment/Setup/Game/Mame/roms/</Path>
+                  <Path Filename="Game">/run/media/huka/entertaiment/Setup/</Path>
+                  <Path Filename="s">/run/media/huka/entertaiment/Setup/Game/</Path>
+                  <Path Filename="..">/run/media/huka/entertaiment/Setup/Game/s/</Path>
+                  <Path Filename="..">/run/media/huka/entertaiment/Setup/Game/</Path>
+                  <Path Filename="Game">/run/media/huka/entertaiment/Setup/</Path>
+                  <Path Filename="">/run/media/huka/entertaiment/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/.config/</Path>
+                  <Path Filename=".config">/home/huka/</Path>
+                  <Path Filename="alacritty">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/alacritty/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="colors.rasi">/home/huka/.config/rofi/</Path>
+                  <Path Filename="alacritty">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/alacritty/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename="alacritty">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/alacritty/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="rofi_menu">/home/huka/.config/rofi/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/rofi_menu/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename=".xmonad">/home/huka/.config/</Path>
+                  <Path Filename="xmonad.hs">/home/huka/.config/.xmonad/</Path>
+                  <Path Filename=".xmonad">/home/huka/.config/</Path>
+                  <Path Filename=".themes">/home/huka/</Path>
+                  <Path Filename="xmobarrc0">/home/huka/.config/xmobar/</Path>
+                  <Path Filename=".xmonad">/home/huka/</Path>
+                  <Path Filename="xpm">/home/huka/.xmonad/</Path>
+                  <Path Filename="memory-icon_20.xpm">/home/huka/.xmonad/xpm/</Path>
+                  <Path Filename="xmonad-config">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/xmonad-config/</Path>
+                  <Path Filename=".xmonad">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/.xmonad/</Path>
+                  <Path Filename=".config">/home/huka/</Path>
+                  <Path Filename=".xmonad">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/.xmonad/</Path>
+                  <Path Filename="polybar">/home/huka/.config/</Path>
+                  <Path Filename="scripts">/home/huka/.config/polybar/</Path>
+                  <Path Filename="..">/home/huka/.config/polybar/scripts/</Path>
+                  <Path Filename="launch.sh">/home/huka/.config/polybar/</Path>
+                  <Path Filename="bspwm">/home/huka/.config/</Path>
+                  <Path Filename="bspwmrc">/home/huka/.config/bspwm/</Path>
+                  <Path Filename="matplotlib">/home/huka/.config/</Path>
+                  <Path Filename=".mackup">/home/huka/</Path>
+                  <Path Filename="fish.cfg">/home/huka/.mackup/</Path>
+                  <Path Filename=".mackup">/home/huka/</Path>
+                  <Path Filename="hk-wallpaper.cfg">/home/huka/.mackup/</Path>
+                  <Path Filename=".mackup">/home/huka/</Path>
+                  <Path Filename="dunst.cfg">/home/huka/.mackup/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/doublecmd/</Path>
+                  <Path Filename="gtk-2.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-2.0/</Path>
+                  <Path Filename="gtk-2.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-2.0/</Path>
+                  <Path Filename="gtk-3.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-3.0/</Path>
+                  <Path Filename="alacritty">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/alacritty/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename=".xmonad">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.xmonad/</Path>
+                  <Path Filename="bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/bin/</Path>
+                  <Path Filename="script">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/script/</Path>
+                  <Path Filename="bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/bin/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/rofi/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="fish_variables">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="i3">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/i3/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="neofetch">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/neofetch/</Path>
+                  <Path Filename="ms-windows-terminal">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/ms-windows-terminal/</Path>
+                  <Path Filename="ms-windows-terminal">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename=".git">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.git/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/rofi/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="hk-bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="outputmenu">/home/huka/Dropbox/dotfiles/hk-bin/</Path>
+                  <Path Filename="hk-bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/hk-bin/</Path>
+                  <Path Filename=".emacs.d">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="hk-wallpaper">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="hk-wallpaper">/home/huka/Dropbox/dotfiles/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="fisher.fish">/home/huka/.config/fish/functions/</Path>
+                  <Path Filename="functions">/home/huka/.config/fish/</Path>
+                  <Path Filename="google-chrome">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/google-chrome/</Path>
+                  <Path Filename="herbstluftwm">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/herbstluftwm/</Path>
+                  <Path Filename="htop">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/htop/</Path>
+                  <Path Filename="i3">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/i3/</Path>
+                  <Path Filename="KeeWeb">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/KeeWeb/</Path>
+                  <Path Filename="ibus-bamboo">/home/huka/.config/</Path>
+                  <Path Filename="ibus-bamboo.config.json">/home/huka/.config/ibus-bamboo/</Path>
+                  <Path Filename="mpv">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/mpv/</Path>
+                  <Path Filename="qalculate">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/qalculate/</Path>
+                  <Path Filename="qalculate">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/qalculate/</Path>
+                  <Path Filename="smartgit">/home/huka/.config/</Path>
+                  <Path Filename="20.2">/home/huka/.config/smartgit/</Path>
+                  <Path Filename="wal">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/wal/</Path>
+                  <Path Filename="vlc">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/vlc/</Path>
+                  <Path Filename="Thunar">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/Thunar/</Path>
+                  <Path Filename="i3">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/i3/</Path>
+                  <Path Filename="i3">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/i3/</Path>
+                  <Path Filename="fish">/home/huka/.config/</Path>
+                  <Path Filename="conf.d">/home/huka/.config/fish/</Path>
+                  <Path Filename="..">/home/huka/.config/fish/conf.d/</Path>
+                  <Path Filename="conf.d">/home/huka/.config/fish/</Path>
+                  <Path Filename="fish">/home/huka/.config/</Path>
+                  <Path Filename=".config">/home/huka/</Path>
+                  <Path Filename="fish">/home/huka/.config/</Path>
+                  <Path Filename="completions">/home/huka/.config/fish/</Path>
+                  <Path Filename="..">/home/huka/.config/fish/completions/</Path>
+                  <Path Filename="conf.d">/home/huka/.config/fish/</Path>
+                  <Path Filename="..">/home/huka/.config/fish/conf.d/</Path>
+                  <Path Filename="functions">/home/huka/.config/fish/</Path>
+                  <Path Filename="..">/home/huka/.config/fish/functions/</Path>
+                  <Path Filename="functions">/home/huka/.config/fish/</Path>
+                  <Path Filename="dunst">/home/huka/.config/</Path>
+                  <Path Filename="images">/home/huka/.config/dunst/</Path>
+                  <Path Filename="..">/home/huka/.config/dunst/images/</Path>
+                  <Path Filename="..">/home/huka/.config/dunst/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/alacritty/</Path>
+                  <Path Filename="alacritty">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/alacritty/</Path>
+                  <Path Filename="doublecmd">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/doublecmd/</Path>
+                  <Path Filename="gtk-2.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-2.0/</Path>
+                  <Path Filename="gtk-2.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-2.0/</Path>
+                  <Path Filename="gtk-3.0">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/gtk-3.0/</Path>
+                  <Path Filename="alacritty">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/alacritty/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename=".xmonad">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.xmonad/</Path>
+                  <Path Filename="bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/bin/</Path>
+                  <Path Filename="script">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/script/</Path>
+                  <Path Filename="bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/bin/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/rofi/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="fish_variables">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="i3">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/i3/</Path>
+                  <Path Filename="fish">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/fish/</Path>
+                  <Path Filename="neofetch">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/neofetch/</Path>
+                  <Path Filename="ms-windows-terminal">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/ms-windows-terminal/</Path>
+                  <Path Filename="ms-windows-terminal">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename=".git">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.git/</Path>
+                  <Path Filename=".config">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/.config/rofi/</Path>
+                  <Path Filename="rofi">/home/huka/Dropbox/dotfiles/.config/</Path>
+                  <Path Filename="hk-bin">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="ngrok">/home/huka/Dropbox/dotfiles/hk-bin/</Path>
+                  <Path Filename=".local">/home/huka/</Path>
+                  <Path Filename="bin">/home/huka/.local/</Path>
+                  <Path Filename="ngrok">/home/huka/.local/bin/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>7</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/.config/session/</Path>
+                  <Path Filename="session">/home/huka/.config/</Path>
+                  <Path Filename="hrms">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename=".gitignore">/run/media/huka/workspace/huka-project/hrms/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename=".gitignore">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="knowledge-base">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/knowledge-base/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="01.DevArea">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/01.DevArea/</Path>
+                  <Path Filename="02.Release">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/02.Release/</Path>
+                  <Path Filename="99.Other">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/99.Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="shopify-helper">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/shopify-helper/</Path>
+                  <Path Filename="KBreakNeon">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="99. Other">/run/media/huka/workspace/huka-project/KBreakNeon/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/KBreakNeon/99. Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="AndroidStudioProjects">/run/media/huka/workspace/</Path>
+                  <Path Filename="tinder-java-api-develop.zip">/run/media/huka/workspace/AndroidStudioProjects/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-project/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/run/media/huka/workspace/huka-project/</LockPath>
+          <Title>huka-project</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="crif">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/</Path>
+                  <Path Filename="baseservices">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/</Path>
+                  <Path Filename="dataaccess">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/</Path>
+                  <Path Filename="dao">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/dao/</Path>
+                  <Path Filename="dto">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/</Path>
+                  <Path Filename="search">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/dto/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/dto/search/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/dto/</Path>
+                  <Path Filename="dto">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/</Path>
+                  <Path Filename="ApplicationUser.java">/run/media/huka/workspace/java-project/src-example/crif-base-services-model-db/srcGen/com/crif/baseservices/dataaccess/dto/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="java-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/</Path>
+                  <Path Filename="angular-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="AngularPos">/run/media/huka/workspace/angular-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/angular-project/AngularPos/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/angular-project/</Path>
+                  <Path Filename=".git">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/.git/</Path>
+                  <Path Filename="jkanban">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/jkanban/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/jkanban/frontend/</Path>
+                  <Path Filename=".idea">/run/media/huka/workspace/huka-project/jkanban/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="client">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/titama/client/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/titama/client/titama/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/titama/client/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/titama/client/titama/</Path>
+                  <Path Filename="node_modules">/run/media/huka/workspace/huka-project/titama/client/</Path>
+                  <Path Filename="configuration">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/titama/configuration/</Path>
+                  <Path Filename="client">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/titama/client/</Path>
+                  <Path Filename="core">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="src">/run/media/huka/workspace/huka-project/titama/core/</Path>
+                  <Path Filename="main">/run/media/huka/workspace/huka-project/titama/core/src/</Path>
+                  <Path Filename="java">/run/media/huka/workspace/huka-project/titama/core/src/main/</Path>
+                  <Path Filename="com">/run/media/huka/workspace/huka-project/titama/core/src/main/java/</Path>
+                  <Path Filename="github">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/</Path>
+                  <Path Filename="hukacode">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/</Path>
+                  <Path Filename="core">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/</Path>
+                  <Path Filename="command">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/core/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/core/command/</Path>
+                  <Path Filename="query">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/core/</Path>
+                  <Path Filename="findtask">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/core/query/</Path>
+                  <Path Filename="FindAllActiveTaskPersistence.java">/run/media/huka/workspace/huka-project/titama/core/src/main/java/com/github/hukacode/titama/core/query/findtask/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-project/titama/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/run/media/huka/workspace/huka-project/titama/</LockPath>
+          <Title>titama</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename=".config">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="qtile">/run/media/huka/workspace/huka-dotfiles/.config/</Path>
+                  <Path Filename="settings">/run/media/huka/workspace/huka-dotfiles/.config/qtile/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/.config/qtile/settings/</Path>
+                  <Path Filename="themes">/run/media/huka/workspace/huka-dotfiles/.config/qtile/</Path>
+                  <Path Filename="rosepine.json">/run/media/huka/workspace/huka-dotfiles/.config/qtile/themes/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/.config/qtile/</Path>
+                  <Path Filename="qtile">/run/media/huka/workspace/huka-dotfiles/.config/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/.config/qtile/</Path>
+                  <Path Filename=".config">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="static">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="favicon-32x32.png">/run/media/huka/workspace/huka-gohugo/hugo-blog/static/</Path>
+                  <Path Filename="dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="wallpaper">/home/huka/</Path>
+                  <Path Filename="wallhaven-mpkd8k_2560x1440.png">/home/huka/wallpaper/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="polybar-themes">/run/media/huka/workspace/dotfiles/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/polybar-themes/</Path>
+                  <Path Filename="dynamic-wallpaper">/run/media/huka/workspace/dotfiles/</Path>
+                  <Path Filename="images">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/</Path>
+                  <Path Filename="chihuahuan">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/images/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/images/chihuahuan/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/images/</Path>
+                  <Path Filename="images">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/images/</Path>
+                  <Path Filename="install.sh">/run/media/huka/workspace/dotfiles/dynamic-wallpaper/</Path>
+                  <Path Filename="dynamic-wallpaper">/usr/share/</Path>
+                  <Path Filename="images">/usr/share/dynamic-wallpaper/</Path>
+                  <Path Filename="tokyo">/usr/share/dynamic-wallpaper/images/</Path>
+                  <Path Filename="README.md">/usr/share/dynamic-wallpaper/images/tokyo/</Path>
+                  <Path Filename="gradient">/usr/share/dynamic-wallpaper/images/</Path>
+                  <Path Filename="..">/usr/share/dynamic-wallpaper/images/gradient/</Path>
+                  <Path Filename="gradient">/usr/share/dynamic-wallpaper/images/</Path>
+                  <Path Filename="content">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="posts">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/posts/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/</Path>
+                  <Path Filename="content">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/</Path>
+                  <Path Filename="content">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/</Path>
+                  <Path Filename="content">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-gohugo/hugo-blog/content/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-gohugo/hugo-blog/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/run/media/huka/workspace/huka-gohugo/hugo-blog/</LockPath>
+          <Title>hugo-blog</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="$HOME">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="fish">/run/media/huka/workspace/huka-project/coffee-shop/$HOME/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/$HOME/fish/</Path>
+                  <Path Filename="fish">/run/media/huka/workspace/huka-project/coffee-shop/$HOME/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename=".gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="configuration">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="src">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/</Path>
+                  <Path Filename="main">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/</Path>
+                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/resources/</Path>
+                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
+                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
+                  <Path Filename="com">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/com/</Path>
+                  <Path Filename="com">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
+                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
+                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="package.json">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="presentation">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/presentation/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="presentation">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/presentation/</Path>
+                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="security">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/security/</Path>
+                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="core">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/core/</Path>
+                  <Path Filename="infrastructure">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
+                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/infrastructure/</Path>
+                  <Path Filename="integration-test">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/</Path>
+                  <Path Filename="integration-test">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                  <Path Filename="src">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/</Path>
+                  <Path Filename="main">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/</Path>
+                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/resources/</Path>
+                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/</Path>
+                  <Path Filename="test">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/</Path>
+                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/test/</Path>
+                  <Path Filename="api.http">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/test/resources/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/run/media/huka/workspace/huka-project/coffee-shop/</LockPath>
+          <Title>coffee-shop</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/doc/</Path>
+                  <Path Filename="src">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/</Path>
+                  <Path Filename="com">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/</Path>
+                  <Path Filename="crif">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/com/</Path>
+                  <Path Filename="baseservices">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/com/crif/</Path>
+                  <Path Filename="services">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/com/crif/baseservices/</Path>
+                  <Path Filename="base">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/com/crif/baseservices/services/</Path>
+                  <Path Filename="usermanagement">/run/media/huka/workspace/java-project/src-example/crif-base-services-impl/src/com/crif/baseservices/services/base/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="java-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/java-project/</Path>
+                  <Path Filename="hk-tool">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename=".config">/home/huka/</Path>
+                  <Path Filename="picom">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/picom/</Path>
+                  <Path Filename="flameshot">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/flameshot/</Path>
+                  <Path Filename="flameshot">/home/huka/.config/</Path>
+                  <Path Filename="flameshot.ini">/home/huka/.config/flameshot/</Path>
+                  <Path Filename="KeeWeb">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/KeeWeb/</Path>
+                  <Path Filename="pulse">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/pulse/</Path>
+                  <Path Filename="rofi">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/rofi/</Path>
+                  <Path Filename="session">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/session/</Path>
+                  <Path Filename="session">/home/huka/.config/</Path>
+                  <Path Filename="hrms">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename=".gitignore">/run/media/huka/workspace/huka-project/hrms/</Path>
+                  <Path Filename="titama">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename=".gitignore">/run/media/huka/workspace/huka-project/titama/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="knowledge-base">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
+                  <Path Filename="knowledge-management">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-management/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-management/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-management/</Path>
+                  <Path Filename="knowledge-base">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/home/huka/Dropbox/knowledge-base/</LockPath>
+          <Title>knowledge-base</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="01.DevArea">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/01.DevArea/</Path>
+                  <Path Filename="02.Release">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/02.Release/</Path>
+                  <Path Filename="99.Other">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/99.Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="shopify-helper">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/shopify-helper/</Path>
+                  <Path Filename="KBreakNeon">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="99. Other">/run/media/huka/workspace/huka-project/KBreakNeon/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/KBreakNeon/99. Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="AndroidStudioProjects">/run/media/huka/workspace/</Path>
+                  <Path Filename="tinder-java-api-develop.zip">/run/media/huka/workspace/AndroidStudioProjects/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="github.com">/run/media/huka/workspace/huka-go/</Path>
+                  <Path Filename="hukacode">/run/media/huka/workspace/huka-go/github.com/</Path>
+                  <Path Filename="learn-go">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/github.com/hukacode/learn-go/</Path>
+                  <Path Filename="learn-go">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/github.com/hukacode/learn-go/</Path>
+                  <Path Filename="learn-go">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/github.com/hukacode/learn-go/</Path>
+                  <Path Filename="learn-go">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="hellomod">/run/media/huka/workspace/huka-go/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/</Path>
+                  <Path Filename="data">/run/media/huka/</Path>
+                  <Path Filename="Marugoto">/run/media/huka/data/</Path>
+                  <Path Filename="..">/run/media/huka/data/Marugoto/</Path>
+                  <Path Filename="Minna no Nihongo">/run/media/huka/data/</Path>
+                  <Path Filename="">/run/media/huka/workspace/huka-go/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>2</Options>
+          <LockPath>/run/media/huka/workspace/huka-go/</LockPath>
+          <Title>huka-go</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="huka-project">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-dotfiles">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-dotfiles/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose">/run/media/huka/workspace/</Path>
+                  <Path Filename="pihole">/run/media/huka/workspace/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/run/media/huka/workspace/docker-compose/pihole/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="JavaMaster">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="01.DevArea">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/01.DevArea/</Path>
+                  <Path Filename="02.Release">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/02.Release/</Path>
+                  <Path Filename="99.Other">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/99.Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/JavaMaster/</Path>
+                  <Path Filename="shopify-helper">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/shopify-helper/</Path>
+                  <Path Filename="KBreakNeon">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="99. Other">/run/media/huka/workspace/huka-project/KBreakNeon/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/KBreakNeon/99. Other/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="AndroidStudioProjects">/run/media/huka/workspace/</Path>
+                  <Path Filename="tinder-java-api-develop.zip">/run/media/huka/workspace/AndroidStudioProjects/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-project/</Path>
+                  <Path Filename="huka-go">/run/media/huka/workspace/</Path>
+                  <Path Filename="github.com">/run/media/huka/workspace/huka-go/</Path>
+                  <Path Filename="hukacode">/run/media/huka/workspace/huka-go/github.com/</Path>
+                  <Path Filename="learn-go">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/github.com/hukacode/learn-go/</Path>
+                  <Path Filename="..">/run/media/huka/workspace/huka-go/github.com/hukacode/</Path>
+                  <Path Filename="..">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/go/src/github.com/</Path>
+                  <Path Filename="github.com">/home/huka/go/src/</Path>
+                  <Path Filename="..">/home/huka/go/src/github.com/</Path>
+                  <Path Filename="ramya-rao-a">/home/huka/go/pkg/mod/github.com/</Path>
+                  <Path Filename="..">/home/huka/go/src/</Path>
+                  <Path Filename="mod">/home/huka/go/pkg/</Path>
+                  <Path Filename="github.com">/home/huka/go/pkg/mod/</Path>
+                  <Path Filename="..">/home/huka/go/pkg/mod/github.com/</Path>
+                  <Path Filename="">/home/huka/go/pkg/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="ibus-bamboo">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/ibus-bamboo/</Path>
+                  <Path Filename="neofetch">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/neofetch/</Path>
+                  <Path Filename="wal">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/wal/</Path>
+                  <Path Filename="doublecmd">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/doublecmd/</Path>
+                  <Path Filename="doublecmd">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/doublecmd/</Path>
+                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
+                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
+                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
+                  <Path Filename="fish">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/fish/</Path>
+                  <Path Filename="fish">/home/huka/.config/</Path>
+                  <Path Filename="fish_plugins">/home/huka/.config/fish/</Path>
+                  <Path Filename="KeeWeb">/home/huka/.config/</Path>
+                  <Path Filename="..">/home/huka/.config/KeeWeb/</Path>
+                  <Path Filename="KeeWeb">/home/huka/.config/</Path>
+                  <Path Filename=".config">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/.config/</Path>
+                  <Path Filename=".xmonad">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/.xmonad/</Path>
+                  <Path Filename="app">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/app/</Path>
+                  <Path Filename="app">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/app/</Path>
+                  <Path Filename="bin">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/bin/</Path>
+                  <Path Filename="app">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/app/</Path>
+                  <Path Filename="docker-volume">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/docker-volume/</Path>
+                  <Path Filename="Documents">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/Documents/</Path>
+                  <Path Filename="gitflow">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/gitflow/</Path>
+                  <Path Filename=".local">/home/huka/</Path>
+                  <Path Filename="lib">/home/huka/.local/</Path>
+                  <Path Filename="..">/home/huka/.local/lib/</Path>
+                  <Path Filename="share">/home/huka/.local/</Path>
+                  <Path Filename="..">/home/huka/.local/share/</Path>
+                  <Path Filename="bin">/home/huka/.local/</Path>
+                  <Path Filename="..">/home/huka/.local/bin/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename=".dropbox">/home/huka/Dropbox/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+  <Log Enabled="False" LogFileWithDateInName="False">
+    <FileName>%DC_CONFIG_PATH%/doublecmd.log</FileName>
+    <Options>1023</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>False</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <InplaceRenameButton>False</InplaceRenameButton>
+    <DblClickToParent>False</DblClickToParent>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <Description>
+    <CreateNewUnicode>True</CreateNewUnicode>
+    <DefaultEncoding>2</DefaultEncoding>
+    <CreateNewEncoding>3</CreateNewEncoding>
+  </Description>
+  <AutoRefresh>
+    <Options>3</Options>
+    <ExcludeDirs/>
+    <Mode>1</Mode>
+  </AutoRefresh>
+  <Icons>
+    <Theme>dctheme</Theme>
+    <ShowHiddenDimmed>False</ShowHiddenDimmed>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <DiskSize>16</DiskSize>
+    <DiskAlpha>50</DiskAlpha>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <CustomIcons>0</CustomIcons>
+    <PixelsPerInch>96</PixelsPerInch>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+    <ShowButtonGlyphs>0</ShowButtonGlyphs>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList/>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <ImageExifRotate>True</ImageExifRotate>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>0</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <TabSpaces>8</TabSpaces>
+    <MaxTextWidth>1024</MaxTextWidth>
+    <ViewerMode>1</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+  </Viewer>
+  <Editor>
+    <EditWaitTime>2000</EditWaitTime>
+    <SynEditOptions>856075</SynEditOptions>
+    <SynEditTabWidth>2</SynEditTabWidth>
+  </Editor>
+  <Differ>
+    <Colors>
+      <Added>11206570</Added>
+      <Deleted>11184895</Deleted>
+      <Modified>16755370</Modified>
+    </Colors>
+  </Differ>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <Asymmetric Save="False">False</Asymmetric>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+  </InternalAssociations>
+  <TreeViewMenu>
+    <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
+    <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
+    <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
+    <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
+    <UseTVMDirHistory>False</UseTVMDirHistory>
+    <UseTVMViewHistory>False</UseTVMViewHistory>
+    <UseTVMCommandLineHistory>False</UseTVMCommandLineHistory>
+    <TreeViewMenuShortcutExit>True</TreeViewMenuShortcutExit>
+    <TreeViewMenuSingleClickExit>True</TreeViewMenuSingleClickExit>
+    <TreeViewMenuDoubleClickExit>True</TreeViewMenuDoubleClickExit>
+    <Context00>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context00>
+    <Context01>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context01>
+    <Context02>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context02>
+    <Context03>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context03>
+    <Context04>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context04>
+    <Context05>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context05>
+    <Context06>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context06>
+    <TreeViewMenuUseKeyboardShortcut>True</TreeViewMenuUseKeyboardShortcut>
+    <BackgroundColor>-2147483617</BackgroundColor>
+    <ShortcutColor>255</ShortcutColor>
+    <NormalTextColor>-2147483640</NormalTextColor>
+    <SecondaryTextColor>-2147483642</SecondaryTextColor>
+    <FoundTextColor>-2147483635</FoundTextColor>
+    <UnselectableTextColor>-2147483631</UnselectableTextColor>
+    <CursorColor>-2147483635</CursorColor>
+    <ShortcutUnderCursor>-2147483634</ShortcutUnderCursor>
+    <NormalTextUnderCursor>-2147483634</NormalTextUnderCursor>
+    <SecondaryTextUnderCursor>-2147483628</SecondaryTextUnderCursor>
+    <FoundTextUnderCursor>65535</FoundTextUnderCursor>
+    <UnselectableUnderCursor>-2147483631</UnselectableUnderCursor>
+  </TreeViewMenu>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{6808AE0D-D26F-46D5-8972-23B6E03E7B85}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <Lua>
+    <PathToLibrary>liblua5.1.so.0</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <HotKeySortOrder>0</HotKeySortOrder>
+  <UseEnterToCloseHotKeyEditor>True</UseEnterToCloseHotKeyEditor>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <MarkMaskCaseSensitive>False</MarkMaskCaseSensitive>
+  <MarkMaskIgnoreAccents>False</MarkMaskIgnoreAccents>
+  <MarkMaskFilterWindows>False</MarkMaskFilterWindows>
+  <MarkShowWantedAttribute>False</MarkShowWantedAttribute>
+  <MarkDefaultWantedAttribute/>
+  <MarkLastWantedAttribute/>
+  <SearchTemplates/>
+  <ColumnsSets DefaultTitleHash="540805403">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <FileSystem>&lt;General&gt;</FileSystem>
+      <PixelsPerInch>96</PixelsPerInch>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>363</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Fira Code</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>154</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Fira Code</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>70</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Fira Code</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>140</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Fira Code</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Fira Code</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>jar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>990</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>68</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%commander_path%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%commander_path%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>audioinfo</Name>
+        <Path>/usr/lib/doublecmd/plugins/wdx/audioinfo/audioinfo.wdx</Path>
+        <DetectString>(EXT="MP3") | (EXT="MP2") | (EXT="MP1") | (EXT="OGG") | (EXT="WMA") | (EXT="WAV") | (EXT="VQF") | (EXT="AAC") | (EXT="APE") | (EXT="MPC") | (EXT="FLAC") | (EXT="CDA") | (EXT="TTA") | (EXT="AC3") | (EXT="DTS") | (EXT="WV") | (EXT="WVC") | (EXT="OFR") | (EXT="OFS") | (EXT="M4A") | (EXT="MP4")</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Windows Network</Name>
+        <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins/>
+    <TweakPluginWidth0>0</TweakPluginWidth0>
+    <TweakPluginHeight0>0</TweakPluginHeight0>
+    <TweakPluginWidth1>0</TweakPluginWidth1>
+    <TweakPluginHeight1>0</TweakPluginHeight1>
+    <TweakPluginWidth2>0</TweakPluginWidth2>
+    <TweakPluginHeight2>0</TweakPluginHeight2>
+    <TweakPluginWidth3>0</TweakPluginWidth3>
+    <TweakPluginHeight3>0</TweakPluginHeight3>
+    <TweakPluginWidth4>0</TweakPluginWidth4>
+    <TweakPluginHeight4>0</TweakPluginHeight4>
+    <AutoTweak>False</AutoTweak>
+    <WCXConfigViewMode>0</WCXConfigViewMode>
+    <PluginFilenameStyle>0</PluginFilenameStyle>
+    <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
+  </Plugins>
+  <MultiRenamePresets>
+    <LastPreset/>
+    <Presets/>
+  </MultiRenamePresets>
+</doublecmd>

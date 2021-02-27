@@ -1,0 +1,13 @@
+#!/bin/bash
+
+theme="$1"
+
+change_dwall() {
+  dwall -p -s "$theme"
+  DISPLAY=:0 wal -i "$dir" -n ; feh --no-fehbg --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+  dunstcolor
+  roficolor
+  qtile cmd-obj -o cmd -f restart
+}
+
+change_dwall &

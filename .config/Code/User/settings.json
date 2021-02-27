@@ -1,0 +1,126 @@
+{
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "editor.letterSpacing": 1.2,
+    "editor.fontLigatures": true,
+    "insertDateString.format": "YYYY-MM-DDThh:mm:ssZZZ",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabSize": 2,
+    "plantuml.render": "PlantUMLServer",
+    "workbench.iconTheme": "material-icon-theme",
+    "plantuml.server": "http://www.plantuml.com/plantuml",
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.history": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vs-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vs-kubernetes.draft-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+        "vs-kubernetes.kubectl-path.linux": "/home/huka/.vs-kubernetes/tools/kubectl/kubectl",
+        "vs-kubernetes.minikube-path.linux": "/home/huka/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.helm-path.linux": "/home/huka/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vs-kubernetes.draft-path.linux": "/home/huka/.vs-kubernetes/tools/draft/linux-amd64/draft",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+    "workbench.colorTheme": "Quiet Light",
+    "openapi.defaultPreviewRenderer": "redoc",
+    "remote.SSH.remotePlatform": {
+        "node1.online.int-vn.td.infra.sys": "linux"
+    },
+    "editor.find.autoFindInSelection": "multiline",
+    "blockhighlight.background": [
+        "200",
+        "100",
+        "255",
+        ".05"
+    ],
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "name": {
+                "underline": "red"
+            }
+        }
+    },
+    "files.watcherExclude": {
+        "**/.history/**": true
+    },
+    "search.exclude": {
+        "**/.history/**": true
+    },
+    "local-history.path": "~",
+    "local-history.daysLimit": 10,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "search.mode": "reuseEditor",
+    "editor.cursorBlinking": "expand",
+    "editor.inlineHints.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "editor.renderWhitespace": "boundary",
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "telemetry.enableTelemetry": false,
+    "foam.edit.linkReferenceDefinitions": "off",
+    "editor.fontSize": 13,
+    "editor.codeLensFontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "markdown.preview.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+    "rest-client.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "rest-client.fontSize": 13,
+    "projectManager.git.baseFolders": [
+        "R:\\source\\",
+        "/run/media/huka/workspace/"
+    ]
+}

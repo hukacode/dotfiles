@@ -1,0 +1,39 @@
+[init]
+    defaultBranch = main
+
+[user]
+	email = mr.kharhums@gmail.com
+	name = huka
+[core]
+	editor = code -w
+    excludesfile = ~/.git/ignore-global
+    quotepath = false
+    trustctime = false
+    pager = sh -c '/usr/share/git/diff-highlight/diff-highlight | less -r'
+    # sudo find -L /usr -name diff-highlight -type f
+
+[color]
+    ui = auto
+
+[color "diff"]
+  commit = green
+  meta = yellow
+  frag = cyan
+  old = red
+  new = green
+  whitespace = red reverse
+
+[color "diff-highlight"]
+    oldNormal = "red bold"
+    oldHighlight = "red bold 52"
+    newNormal = "green bold"
+    newHighlight = "green bold 22"
+
+[url "https://github.com/"]
+    insteadOf = gh
+	
+[help]
+    autocorrect = 1
+
+[push]
+    default = simple

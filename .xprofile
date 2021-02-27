@@ -1,0 +1,12 @@
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+export ELECTRON_TRASH=gio code
+
+# wal -R -q &
+# ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3 &
+# xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x1080 --output HDMI-1 --mode 1920x1080 --pos 0x0 &
+# nm-applet &
+# udiskie -t &
+# volumeicon &
+# cbatticon &

@@ -1,0 +1,36 @@
+{
+  "choose-open-with-program-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAD/AAAAqAAAA4EAAAKdAAABAAAAAKkAAAOAAAACnAAAAAAAAAAABkAAAAEAAAAAqQAAA4AAAAKc"
+  },
+  "entries": {
+    "pdf": [
+      {
+        "Categories": "Office;WordProcessor;Qt;",
+        "Comment": "Kingsoft Pdf Reader",
+        "Exec": [
+          "/usr/bin/wpspdf",
+          "%F"
+        ],
+        "GenericName": "Kingsoft Pdf Reader",
+        "Icon": "/usr/share/icons/candy-icons/apps/scalable/wps-office2019-pdfmain.svg",
+        "InitialPreference": "3",
+        "MimeType": [
+          "application/pdf"
+        ],
+        "Name": "WPS PDF",
+        "StartupNotify": "false",
+        "StartupWMClass": "wpspdf",
+        "Terminal": "false",
+        "Type": "Application",
+        "X-KDE-SubstituteUID": "false",
+        "desktop_file_path": "/usr/share/applications/wps-office-pdf.desktop",
+        "icon_data": {
+          "__class__": "bytearray",
+          "__value__": "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"
+        },
+        "uuid": "ab82c182-0b7d-42e4-9df9-0b6a9bf7ca1d"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# numlockx on &
+# nextcloud &
+# xrandr --output DisplayPort-1 --primary --mode 2560x1080 &
+# xrandr --output HDMI-0 --mode 1920x1080 --right-of DisplayPort-1 &
+# xautolock -time 5 -locker "lock" &
+# redshift-gtk &
+wal -R -q &
+# chgdwal colony &
+# chgwal &
+picom --experimental-backends &
+exec /usr/bin/lxpolkit &
+ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3 &
+xfce4-clipman &
+nm-applet &
+udiskie -t &

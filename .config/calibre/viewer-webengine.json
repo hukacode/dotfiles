@@ -1,0 +1,174 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAGAAABj8AAAODAAAAAAAAABgAAAY/AAADgwAAAAAAAAAABkAAAAAAAAAAGAAABj8AAAOD"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAADbPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAADbAAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM0A////AAAFOgAAA2wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "base_font_size": 22,
+    "columns_per_screen": {
+      "landscape": 1,
+      "portrait": 1
+    },
+    "controls_help_shown_count": 2,
+    "footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "hide_tooltips": null,
+    "highlight_style": {
+      "kind": "color",
+      "type": "builtin",
+      "which": "yellow"
+    },
+    "keyboard_shortcuts": {},
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "paged_margin_clicks_scroll_by_screen": false,
+    "read_mode": "paged",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_window_geometry": true
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Caleb Doxsey"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Caleb Doxsey/Introducing Go_ Build Reliable, Scalable Programs (491)/Introducing Go_ Build Reliable, Scalable P - Caleb Doxsey.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Caleb Doxsey/Introducing Go_ Build Reliable, Scalable Programs (491)/Introducing Go_ Build Reliable, Scalable P - Caleb Doxsey.epub",
+        "timestamp": "2021-02-14T03:46:31.647Z",
+        "title": "Introducing Go"
+      },
+      {
+        "authors": [
+          "Nathan Youngman Roger Peppé"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Nathan Youngman/Get Programming With Go (477)/Get Programming With Go - Nathan Youngman.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Nathan Youngman/Get Programming With Go (477)/Get Programming With Go - Nathan Youngman.epub",
+        "timestamp": "2021-02-14T03:42:14.662Z",
+        "title": "Get Programming with Go"
+      },
+      {
+        "authors": [
+          "Jay McGavren"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Jay McGavren/Head First Go (422)/Head First Go - Jay McGavren.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Jay McGavren/Head First Go (422)/Head First Go - Jay McGavren.epub",
+        "timestamp": "2021-02-14T02:18:29.867Z",
+        "title": "Head First Go"
+      },
+      {
+        "authors": [
+          "Alex Edwards"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
+        "timestamp": "2021-02-13T03:19:58.640Z",
+        "title": "Let's Go"
+      },
+      {
+        "authors": [
+          "Suraj Patil"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Suraj Patil/Webapps in Go (492)/Webapps in Go - Suraj Patil.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Suraj Patil/Webapps in Go (492)/Webapps in Go - Suraj Patil.epub",
+        "timestamp": "2021-02-13T03:08:02.065Z",
+        "title": "Webapps in Go"
+      },
+      {
+        "authors": [
+          "lnc, mEm",
+          "Bach, John"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (475)/Go Programming Language_ The Ul - Mem Lnc.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (475)/Go Programming Language_ The Ul - Mem Lnc.epub",
+        "timestamp": "2021-02-13T02:52:27.586Z",
+        "title": "Go programming language: The Ultimate Beginner's Guide to Learn Go Programming Step by Step"
+      },
+      {
+        "authors": [
+          "Matt Aimonetti"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Matt Aimonetti/Go Bootcamp (480)/Go Bootcamp - Matt Aimonetti.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Matt Aimonetti/Go Bootcamp (480)/Go Bootcamp - Matt Aimonetti.epub",
+        "timestamp": "2021-02-13T02:37:46.277Z",
+        "title": "Go Bootcamp"
+      },
+      {
+        "authors": [
+          "Raoul-Gabriel Urma"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (432)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (432)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
+        "timestamp": "2021-02-08T15:23:28.244Z",
+        "title": "Java 8 in Action, Lambdas Streams and Functional-Style Programming (2015 2019)"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "timestamp": "2021-02-07T12:59:58.098Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Go Design Patterns-Packt (2017)"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Go Design Patterns-Packt (2017)/Go Design Patterns (487)/Go Design Patterns - Go Design Patterns-Packt (2017).mobi",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Go Design Patterns-Packt (2017)/Go Design Patterns (487)/Go Design Patterns - Go Design Patterns-Packt (2017).mobi",
+        "timestamp": "2021-02-06T02:27:09.267Z",
+        "title": "Go Design Patterns"
+      },
+      {
+        "authors": [
+          "lnc, mEm",
+          "Bach, John"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (418)/Go Programming Language_ The Ul - Mem Lnc.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (418)/Go Programming Language_ The Ul - Mem Lnc.epub",
+        "timestamp": "2021-02-03T14:02:50.837Z",
+        "title": "Go programming language: The Ultimate Beginner's Guide to Learn Go Programming Step by Step"
+      },
+      {
+        "authors": [
+          "Ashish Sarin",
+          "J Sharma"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Ashish Sarin/Getting started with Spring Framewo (467)/Getting started with Spring Fra - Ashish Sarin.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Ashish Sarin/Getting started with Spring Framewo (467)/Getting started with Spring Fra - Ashish Sarin.epub",
+        "timestamp": "2021-01-31T15:58:32.588Z",
+        "title": "Getting started with Spring Framework, Second Edition"
+      },
+      {
+        "authors": [
+          "Bock, Laszlo"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Bock, Laszlo/Work Rules! (416)/Work Rules! - Bock, Laszlo.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Bock, Laszlo/Work Rules! (416)/Work Rules! - Bock, Laszlo.epub",
+        "timestamp": "2021-01-27T15:32:30.103Z",
+        "title": "Work Rules!"
+      }
+    ]
+  }
+}

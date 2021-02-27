@@ -1,0 +1,205 @@
+{
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA+wAAAWgAAAEZAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "book_info_dialog_layout": [
+    {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAGpAAAAPgAABJgAAANfAAABqgAAAD8AAASXAAADXgAAAAAAAAAABkAAAAGqAAAAPwAABJcAAANe"
+    },
+    {
+      "__class__": "bytearray",
+      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAV4B/////wEAAAABAA=="
+    }
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "choose-icon-theme-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAFfAAAAGwAABOQAAANVAAABYAAAABwAAATjAAADVAAAAAAAAAAABkAAAAFgAAAAHAAABOMAAANU"
+  },
+  "choose-merge-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAHDAAAA+QAABG0AAAJXAAABxAAAAPoAAARsAAACVgAAAAAAAAAABkAAAAHEAAAA+gAABGwAAAJW"
+  },
+  "choose-merge-dialog-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABkwAAAQAA/////wEAAAABAA=="
+  },
+  "confirm-merge-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAG4AAABGwAABHUAAAIzAAABuQAAARwAAAR0AAACMgAAAAAAAAAABkAAAAG5AAABHAAABHQAAAIy"
+  },
+  "confirm-merge-dialog-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABfAAAAQAA/////wEAAAABAA=="
+  },
+  "cover_browser_splitter_vertical_state": [
+    false,
+    300
+  ],
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_texture": null,
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "default_author_link": null,
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAC8AAAAywAAAtsAAAJHAAAAvQAAAMwAAALaAAACRgAAAAAAAAAABkAAAAC9AAAAzAAAAtoAAAJG"
+  },
+  "font": [
+    "JetBrains Mono",
+    9,
+    57,
+    false
+  ],
+  "font_stretch": 0,
+  "grid view visible": false,
+  "library_usage_stats": {
+    "/home/huka/Dropbox/calibre-library": 30,
+    "/run/media/huka/workspace/Dropbox (Maestral)/calibre-library": 2
+  },
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAF6AAAApwAABM0AAAMAAAABewAAAKgAAATMAAAC/wAAAAAAAAAABkAAAAF7AAAAqAAABMwAAAL/"
+  },
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAACAAAAGgAABkMAAAOHAAAAAwAAABsAAAZCAAADhgAAAAAAAAAABkAAAAADAAAAGwAABkIAAAOG"
+  },
+  "preferences dialog geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAAAAABkEAAANtAAAAAQAAAAEAAAZAAAADbAAAAAAAAAAABkAAAAABAAAAAQAABkAAAANs"
+  },
+  "previous_sort_order_BooksView": {
+    "timestamp": false,
+    "title": true
+  },
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "recently_used_languages": [
+    "English"
+  ],
+  "search bar visible": true,
+  "show_emblems": false,
+  "show_splash_screen": false,
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    199
+  ],
+  "tag_editor_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAHaAAAAcwAABFsAAAMOAAAB2wAAAHQAAARaAAADDQAAAAAAAAAABkAAAAHbAAAAdAAABFoAAAMN"
+  },
+  "tag_editor_last_filter": "add_tag_input",
+  "tags_browser_partition_method": "first letter",
+  "toolbar_icon_size": "small"
+}

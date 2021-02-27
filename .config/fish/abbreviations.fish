@@ -1,0 +1,203 @@
+# Set all fish abbreviations
+abbr --add g            'git'
+abbr --add ga           'git add'
+abbr --add gaa          'git add --all'
+abbr --add gapa         'git add --patch'
+abbr --add gap          'git apply'
+abbr --add gb           'git branch -vv'
+abbr --add gba          'git branch -a -v'
+abbr --add gban         'git branch -a -v --no-merged'
+abbr --add gbd          'git branch -d'
+abbr --add gbD          'git branch -D'
+abbr --add gbl          'git blame -b -w'
+abbr --add gbs          'git bisect'
+abbr --add gbsb         'git bisect bad'
+abbr --add gbsg         'git bisect good'
+abbr --add gbsr         'git bisect reset'
+abbr --add gbss         'git bisect start'
+abbr --add gc           'git commit -v'
+abbr --add gc!          'git commit -v --amend'
+abbr --add gcn!         'git commit -v --no-edit --amend'
+abbr --add gca          'git commit -v -a'
+abbr --add gca!         'git commit -v -a --amend'
+abbr --add gcan!        'git commit -v -a --no-edit --amend'
+abbr --add gcv          'git commit -v --no-verify'
+abbr --add gcav         'git commit -a -v --no-verify'
+abbr --add gcav!        'git commit -a -v --no-verify --amend'
+abbr --add gcm          'git commit -m'
+abbr --add gcam         'git commit -a -m'
+abbr --add gscam        'git commit -S -a -m'
+abbr --add gcl          'git clone'
+abbr --add gclean       'git clean -di'
+abbr --add gclean!      'git clean -dfx'
+abbr --add gclean!!     'git reset --hard; and git clean -dfx'
+abbr --add gcount       'git shortlog -sn'
+abbr --add gcp          'git cherry-pick'
+abbr --add gcpa         'git cherry-pick --abort'
+abbr --add gcpc         'git cherry-pick --continue'
+abbr --add gd           'git diff'
+abbr --add gdca         'git diff --cached'
+abbr --add gds          'git diff --stat'
+abbr --add gdsc         'git diff --stat --cached'
+abbr --add gdw          'git diff --word-diff'
+abbr --add gdwc         'git diff --word-diff --cached'
+abbr --add gignore      'git update-index --assume-unchanged'
+abbr --add gf           'git fetch'
+abbr --add gfa          'git fetch --all --prune'
+abbr --add gfm          'git fetch origin master --prune; and git merge FETCH_HEAD'
+abbr --add gfo          'git fetch origin'
+abbr --add gl           'git pull'
+abbr --add gll          'git pull origin'
+abbr --add glr          'git pull --rebase'
+abbr --add glg          'git log --stat --max-count=10'
+abbr --add glgg         'git log --graph --max-count=10'
+abbr --add glgga        'git log --graph --decorate --all'
+abbr --add glo          'git log --oneline --decorate --color'
+abbr --add glog         'git log --oneline --decorate --color --graph'
+abbr --add glom         'git log --oneline --decorate --color master..'
+abbr --add glod         'git log --oneline --decorate --color develop..'
+abbr --add gloo         "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
+abbr --add gm           'git merge'
+abbr --add gmt          'git mergetool --no-prompt'
+abbr --add gp           'git push'
+abbr --add gp!          'git push --force-with-lease'
+abbr --add gpo          'git push origin'
+abbr --add gpo!         'git push --force-with-lease origin'
+abbr --add gpv          'git push --no-verify'
+abbr --add gpv!         'git push --no-verify --force-with-lease'
+abbr --add ggp!         'ggp --force-with-lease'
+abbr --add gpu          'ggp --set-upstream'
+abbr --add gr           'git remote -vv'
+abbr --add gra          'git remote add'
+abbr --add grb          'git rebase'
+abbr --add grba         'git rebase --abort'
+abbr --add grbc         'git rebase --continue'
+abbr --add grbi         'git rebase --interactive'
+abbr --add grbm         'git rebase master'
+abbr --add grbmi        'git rebase master --interactive'
+abbr --add grbmia       'git rebase master --interactive --autosquash'
+abbr --add grbd         'git rebase develop'
+abbr --add grbdi        'git rebase master --interactive'
+abbr --add grbdia       'git rebase master --interactive --autosquash'
+abbr --add grbs         'git rebase --skip'
+abbr --add grev         'git revert'
+abbr --add grh          'git reset'
+abbr --add grhh         'git reset --hard'
+abbr --add grm          'git rm'
+abbr --add grmc         'git rm --cached'
+abbr --add grmv         'git remote rename'
+abbr --add grrm         'git remote remove'
+abbr --add grs          'git restore'
+abbr --add grset        'git remote set-url'
+abbr --add grss         'git restore --source'
+abbr --add grup         'git remote update'
+abbr --add grv          'git remote -v'
+abbr --add gsh          'git show'
+abbr --add gsd          'git svn dcommit'
+abbr --add gsr          'git svn rebase'
+abbr --add gss          'git status -s'
+abbr --add gst          'git status'
+abbr --add gsta         'git stash'
+abbr --add gstd         'git stash drop'
+abbr --add gstp         'git stash pop'
+abbr --add gsts         'git stash show --text'
+abbr --add gsu          'git submodule update'
+abbr --add gsur         'git submodule update --recursive'
+abbr --add gsuri        'git submodule update --recursive --init'
+abbr --add gts          'git tag -s'
+abbr --add gtv          'git tag | sort -V'
+abbr --add gsw          'git switch'
+abbr --add gswc         'git switch --create'
+abbr --add gunignore    'git update-index --no-assume-unchanged'
+abbr --add gup          'git pull --rebase'
+abbr --add gwch         'git whatchanged -p --abbrev-commit --pretty=medium'
+
+# git checkout abbreviations
+abbr --add gco          'git checkout'
+abbr --add gcb          'git checkout -b'
+abbr --add gcod         'git checkout develop'
+abbr --add gcom         'git checkout master'
+
+# git flow abbreviations
+abbr --add gfb          'git flow bugfix'
+abbr --add gff          'git flow feature'
+abbr --add gfr          'git flow release'
+abbr --add gfh          'git flow hotfix'
+abbr --add gfs          'git flow support'
+abbr --add gfbs         'git flow bugfix start'
+abbr --add gffs         'git flow feature start'
+abbr --add gfrs         'git flow release start'
+abbr --add gfhs         'git flow hotfix start'
+abbr --add gfss         'git flow support start'
+abbr --add gfbt         'git flow bugfix track'
+abbr --add gfft         'git flow feature track'
+abbr --add gfrt         'git flow release track'
+abbr --add gfht         'git flow hotfix track'
+abbr --add gfst         'git flow support track'
+abbr --add gfp          'git flow publish'
+
+abbr --add vup          'vagrant up'
+abbr --add vsh          'vagrant ssh'
+
+# docker
+abbr --add d            'docker'
+abbr --add dl           'docker ps -lq' # display id of latest created container
+abbr --add dim          'docker images'
+abbr --add dpsa         'dps -a'
+abbr --add drma         'docker rm (docker ps -aq)' # delete all stopped containers
+abbr --add drml         'docker rm (docker ps -lq)' # delete last container
+abbr --add dsa          'docker stop (docker ps -aq)' # stop all containers
+abbr --add dsl          'docker stop (docker ps -lq)' # stop last container
+abbr --add drmdi        'docker rmi (docker images -qf dangling=true)' # delete dangling images
+abbr --add digrep       'docker-images' # grep through images
+abbr --add dgrep        'docker-grep' # grep through containers
+abbr --add drmg         'docker rm (docker-grep'
+abbr --add dpid         'docker inspect --format \'{{.State.Pid}}\' (docker ps -lq)'
+abbr --add dcl          'docker rm (docker ps -aq); docker rmi (docker images -qf dangling=true)' # clean
+abbr --add de           'docker exec'
+
+abbr --add dc           'docker-compose'
+abbr --add dcu          'docker-compose up -d'
+abbr --add dcs          'docker-compose stop'
+
+abbr --add dm           'docker-machine'
+
+abbr --add k            'kubectl'
+abbr --add kg           'kubectl get'
+abbr --add kd           'kubectl describe'
+abbr --add ke           'kubectl exec'
+abbr --add kc           'kubectl config'
+abbr --add kcu          'kubectl config use-context'
+abbr --add kcc          'kubectl config use-context'
+abbr --add kcf          'kubectl create -f'
+abbr --add kaf          'kubectl apply -f'
+abbr --add kp           'kubectl port-forward'
+abbr --add kls          'kubectl logs -f --since 1s'
+abbr --add ks           'kubectl_context_switch_peco'
+abbr --add ka           'kubectl_attach_pod'
+abbr --add kn           'kubectl -n kube-system'
+
+abbr --add chmox        'chmod +x'
+
+abbr --add y            'yarn'
+
+abbr --add fc           'source ~/.config/fish/config.fish'
+abbr --add sf           'source ~/.config/fish/config.fish'
+
+abbr --add s            'sudo'
+abbr --add se           'sudo -E'
+abbr --add sudoe        'sudo -E'
+
+# youtube-dl
+abbr --add yta-aac "youtube-dl --extract-audio --audio-format aac "
+abbr --add yta-best "youtube-dl --extract-audio --audio-format best "
+abbr --add yta-flac "youtube-dl --extract-audio --audio-format flac "
+abbr --add yta-m4a "youtube-dl --extract-audio --audio-format m4a "
+abbr --add yta-mp3 "youtube-dl --extract-audio --audio-format mp3 "
+abbr --add yta-opus "youtube-dl --extract-audio --audio-format opus "
+abbr --add yta-vorbis "youtube-dl --extract-audio --audio-format vorbis "
+abbr --add yta-wav "youtube-dl --extract-audio --audio-format wav "
+abbr --add ytv-best "youtube-dl -f bestvideo+bestaudio "
+
+#
+abbr --add wt "curl wttr.in/DaNang"

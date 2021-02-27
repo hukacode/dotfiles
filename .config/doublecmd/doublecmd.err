@@ -1,0 +1,792 @@
+--------------- 12-10-2020, 18:00:22 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 85419
+Unhandled exception: EInOutError: Disk Full
+  Stack trace:
+  $000000000050AB92 line 688, column 9 of platform/unix/umyunix.pas in /usr/bin/doublecmd
+  $000000000088EA27 line 228, column 7 of uformcommands.pas in /usr/bin/doublecmd
+  $000000000081111B line 1221, column 77 of uhotkeymanager.pas in /usr/bin/doublecmd
+  $000000000064AFDF line 5684, column 14 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000064B303 line 5815, column 7 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000064B234 line 5796, column 14 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000064E603 line 7204, column 38 of include/wincontrol.inc in /usr/bin/doublecmd
+  $0000000000438D0A in /usr/bin/doublecmd
+  $000000000064A645 line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000076D45A line 4845, column 31 of grids.pas in /usr/bin/doublecmd
+  $00000000006EF746 line 5716, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006EA8FB line 3381, column 9 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E9417 line 2629, column 25 of qtwidgets.pas in /usr/bin/doublecmd
+  $000000000070BBF2 line 17239, column 13 of qtwidgets.pas in /usr/bin/doublecmd
+  $000000000070CA8A line 17629, column 15 of qtwidgets.pas in /usr/bin/doublecmd
+  $00007F059ED2CA43 in /usr/lib/libQt5Core.so.5
+
+--------------- 15-10-2020, 23:26:50 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 22469
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FB025AC318C in /usr/lib/libQt5Pas.so.1
+
+--------------- 21-10-2020, 22:12:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 24269
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F1BBAAD34D2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 25-10-2020, 16:58:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 2451
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FE416FC218C in /usr/lib/libQt5Pas.so.1
+
+--------------- 31-10-2020, 22:47:50 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 4570
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F19732BA18C in /usr/lib/libQt5Pas.so.1
+
+--------------- 10-11-2020, 23:33:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 6017
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F642C6E718C in /usr/lib/libQt5Pas.so.1
+
+--------------- 12-11-2020, 23:03:29 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 28928
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F697AF4618C in /usr/lib/libQt5Pas.so.1
+
+--------------- 17-11-2020, 21:17:34 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:34 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:34 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:35 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:35 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:40 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:40 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:40 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 17-11-2020, 21:17:42 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 8476
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4BD36EAC50 in /usr/lib/libQt5Core.so.5
+
+--------------- 21-11-2020, 23:02:16 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 7181
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FE3C6C9618C in /usr/lib/libQt5Pas.so.1
+
+--------------- 22-11-2020, 13:50:53 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 1267
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F05E5D3918C in /usr/lib/libQt5Pas.so.1
+
+--------------- 29-11-2020, 18:17:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 7916
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FAC8C7F918C in /usr/lib/libQt5Pas.so.1
+
+--------------- 29-11-2020, 23:30:19 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 751
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FB21F35E18C in /usr/lib/libQt5Pas.so.1
+
+--------------- 05-12-2020, 13:19:59 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 36227
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F06038EA9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 05-12-2020, 13:20:00 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 36227
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F06038EA9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 05-12-2020, 13:20:00 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 36227
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F06038EA9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 06-12-2020, 23:02:14 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 946
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F6EE1EC518C in /usr/lib/libQt5Pas.so.1
+
+--------------- 07-12-2020, 22:28:04 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 745
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F919FDD418C in /usr/lib/libQt5Pas.so.1
+
+--------------- 09-12-2020, 21:32:12 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:16 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:17 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:18 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:19 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:21 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:24 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:28 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:29 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:29 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:30 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:30 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:33 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:35 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:40 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:43 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:46 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:48 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:48 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:51 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:52 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:54 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:56 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:56 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 09-12-2020, 21:32:57 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 11079
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0CA22D19F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 19-12-2020, 23:15:43 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 23144
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FCF5D21C18C in /usr/lib/libQt5Pas.so.1
+
+--------------- 20-12-2020, 16:57:06 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 763
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0F4E5A818C in /usr/lib/libQt5Pas.so.1
+
+--------------- 24-12-2020, 20:10:20 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:22 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:22 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:22 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:24 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:24 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:27 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:28 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:29 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:31 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:31 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:32 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:37 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 24-12-2020, 20:10:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 3055
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F832390C9F0 in /usr/lib/libQt5Core.so.5
+
+--------------- 26-12-2020, 23:18:20 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Arch Linux \r (\l) -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 571733
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F9691A2F18C in /usr/lib/libQt5Pas.so.1
+

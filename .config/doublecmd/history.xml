@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/home/huka/Dropbox/dotfiles/</Item>
+      <Item>/home/huka/Dropbox/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/hk-bin/</Item>
+      <Item>/home/huka/.local/bin/</Item>
+      <Item>/home/huka/.local/</Item>
+      <Item>/home/huka/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/rofi/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.git/</Item>
+      <Item>/home/huka/.config/dunst/</Item>
+      <Item>/home/huka/.config/dunst/images/</Item>
+      <Item>/home/huka/.config/</Item>
+      <Item>/home/huka/.config/fish/</Item>
+      <Item>/home/huka/.config/fish/functions/</Item>
+      <Item>/home/huka/.config/fish/conf.d/</Item>
+      <Item>/home/huka/.config/fish/completions/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/ms-windows-terminal/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/neofetch/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/fish/</Item>
+      <Item>/home/huka/.config/i3/</Item>
+      <Item>/home/huka/Dropbox/dotfiles/.config/i3/</Item>
+      <Item>/home/huka/.config/Thunar/</Item>
+      <Item>/home/huka/.config/vlc/</Item>
+      <Item>/home/huka/.config/wal/</Item>
+      <Item>/home/huka/.config/smartgit/</Item>
+      <Item>/home/huka/.config/qalculate/</Item>
+      <Item>/home/huka/.config/mpv/</Item>
+      <Item>/home/huka/.config/ibus-bamboo/</Item>
+      <Item>/home/huka/.config/KeeWeb/</Item>
+      <Item>/home/huka/.config/htop/</Item>
+      <Item>/home/huka/.config/herbstluftwm/</Item>
+      <Item>/home/huka/.config/google-chrome/</Item>
+      <Item>/home/huka/.mackup/</Item>
+      <Item>/home/huka/.config/Code/</Item>
+      <Item>/home/huka/.config/Clementine/</Item>
+      <Item>/home/huka/.config/calcurse/</Item>
+      <Item>/home/huka/.cache/</Item>
+      <Item>/home/huka/.themes/</Item>
+      <Item>/home/huka/.icons/</Item>
+      <Item>/home/huka/.icons/default/</Item>
+      <Item>/home/huka/Documents/</Item>
+      <Item>/home/huka/Downloads/</Item>
+      <Item>/home/huka/.dmenu/</Item>
+      <Item>/home/huka/.android/</Item>
+      <Item>/home/huka/.config/polybar/blocks/scripts/</Item>
+      <Item>/home/huka/.config/polybar/blocks/scripts/rofi/</Item>
+      <Item>/home/huka/.config/polybar/blocks/</Item>
+      <Item>/home/huka/.config/polybar/</Item>
+      <Item>/home/huka/.config/polybar/material/scripts/</Item>
+      <Item>/home/huka/.config/polybar/material/</Item>
+      <Item>/home/huka/bin/</Item>
+    </Navigation>
+    <CommandLine>
+      <Item>duf .</Item>
+      <Item>cx *</Item>
+      <Item>chmod +x config</Item>
+      <Item>cx config</Item>
+      <Item>touch config</Item>
+      <Item>code .</Item>
+      <Item>cx .</Item>
+      <Item>cx powermenu</Item>
+      <Item>cx logoff</Item>
+      <Item>cx ./*</Item>
+      <Item>cx bspwmrc</Item>
+      <Item>cx bspwm</Item>
+      <Item>touch xmonad.hs</Item>
+      <Item>sh commit.sh</Item>
+      <Item>sh run</Item>
+      <Item>rclone-backup-workspace-to-dropbox.sh</Item>
+      <Item>sh run.sh</Item>
+      <Item>touch run.bat</Item>
+      <Item>touch run.sh</Item>
+      <Item>mkdir app</Item>
+      <Item>code</Item>
+      <Item>mkdir applications</Item>
+      <Item>mk applications</Item>
+      <Item>mkdir ~/.mackup</Item>
+      <Item>code -w ~/.mackup.cfg</Item>
+      <Item>code ~/.mackup.cfg</Item>
+      <Item>nano ~/.mackup.cfg</Item>
+      <Item>nano </Item>
+      <Item>git clone git@github.com:hukacode/dotfiles.git</Item>
+      <Item>sh install.sh</Item>
+    </CommandLine>
+    <FileMask>
+      <Item>mp3</Item>
+      <Item>wal</Item>
+      <Item>starship</Item>
+      <Item>properties</Item>
+      <Item>devMode</Item>
+      <Item>.md</Item>
+      <Item>http</Item>
+      <Item>.http</Item>
+      <Item>.mp3</Item>
+      <Item>*.lock</Item>
+      <Item>lock</Item>
+      <Item>*mp3</Item>
+      <Item>*.*</Item>
+    </FileMask>
+    <SearchText>
+      <Item>project.version</Item>
+      <Item>devMode</Item>
+      <Item>hạng mục</Item>
+      <Item>hang muc</Item>
+    </SearchText>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <CreateDirectories>
+      <Item>waybar</Item>
+      <Item>hukacode</Item>
+      <Item>github.com</Item>
+      <Item>test</Item>
+      <Item>icon</Item>
+      <Item>dotfiles-colector</Item>
+      <Item>.xmonad</Item>
+      <Item>xmobar</Item>
+      <Item>playlist</Item>
+      <Item>kde-config</Item>
+    </CreateDirectories>
+    <SearchDirectories>
+      <Item>/run/media/huka/data/Marugoto/</Item>
+      <Item>/home/huka/.config/polybar/</Item>
+      <Item>/home/huka/</Item>
+      <Item>/run/media/huka/workspace/java-project/taskana/</Item>
+      <Item>/run/media/huka/workspace/huka-gohugo/hugo-blog/</Item>
+      <Item>/run/media/huka/workspace/huka-gohugo/hugo-blog/content/posts/</Item>
+      <Item>/run/media/huka/workspace/huka-project/coffee-shop/integration-test/</Item>
+      <Item>/run/media/huka/workspace/huka-project/coffee-shop/</Item>
+      <Item>/run/media/huka/data/Audio English/Effortless English/DVD 1/</Item>
+      <Item>/home/huka/.config/</Item>
+      <Item>/home/huka/.cache/</Item>
+      <Item>/run/media/huka/data/japanese-nej-audio/</Item>
+    </SearchDirectories>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

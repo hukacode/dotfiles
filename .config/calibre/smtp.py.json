@@ -1,0 +1,18 @@
+{
+  "accounts": {
+    "mr.kharhums@gmail.com": [
+      "AZW, MOBI, TPZ, PRC, AZW1",
+      true,
+      true
+    ]
+  },
+  "aliases": {},
+  "encryption": "SSL",
+  "from_": "mr.kharhums@gmail.com",
+  "relay_host": "smtp.gmail.com",
+  "relay_password": "32313739323139383932",
+  "relay_port": 465,
+  "relay_username": "mr.kharhums@gmail.com",
+  "subjects": {},
+  "tags": {}
+}

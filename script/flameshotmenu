@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# options to be displayed
+option0="Full"
+option1="Area"
+option2="Window"
+option3="Full (delay 3s)"
+option4="Window (delay 3s)"
+
+# options to be displyed
+options="$option0\n$option1\n$option2\n$option3\n$option4"
+
+selected="$(echo -e "$options" | rofi -lines 5 -dmenu -p "Screen Shot" -theme /home/huka/.cache/wal/colors-rofi-dark.rasi)"
+case $selected in
+    $option0)
+        flameshot full -p ~/screenshot;;
+    $option1)
+        flameshot gui;;
+    $option2)
+        flameshot screen -p ~/screenshot;;
+    $option3)
+        flameshot full -d 3 -p ~/screenshot;;
+    $option4)
+        flameshot full -d 3 -p ~/screenshot;;
+esac
