@@ -19,7 +19,7 @@ case $selected in
     $option2)
         flameshot screen -p ~/screenshot;;
     $option3)
-        flameshot full -d 3 -p ~/screenshot;;
+        flameshot full -d 3000 -p ~/screenshot;;
     $option4)
-        flameshot full -d 3 -p ~/screenshot;;
+        flameshot full -d 3000 -p ~/screenshot;;
 esac
