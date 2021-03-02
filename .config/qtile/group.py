@@ -5,15 +5,15 @@ from libqtile.command import lazy
 groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7"]
 # group_labels = ["", "", "", "", "", "", "", "",]
-group_labels = ["WEB", "DEV", "CMD", "DIR", "MED", "DOC", "GIT"]
-group_layouts = ["max", "max", "monadtall", "max", "max", "max", "monadtall"]
+group_labels = ["WEB", "DEV", "DOC", "CMD", "DIR", "MED", "GIT"]
+group_layouts = ["max", "max", "max", "monadtall", "max", "monadtall", "max"]
 group_matches = [
                 [Match(wm_class='google-chrome-stable')],
                 [Match(wm_class='Code')],
+                [Match(wm_class='Skype'), Match(wm_class='calibre'), Match(wm_class='wpspdf')],
                 [Match(wm_class='Alacritty')],
                 [Match(wm_class='doublecmd')],
                 [Match(wm_class='Clementine'), Match(wm_class='vlc')],
-                [Match(wm_class='Skype'), Match(wm_class='calibre')],
                 [Match(wm_class='SmartGit')],
                 ]
 

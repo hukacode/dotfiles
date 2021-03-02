@@ -10,6 +10,7 @@ from hook import *
 # dgroups_app_rules = []
 # bring_front_click = False
 # cursor_warp = False
+focus_on_window_activation = 'smart'
 follow_mouse_focus = False
-auto_fullscreen = False
+auto_fullscreen = True
 wmname = 'LG3D'
