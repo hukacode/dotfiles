@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo >> ~/Dropbox/second-brain/inbox.md && \
+xclip -o >> ~/Dropbox/second-brain/ && \
+echo >> ~/Dropbox/second-brain/inbox.md
