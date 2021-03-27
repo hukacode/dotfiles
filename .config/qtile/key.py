@@ -1,7 +1,10 @@
 import subprocess
-from libqtile.config import Key
+from libqtile.config import Key, KeyChord
 from libqtile.command import lazy
-from constant import powermenu_cmd, launcher_cmd, terminal_app, screenshot_area_cmd, screenshot_full_cmd, screenshot_windows_cmd, translate_cmd, mute_cmd, lower_cmd, raise_cmd, next_cmd, previous_cmd, brightnessDown_cmd, brightnessUp_cmd, screenshot_menu_cmd
+from constant import powermenu_cmd, launcher_cmd, terminal_app, screenshot_area_cmd, \
+    screenshot_full_cmd, screenshot_windows_cmd, translate_cmd, mute_cmd, lower_cmd, \
+    raise_cmd, next_cmd, previous_cmd, brightnessDown_cmd, brightnessUp_cmd, \
+    screenshot_menu_cmd, switchapp_cmd, rofimoji_cmd, web_app, editor_app, music_app
 from group import groups
 
 mod = "mod4" # windows key
@@ -15,6 +18,7 @@ keys = [
     Key([mod, "control"], "r", lazy.restart()),
     Key([mod, "shift", "control"], "q", lazy.shutdown()),
     # Key([mod], "grave", lazy.group['scratch'].dropdown_toggle('term')),
+    Key([mod], "Tab", lazy.spawn(switchapp_cmd)),
 
     # Application Hotkeys
     Key([mod], "Return",
@@ -25,14 +29,24 @@ keys = [
         lazy.spawn(launcher_cmd),
         desc='Run Launcher'
     ),
-    Key([mod], "t",
-        lazy.spawn(translate_cmd),
-        desc='Translate'
-    ),
+    Key([mod], 'e', lazy.spawn(rofimoji_cmd)),
     Key([], 'Print', lazy.spawn(screenshot_area_cmd)),
     Key([mod], 'Print', lazy.spawn(screenshot_menu_cmd)),
     Key(['control'], 'Print', lazy.spawn(screenshot_full_cmd)),
     Key(['mod1'], 'Print', lazy.spawn(screenshot_windows_cmd)),
+
+    KeyChord([mod], "o", [
+        Key([], "w", lazy.spawn(web_app)),
+        Key([], "e", lazy.spawn(editor_app)),
+        Key([], "m", lazy.spawn(music_app)),
+    ]),
+
+    KeyChord([mod], "t", [
+        Key([], "e",
+            lazy.spawn(translate_cmd),
+            desc='Translate English'
+        ),
+    ]),
 
     ### Switch focus of monitors
     Key([mod], "period",
@@ -125,6 +139,7 @@ keys = [
         lazy.layout.flip(),
         desc='Switch which side main pane occupies (XmonadTall)'
         ),
+        
     Key(["mod1"], "Tab",
         lazy.layout.next(),
         desc='Switch window focus to other pane(s) of stack'
@@ -155,10 +170,63 @@ for i in groups:
         # Workspace navigation
         Key([mod], i.name, lazy.group[i.name].toscreen()), 
         # Switch group
-        Key([mod], "Tab", lazy.screen.next_group()),
-        Key([mod, "shift"], "Tab", lazy.screen.prev_group()),
-        Key(["control", "mod1"], "Left", lazy.screen.prev_group()),
-        Key(["control", "mod1"], "Right", lazy.screen.next_group()),
+        # Key([mod], "Tab", lazy.screen.next_group()),
+        # Key([mod, "shift"], "Tab", lazy.screen.prev_group()),
+        Key([mod, "control"], "Left", lazy.screen.prev_group()),
+        Key([mod, "control"], "Right", lazy.screen.next_group()),
         Key([mod, "control"], i.name, lazy.window.togroup(i.name)), 
         Key([mod, "shift"], i.name, lazy.window.togroup(i.name) , lazy.group[i.name].toscreen()),
     ])
+
+def show_keys():
+    key_help = ""
+    for k in keys:
+        mods = ""
+
+        for m in k.modifiers:
+            if m == "mod4":
+                mods += "Super + "
+            else:
+                mods += m.capitalize() + " + "
+
+        if len(k.key) > 1:
+            mods += k.key.capitalize()
+        else:
+            mods += k.key
+
+        if hasattr(k, 'desc'):
+            key_help += "{:<30} {}".format(mods, k.desc + "\n")
+        else:
+            key_help += "{:<30}".format(mods)
+
+    return key_help
+
+# keys.extend(
+#     [
+#         KeyChord([mod], "o", [
+#             Key(
+#                 "k",
+#                 lazy.spawn(
+#                     "sh -c 'echo \""
+#                     + show_keys()
+#                     + '" | rofi -dmenu -theme ~/.config/rofi/configTall.rasi -i -p "?"\''
+#                 ),
+#                 desc="Print keyboard bindings",
+#             ),
+#         ]),
+#     ]
+# )
+keys.extend(
+    [
+        Key(
+            [mod],
+            "a",
+            lazy.spawn(
+                "sh -c 'echo \""
+                + show_keys()
+                + '" | rofi -dmenu -theme ~/.config/rofi/configTall.rasi -i -p "?"\''
+            ),
+            desc="Print keyboard bindings",
+        ),
+    ]
+)

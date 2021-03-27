@@ -1,3 +1,4 @@
+# C:\Users\nlkhung\AppData\Roaming\alacritty\
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
 # Import additional configuration files
@@ -10,6 +11,8 @@
 # to the user's home directory starting with `~/`.
 #import:
 #  - /path/to/alacritty.yml
+import:
+  - ~/.config/alacritty/dracula.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -283,65 +286,6 @@ window:
   #   `- { index: 16, color: '#ff00ff' }`
   #
   #indexed_colors: []
-
-# # Colors (Gruvbox light)
-# colors:
-#   # Default colors
-#   primary:
-#     # hard contrast: background = '#f9f5d7'
-#     background: '#fbf1c7'
-#     # soft contrast: background = '#f2e5bc'
-#     foreground: '#3c3836'
-
-#   # Normal colors
-#   normal:
-#     black:   '#fbf1c7'
-#     red:     '#cc241d'
-#     green:   '#98971a'
-#     yellow:  '#d79921'
-#     blue:    '#458588'
-#     magenta: '#b16286'
-#     cyan:    '#689d6a'
-#     white:   '#7c6f64'
-
-#   # Bright colors
-#   bright:
-#     black:   '#928374'
-#     red:     '#9d0006'
-#     green:   '#79740e'
-#     yellow:  '#b57614'
-#     blue:    '#076678'
-#     magenta: '#8f3f71'
-#     cyan:    '#427b58'
-#     white:   '#3c3836'
-# Colors (Nord)
-colors:
-  # Default colors
-  primary:
-    background: '#2E3440'
-    foreground: '#D8DEE9'
-
-  # Normal colors
-  normal:
-    black:   '#3B4252'
-    red:     '#BF616A'
-    green:   '#A3BE8C'
-    yellow:  '#EBCB8B'
-    blue:    '#81A1C1'
-    magenta: '#B48EAD'
-    cyan:    '#88C0D0'
-    white:   '#E5E9F0'
-
-  # Bright colors
-  bright:
-    black:   '#4C566A'
-    red:     '#BF616A'
-    green:   '#A3BE8C'
-    yellow:  '#EBCB8B'
-    blue:    '#81A1C1'
-    magenta: '#B48EAD'
-    cyan:    '#8FBCBB'
-    white:   '#ECEFF4'
 
 # Bell
 #

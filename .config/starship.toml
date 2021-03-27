@@ -1,6 +1,9 @@
 # Don't print a new line at the start of the prompt
 add_newline = false
 
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 10
+
 # Make prompt a single line instead of two lines
 [line_break]
 disabled = true
@@ -30,74 +33,8 @@ disabled = true
 # charging_symbol = ""
 # discharging_symbol = ""
 
-[character]
-success_symbol = "[\\$>](bold green)"
-error_symbol = "[\\$>](bold red)"
-vicmd_symbol = "[\\$<](bold blue)"
-
-[aws]
-symbol = " "
-
-
-[conda]
-symbol = " "
-
-[dart]
-symbol = " "
-
-[docker]
-symbol = " "
-
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
-
-[git_branch]
-symbol = " "
-
-[golang]
-symbol = " "
-
-[haskell]
-symbol = " "
-
-[hg_branch]
-symbol = " "
+[python]
+disabled = true
 
 [java]
-symbol = " "
-
-[julia]
-symbol = " "
-
-[memory_usage]
-symbol = " "
-
-[nim]
-symbol = " "
-
-[nix_shell]
-symbol = " "
-
-[nodejs]
-symbol = " "
-
-[perl]
-symbol = " "
-
-[php]
-symbol = " "
-
-[python]
-symbol = " "
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = " "
-
-[swift]
-symbol = "ﯣ "
+disabled = true

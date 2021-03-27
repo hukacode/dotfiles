@@ -1,15 +1,18 @@
 from libqtile import layout
 from theme import colors
+from custom.bsp import Bsp as CustomBsp
 
 layout_conf = {
-    "border_focus": colors[1],
+    "border_focus": colors["blue"][0],
     "border_width": 2,
     "margin": 4
 }
 
 layouts = [
-    layout.MonadTall(**layout_conf, ratio=0.7),
+    # layout.MonadTall(**layout_conf, ratio=0.5),
     layout.Max(),
+    # layout.Floating(**layout_conf),
+    CustomBsp(**layout_conf, fair=False),
     # layout.Tile(shift_windows=True, **layout_conf),
     # layout.Stack(stacks=2, **layout_conf),
     # layout.MonadWide(**layout_conf),
@@ -32,13 +35,12 @@ layouts = [
     #      padding_y = 5,
     #      section_top = 10,
     #      panel_width = 320
-    #      ),
-    # layout.Floating(**layout_conf)
+    #      )
 ]
 
 # Run the utility of `xprop` to see the wm class and name of an X client.
 floating_layout = layout.Floating(
-    # float_rules=[
+#     float_rules=[
     #     {"role": "EventDialog"},
     #     {"role": "Msgcompose"},
     #     {"role": "Preferences"},
@@ -55,7 +57,7 @@ floating_layout = layout.Floating(
     #     {"wname": "Preferences"},
     #     {"wname": "File Transfer"},
     #     {"wname": "confirm"},
-    #     {"wmclass": "Dukto"},
+        # {"wmclass": "pavucontrol"},
     #     {"wmclass": "SmartGit"},
     #     {"wmclass": "Guake"},
     #     {"wmclass": "Tilda"},
@@ -102,5 +104,5 @@ floating_layout = layout.Floating(
     #     {"wmclass": "ssh-askpass"},  # ssh-askpass
 
     # ],
-    border_focus=colors[4]
+    border_focus=colors["purple"][0]
 )

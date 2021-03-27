@@ -31,6 +31,6 @@ case $chosen in
 			systemctl suspend
         ;;
     $logout)
-			logoff
+			~/script/logoff
         ;;
 esac

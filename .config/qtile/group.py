@@ -3,18 +3,50 @@ from libqtile.command import lazy
 
 # Get the icons at https://www.nerdfonts.com/cheat-sheet (you need a Nerd Font)
 groups = []
-group_names = ["1", "2", "3", "4", "5", "6", "7"]
-# group_labels = ["", "", "", "", "", "", "", "",]
-group_labels = ["WEB", "DEV", "DOC", "CMD", "DIR", "MED", "GIT"]
-group_layouts = ["max", "max", "max", "monadtall", "max", "monadtall", "max"]
+group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+group_labels = ["", "", "", "", "", "", "", "", "", ""]
+# group_labels = ["DIR", "CMD", "WEB", "DEV", "DOC", "VID", "MED", "GIT", "MSG", "ETC"]
+group_layouts = ["max", "bsp", "max", "max", "max", "max", "max", "max", "max", "max"]
 group_matches = [
-                [Match(wm_class='google-chrome-stable')],
-                [Match(wm_class='Code')],
-                [Match(wm_class='Skype'), Match(wm_class='calibre'), Match(wm_class='wpspdf')],
-                [Match(wm_class='Alacritty')],
-                [Match(wm_class='doublecmd')],
-                [Match(wm_class='Clementine'), Match(wm_class='vlc')],
-                [Match(wm_class='SmartGit')],
+                    [
+                        Match(wm_class='doublecmd')
+                    ],
+                    [
+                        Match(wm_class='Alacritty')
+                    ],
+                    [
+                        Match(wm_class='google-chrome-stable'), 
+                        Match(wm_class="firefox")
+                    ],
+                    [
+                        Match(wm_class='Code')
+                    ],
+                    [
+                        Match(wm_class='calibre'),
+                        Match(wm_class="libreoffice"), 
+                        Match(wm_class='wpspdf')
+                    ],
+                    [
+                        Match(wm_class='vlc')
+                    ],
+                    [
+                        Match(wm_class='Clementine'), 
+                    ],
+                    [
+                        Match(wm_class='SmartGit')
+                    ],
+                    [
+                        Match(wm_class="slack"),
+                        Match(wm_class="lightcord"),
+                        Match(wm_class="polari"),
+                        Match(wm_class='Skype'),
+                        Match(wm_class="zoom"),
+                    ],
+                    [
+                        Match(wm_class="lxappearance"),
+                        Match(wm_class="pavucontrol"),
+                        Match(wm_class="connman-gtk"),
+                    ],
                 ]
 
 for i in range(len(group_names)):

@@ -1,15 +1,19 @@
 from os import path
 
-icon_path = path.join(path.expanduser('~'), "icon/huka.png")
-theme_path = path.join(path.expanduser('~'), ".cache/wal/colors.json")
-# theme_path = path.join(path.expanduser('~'), ".config/qtile/material.json")
+icon_path = path.join(path.expanduser('~'), "Dropbox/_huka/logo/logo-huka_32x32.png")
+# theme_path = path.join(path.expanduser('~'), ".cache/wal/colors.json")
+theme_path = path.join(path.expanduser('~'), ".config/qtile/dracula.json")
 
 terminal_app = "alacritty"
+web_app = "google-chrome-stable"
+editor_app = "code"
+music_app = "clementine"
+
 font = "JetBrainsMono Nerd Font Mono"
 icon_font = "Font Awesome 5 Free"
 
 weather_cmd = terminal_app + " --hold -e curl wttr.in/DaNang"
-cpu_cmd = terminal_app + " -e gtop"
+cpu_cmd = terminal_app + " -e gotop"
 memory_cmd = terminal_app + " -e htop"
 volume_cmd = "pavucontrol"
 calendar_cmd = terminal_app + " -e calcurse"
@@ -20,8 +24,9 @@ screenshot_menu_cmd = path.join(path.expanduser('~'), "script/flameshotmenu")
 next_cmd = "playerctl next"
 previous_cmd = "playerctl previous"
 mute_cmd = "playerctl play-pause && pulsemixer --unmute"
-lower_cmd = "pulsemixer --change-volume -5 --unmute"
-raise_cmd = "pulsemixer --change-volume 5 --unmute"
+lower_cmd = "pulsemixer --change-volume -10 --unmute"
+raise_cmd = "pulsemixer --change-volume 10 --unmute"
+killwindow_cmd = "xdotool getwindowfocus windowkill"
 brightnessUp_cmd = "brightnessctl set +10%"
 brightnessDown_cmd = "brightnessctl set 10%-"
 translate_cmd = path.join(path.expanduser('~'), "script/wordlookup")
@@ -29,9 +34,8 @@ launcher_cmd = path.join(path.expanduser('~'), "script/launcher")
 powermenu_cmd = path.join(path.expanduser('~'), "script/powermenu")
 autostart_cmd = path.join(path.expanduser('~'), "script/autostart")
 alwaystart_cmd = path.join(path.expanduser('~'), "script/alwaystart")
-# mute_cmd = "amixer -q set Master toggle"
-# lower_cmd = "amixer -q set Master 5%-"
-# raise_cmd = "amixer -q set Master 5%+"
+switchapp_cmd = path.join(path.expanduser('~'), "script/switchapp")
+rofimoji_cmd = "rofimoji -a type"
 
 #  
 #  

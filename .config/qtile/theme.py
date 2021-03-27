@@ -1,15 +1,11 @@
 import json
 
+from os import path
 from constant import theme_path
 
-with open(theme_path) as json_file:
-    data = json.load(json_file)
-    colorsarray = data['colors']
-    val_list = list(colorsarray.values())
-    def getList(val_list):
-        return [*val_list]
+def load_theme():
+    with open(path.join(theme_path)) as f:
+        return json.load(f)
 
-def init_colors():
-    return [*val_list]
-
-colors = init_colors()
+if __name__ == "theme":
+    colors = load_theme()

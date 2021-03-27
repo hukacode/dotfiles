@@ -2,9 +2,8 @@ import subprocess
 from libqtile.config import Screen
 from libqtile import bar
 from theme import colors
-from widget import primary_widgets, secondary_widgets
+from widget import primary_widgets, secondary_widgets, status_bar
 
-status_bar = lambda widgets: bar.Bar(widgets, 24, background=colors[1])
 screens = [Screen(top=status_bar(primary_widgets))]
 
 connected_monitors = subprocess.run(
