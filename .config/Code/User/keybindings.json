@@ -8,15 +8,5 @@
     "key": "ctrl+shift+i",
     "command": "-insertDateString.insertDateTime",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+i",
-    "command": "-emojisense.quickEmojitext",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+alt+i",
-    "command": "emojisense.quickEmojitext",
-    "when": "editorTextFocus"
   }
 ]

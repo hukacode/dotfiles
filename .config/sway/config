@@ -18,18 +18,30 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+# set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu wofi -c ~/.config/wofi/config
+
+# Select monitor
+focus left
+
+# output|container|
+mouse_warping none
+focus_follows_mouse no
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+set $image ~/Dropbox/_data/wallpaper/wallhaven-m99199_2560x1440.png
+output * bg $image fill
+
 #
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
+output HDMI-A-1 pos 0 0 res 1600x900
 
 ### Idle configuration
 #
@@ -43,6 +55,11 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
+exec swayidle -w\
+    timeout 1070 'swaylock -f'\
+    timeout 770 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"' \
+    after-resume 'swaylock'
 
 ### Input configuration
 #
@@ -66,10 +83,13 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym $mod+c kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+r exec $menu
+
+    # Screenlocking
+    bindsym $mod+x exec ~/script/swaylockman
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -79,10 +99,10 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     floating_modifier $mod normal
 
     # Reload the configuration file
-    bindsym $mod+Shift+c reload
+    bindsym $mod+Ctrl+r reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+Ctrl+q exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -174,44 +194,149 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Resizing containers:
 #
-mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
-    bindsym $left resize shrink width 10px
-    bindsym $down resize grow height 10px
-    bindsym $up resize shrink height 10px
-    bindsym $right resize grow width 10px
+# mode "resize" {
+#     # left will shrink the containers width
+#     # right will grow the containers width
+#     # up will shrink the containers height
+#     # down will grow the containers height
+#     bindsym $left resize shrink width 10px
+#     bindsym $down resize grow height 10px
+#     bindsym $up resize shrink height 10px
+#     bindsym $right resize grow width 10px
 
-    # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
+#     # Ditto, with arrow keys
+#     bindsym Left resize shrink width 10px
+#     bindsym Down resize grow height 10px
+#     bindsym Up resize shrink height 10px
+#     bindsym Right resize grow width 10px
 
-    # Return to default mode
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym $mod+r mode "resize"
+#     # Return to default mode
+#     bindsym Return mode "default"
+#     bindsym Escape mode "default"
+# }
+# bindsym $mod+Shift+r mode "resize"
+bindsym $mod+Ctrl+$left resize shrink width 20px
+bindsym $mod+Ctrl+$up resize grow height 20px
+bindsym $mod+Ctrl+$down resize shrink height 20px
+bindsym $mod+Ctrl+$right resize grow width 20px
+
+bindsym $mod+Ctrl+Left workspace prev
+# bindsym $mod+Ctrl+Up resize grow height 20px
+# bindsym $mod+Ctrl+Down resize shrink height 20px
+bindsym $mod+Ctrl+Right workspace next
+
+#
+# Media keys
+#
+
+# set $brillo exec pkexec /usr/bin/brillo -equ 1500
+# bindsym XF86MonBrightnessDown exec $brillo -U 5
+# bindsym XF86MonBrightnessUp exec $brillo -A 5
+bindsym XF86AudioRaiseVolume exec pulsemixer --change-volume 5 --unmute
+bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5 --unmute
+bindsym XF86AudioMute exec playerctl play-pause && pulsemixer --unmute
+# bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+# bindsym XF86AudioPlay           exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause 
+# bindsym XF86AudioNext           exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+# bindsym XF86AudioPrev           exec dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
+# Screenshots:
+bindsym Ctrl+Print exec flameshot full -c
+bindsym Print exec flameshot gui
+bindsym Mod1+Print exec flameshot screen -r -c
 
 #
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
+# bar {
+#     position top
 
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+#     # When the status_command prints a new line to stdout, swaybar updates.
+#     # The default just shows the current date and time.
+#     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
-    colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
-    }
-}
+#     colors {
+#         statusline #ffffff
+#         background #323232
+#         inactive_workspace #32323200 #32323200 #5c5c5c
+#     }
+# }
+
+xwayland enable
+
+# set $laptop eDP-1
+# bindswitch --reload --locked lid:on output $laptop disable
+# bindswitch --reload --locked lid:off output $laptop enable
+
+#
+# Window decoration
+#
+# class                 border   backgr. text    indicator child_border
+client.focused          #FFB000  #5e81ac #ffffff #7c818c   #FFB000
+client.focused_inactive #4c566a  #383c4a #ffffff #7c818c   #6f7787
+client.unfocused        #4c566a  #383c4a #888888 #7c818c   #6f7787
+client.urgent           #7c818c  #bf616a #ffffff #900000   #bf616a
+client.placeholder      #000000  #0c0c0c #ffffff #000000   #0c0c0c
+
+# bar {
+#     swaybar_command nwg-panel
+# }
+
+# seat * hide_cursor 3000
+
+font pango: JetBrainsMono Nerd Font Mono 11
+
+# border
+default_border pixel 2
+default_floating_border pixel 2
+gaps inner 1
+gaps outer 1
+
+# Title format for windows
+for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+for_window [shell="x_wayland"] title_format "%class - %title"
+
+#
+# wmrule
+#
+assign [class="google-chrome-stable"] 1
+assign [class="Code"] 2
+assign [class="calibre"] 3
+assign [class="Alacritty"] 4
+assign [class="doublecmd"] 5
+assign [class="Clementine"] 6
+assign [class="SmartGit"] 7
+
+for_window [urgent="latest"] focus
+for_window [window_role="pop-up"] floating enable
+# for_window [app_id="firefox" title="^Firefox – Sharing Indicator$"] kill
+# for_window [app_id="firefox" title="^Picture-in-Picture$"] \
+#     floating enable, move position 877 450, sticky enable
+for_window [workspace="6"] layout tabbed
+for_window [app_id="imv"] floating enable, border normal 3
+for_window [app_id="google-chrome-stable"] border csd
+for_window [app_id="nemo"] border csd
+for_window [title=".+[Ss]haring (Indicator|your screen)"] floating enable, move to scratchpad
+for_window [title="Copying"] floating enable
+for_window [title="Authenticate"] resize set height 210px
+for_window [app_id="Thunar" window_type="utility"] floating enable
+for_window [title="Discord Updater"] floating enable
+for_window [title="File Already Exist"] floating enable
+for_window [app_id="pavucontrol"] floating enable, sticky enable, resize set width 550 px height 600px, move position cursor, move down 330
+
+#
+# autostart
+#
+exec_always "systemctl --user import-environment"
+# exec_always nwg-panel
+# exec wlsunset
+exec mako
+exec udiskie --automount --tray --notify --appindicator
+# exec wal -R -q &
+exec /usr/bin/lxpolkit
+exec ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3
+# exec xfce4-clipman
+exec nm-applet --indicator
 
 include /etc/sway/config.d/*

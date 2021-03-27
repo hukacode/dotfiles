@@ -46,6 +46,14 @@
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
   "main_search_history": [
+    "bookworm",
+    "head first",
+    "Concurrency in Go",
+    "let",
+    "let's go",
+    "the go programming language",
+    "the go programming languga",
+    "the go pro",
     "head",
     "reading",
     "maru",
@@ -62,8 +70,7 @@
     "mastering",
     "java",
     "volume",
-    "volumn",
-    "clean"
+    "volumn"
   ],
   "main_window_geometry": {
     "__class__": "bytearray",

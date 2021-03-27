@@ -51,6 +51,15 @@
     "standalone_recently_opened": [
       {
         "authors": [
+          "Alex Edwards"
+        ],
+        "key": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
+        "pathtoebook": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
+        "timestamp": "2021-03-06T15:09:07.129Z",
+        "title": "Let's Go"
+      },
+      {
+        "authors": [
           "Caleb Doxsey"
         ],
         "key": "/home/huka/Dropbox/calibre-library/Caleb Doxsey/Introducing Go_ Build Reliable, Scalable Programs (491)/Introducing Go_ Build Reliable, Scalable P - Caleb Doxsey.epub",
@@ -75,15 +84,6 @@
         "pathtoebook": "/home/huka/Dropbox/calibre-library/Jay McGavren/Head First Go (422)/Head First Go - Jay McGavren.epub",
         "timestamp": "2021-02-14T02:18:29.867Z",
         "title": "Head First Go"
-      },
-      {
-        "authors": [
-          "Alex Edwards"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Alex Edwards/Let's Go (479)/Let's Go - Alex Edwards.epub",
-        "timestamp": "2021-02-13T03:19:58.640Z",
-        "title": "Let's Go"
       },
       {
         "authors": [

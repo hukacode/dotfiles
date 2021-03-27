@@ -13,15 +13,9 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
     "[markdown]": {
         "files.trimTrailingWhitespace": false,
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
     },
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
@@ -33,7 +27,7 @@
         "ejs",
         "jinja",
         "plaintext",
-        "markdown",
+        // "markdown",
         "vue",
         "liquid",
         "erb",
@@ -44,15 +38,15 @@
         "plist"
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": "'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "editor.fontFamily": " 'JetBrains Mono NL', 'JetBrainsMono Nerd Font Mono','JetBrainsMono NF'",
     "editor.letterSpacing": 1.2,
     "editor.fontLigatures": true,
-    "insertDateString.format": "YYYY-MM-DDThh:mm:ssZZZ",
+    "disableLigatures.mode": "Cursor",
+    "insertDateString.format": "YYYYMMDDhhmmss",
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.tabSize": 2,
-    "plantuml.render": "PlantUMLServer",
     "workbench.iconTheme": "material-icon-theme",
-    "plantuml.server": "http://www.plantuml.com/plantuml",
+    "plantuml.server": "https://www.plantuml.com/plantuml",
     "editor.suggestSelection": "first",
     "files.exclude": {
         "**/.classpath": true,
@@ -71,10 +65,10 @@
         "vs-kubernetes.draft-path.linux": "/home/huka/.vs-kubernetes/tools/draft/linux-amd64/draft",
         "vscode-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
     },
-    "workbench.colorTheme": "Quiet Light",
     "openapi.defaultPreviewRenderer": "redoc",
     "remote.SSH.remotePlatform": {
-        "node1.online.int-vn.td.infra.sys": "linux"
+        "node1.online.int-vn.td.infra.sys": "linux",
+        "node1.service.int-vn.td.infra.sys": "linux"
     },
     "editor.find.autoFindInSelection": "multiline",
     "blockhighlight.background": [
@@ -90,17 +84,10 @@
             }
         }
     },
-    "files.watcherExclude": {
-        "**/.history/**": true
-    },
-    "search.exclude": {
-        "**/.history/**": true
-    },
     "local-history.path": "~",
-    "local-history.daysLimit": 10,
+    "local-history.daysLimit": 60,
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
-    "search.mode": "reuseEditor",
     "editor.cursorBlinking": "expand",
     "editor.inlineHints.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
     "editor.renderWhitespace": "boundary",
@@ -113,14 +100,57 @@
     },
     "tailwindCSS.emmetCompletions": true,
     "telemetry.enableTelemetry": false,
-    "foam.edit.linkReferenceDefinitions": "off",
     "editor.fontSize": 13,
     "editor.codeLensFontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
     "markdown.preview.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
     "rest-client.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
     "rest-client.fontSize": 13,
-    "projectManager.git.baseFolders": [
-        "R:\\source\\",
-        "/run/media/huka/workspace/"
-    ]
+    "go.autocompleteUnimportedPackages": true,
+    "files.associations": {
+        "sxhkdrc": "properties",
+        "config": "properties",
+        ".xprofile": "properties"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    // "diffEditor.renderSideBySide": false,
+    "window.newWindowDimensions": "offset",
+    "editor.emptySelectionClipboard": false,
+    // I removed the hyphen "-" from this list for better multi-cursor navigation.
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.formatOnPaste": true,
+    "editor.snippetSuggestions": "top",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.acceptSuggestionOnEnter": "off",
+    "pasteImage.path": "${projectRoot}/inbox",
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "foam.logging.level": "off",
+    "foam.edit.linkReferenceDefinitions": "off",
+    "foam.openDailyNote.directory": "note",
+    "foam.openDailyNote.titleFormat": " ",
+    "foam.openDailyNote.filenameFormat": "yyyymmddHHMMss",
+    "vscodeMarkdownNotes.newNoteDirectory": "note",
+    // "workbench.editor.highlightModifiedTabs": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "workbench.editor.revealIfOpen": true,
+    "search.followSymlinks": false,
+    "breadcrumbs.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.autoReveal": false,
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+    "workbench.colorTheme": "Dracula"
 }

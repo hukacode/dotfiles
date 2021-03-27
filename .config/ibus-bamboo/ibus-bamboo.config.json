@@ -161,19 +161,12 @@
   },
   "OutputCharset": "Unicode",
   "Flags": 7,
-  "IBflags": 282992,
+  "IBflags": 266736,
   "JupiterFlags": 0,
-  "DefaultInputMode": 1,
+  "DefaultInputMode": 3,
   "InputModeMapping": {
     "Alacritty:Alacritty": 3,
     "code:Code": 3,
     "google-chrome:Google-chrome": 4
-  },
-  "ExceptedList": null,
-  "PreeditWhiteList": null,
-  "X11ClipboardWhiteList": null,
-  "ForwardKeyWhiteList": null,
-  "SLForwardKeyWhiteList": null,
-  "DirectForwardKeyWhiteList": null,
-  "SurroundingTextWhiteList": null
+  }
 }

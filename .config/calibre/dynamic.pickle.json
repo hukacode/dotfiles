@@ -1,4 +1,8 @@
 {
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
   "database location dialog": "/home/huka/Dropbox/calibre-library",
   "library_delete_books_again": false,
   "merge_books_again": false,
@@ -10,15 +14,19 @@
   },
   "sort_history": [
     [
-      "timestamp",
-      false
+      "size",
+      true
     ],
     [
       "title",
       true
     ],
     [
-      "tags",
+      "timestamp",
+      false
+    ],
+    [
+      "title",
       true
     ],
     [
