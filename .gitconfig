@@ -1,62 +1,87 @@
 [alias]
-  bw = blame -w -M
-  c = commit
-  commend = commit --amend --no-edit
-  cc = commit --all --amend --no-edit
-  ca = commit --all
-  co = checkout
-  cb = "!f() { git co `git log --until=\"$*\" -1 --format=%h`; } ; f"
-  s = status --short
-  d = diff
-  dc = diff --cached --word-diff=color
-  dw = diff --word-diff=color
-  l = log
-  a = add
-  af = add -f
-  p = push
-  dt = difftool
-  mt = mergetool
-  ss = show -1 --format=%B--stat
-  sw = show -1 --format=%B--stat --word-diff=color
-  whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
-  whatadded = log --diff-filter=A
-  deleted = log --diff-filter=D --summary
-  lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=relative
-  lgd = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=default
-  lgm = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=relative --author=AUTHOR_EMAIL
-  abbr = "!sh -c 'git rev-list --all | grep ^$1 | while read commit; do git --no-pager log -n1 --pretty=format:\"%H %ci %an %s%n\" $commit; done' -"
-  refeature = "!f() { git co develop && git pull && git co $1 && git pull && git rebase develop; } ; f"
-  ffmerge = "!f() { git refeature $1 && git co develop && git merge $1; } ; f"
-  clearbranch = "!f() { git branch -d $1 && git push origin :$1; } ; f"
-  please = push --force-with-lease
-  undo = restore
-  unstage = restore --staged
-  wip = for-each-ref --sort='authordate:iso8601' --format='%(color:green)%(authordate:relative)%09%(color:reset)%(refname:short)' refs/heads
-  
-[init]
-    defaultBranch = main
+    bw = blame -w -M
+    c = commit
+    commend = commit --amend --no-edit
+    cc = commit --all --amend --no-edit
+    ca = commit --all
+    co = checkout
+    cb = "!f() { git co `git log --until=\"$*\" -1 --format=%h`; } ; f"
+    s = status --short
+    d = diff
+    dc = diff --cached --word-diff=color
+    dw = diff --word-diff=color
+    l = log
+    a = add
+    af = add -f
+    p = push
+    dt = difftool
+    mt = mergetool
+    ss = show -1 --format=%B--stat
+    sw = show -1 --format=%B--stat --word-diff=color
+    whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+    whatadded = log --diff-filter=A
+    deleted = log --diff-filter=D --summary
+    lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+    lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+    lg = !"git lg1"
+    # lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=relative
+    lgd = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=default
+    lgm = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s [%N] %Cgreen(%ar)%Creset' --date=relative --author=AUTHOR_EMAIL
+    abbr = "!sh -c 'git rev-list --all | grep ^$1 | while read commit; do git --no-pager log -n1 --pretty=format:\"%H %ci %an %s%n\" $commit; done' -"
+    refeature = "!f() { git co develop && git pull && git co $1 && git pull && git rebase develop; } ; f"
+    ffmerge = "!f() { git refeature $1 && git co develop && git merge $1; } ; f"
+    clearbranch = "!f() { git branch -d $1 && git push origin :$1; } ; f"
+    please = push --force-with-lease
+    undo = restore
+    unstage = restore --staged
+    wip = for-each-ref --sort='authordate:iso8601' --format='%(color:green)%(authordate:relative)%09%(color:reset)%(refname:short)' refs/heads
+    # List contributors with number of commits.
+    contributors = shortlog --summary --numbered
 
-[user]
-	email = mr.kharhums@gmail.com
-	name = huka
+    # Show the user email for the current repository.
+    whoami = config user.email
+
+[apply]
+	# Detect whitespace errors when applying a patch.
+	whitespace = fix
+
+[branch]
+	# Show most recently changed branches first.
+	sort = -committerdate
+    
 [core]
 	editor = code -w
-    excludesfile = ~/.git/ignore-global
+	excludesfile = ~/.gitignore
     quotepath = false
-    trustctime = false
     pager = sh -c '/usr/share/git/diff-highlight/diff-highlight | less -r'
     # sudo find -L /usr -name diff-highlight -type f
+    # Treat spaces before tabs and all kinds of trailing whitespace as an error.
+	# [default] trailing-space: looks for spaces at the end of a line
+	# [default] space-before-tab: looks for spaces before tabs at the beginning of a line
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+
+	# Make `git rebase` safer on macOS.
+	# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
+	trustctime = false
+
+	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
+	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
+	precomposeunicode = false
+
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
 
 [color]
     ui = auto
 
 [color "diff"]
-  commit = green
-  meta = yellow
-  frag = cyan
-  old = red
-  new = green
-  whitespace = red reverse
+    commit = green
+    meta = yellow
+    frag = cyan
+    old = red
+    new = green
+    whitespace = red reverse
 
 [color "diff-highlight"]
     oldNormal = "red bold"
@@ -64,11 +89,31 @@
     newNormal = "green bold"
     newHighlight = "green bold 22"
 
-[url "https://github.com/"]
-    insteadOf = gh
-	
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[diff]
+	# Detect copies as well as renames.
+	renames = copies
+
+[diff "bin"]
+	# Use `hexdump` to diff binary files.
+	textconv = hexdump -v -C
+
 [help]
     autocorrect = 1
 
 [push]
     default = simple
+
+[url "https://github.com/"]
+    insteadOf = gh
+
+[user]
+	email = mr.kharhums@gmail.com
+	name = huka
+
+[init]
+	defaultBranch = main
