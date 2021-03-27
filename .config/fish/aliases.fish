@@ -1,9 +1,3 @@
-## cd
-alias hrms='cd /run/media/huka/workspace/huka-project/hrms/'
-alias coffee-shop='cd /run/media/huka/workspace/huka-project/coffee-shop/'
-alias blog='cd /run/media/huka/workspace/huka-gohugo/hugo-blog/'
-alias titama='cd /run/media/huka/workspace/huka-project/titama/'
-
 function timestamp
     python -c 'import time; print(int(time.time()))'
 end
@@ -11,6 +5,24 @@ end
 function setcountdown    
     sleep $argv[1] && notify-send $argv[2]
 end
+
+function take
+    set -l dir $argv[1]
+    mkdir -p $dir; and cd $dir
+end
+
+function wtf -d "Print which and --version output for the given command"
+    for arg in $argv
+        echo $arg: (which $arg)
+        echo $arg: (sh -c "$arg --version")
+    end
+end
+
+function digga    ; command dig +nocmd $argv[1] any +multiline +noall +answer; end
+function httpdump ; sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*" ; end
+function ip       ; curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g' ; end
+function localip  ; ipconfig getifaddr en0 ; end
+function lookbusy ; cat /dev/urandom | hexdump -C | grep --color "ca fe" ; end
 
 # adding flags
 alias df='df -h'                          # human-readable sizes
@@ -34,17 +46,15 @@ alias jctl="journalctl -p 3 -xb"
 # navigation
 alias ..='cd ..' 
 alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
 # make dir
 alias md 'mkdir -p'
-
-function take
-    set -l dir $argv[1]
-    mkdir -p $dir; and cd $dir
-end
 
 # chmod
 alias cx 'chmod +x'
@@ -56,8 +66,10 @@ alias yaysua="yay -Sua --noconfirm"             # update only AUR pkgs
 alias yaysyu="yay -Syu --noconfirm"             # update standard pkgs and AUR pkgs
 alias unlock="sudo rm /var/lib/pacman/db.lck"   # remove pacman lock
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)' # remove orphaned packages
-alias install='sudo pacman -S'                  
-alias uninstall='sudo pacman -Rns'              
+alias pin='sudo pacman -S'
+alias pun='sudo pacman -Rns'
+alias yin='yay -S'
+alias yun='yay -Rns'
 
 # get fastest mirrors
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -71,10 +83,16 @@ alias la='exa -a --color=always --group-directories-first'  # all files and dirs
 alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
+alias l 'ls'
 
-# alias l 'ls'
-# alias ll 'ls -la'
-# alias ls 'ls -FG'
+# # Changing "ls" to "logo-ls"
+# alias ls='logo-ls'
+# alias la='logo-ls -A'
+# alias ll='logo-ls -al'
+# # equivalents with Git Status on by Default
+# alias lsg='logo-ls -D'
+# alias lag='logo-ls -AD'
+# alias llg='logo-ls -alD'
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -86,10 +104,5 @@ alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
 
-function wtf -d "Print which and --version output for the given command"
-    for arg in $argv
-        echo $arg: (which $arg)
-        echo $arg: (sh -c "$arg --version")
-    end
-end
-
+# mongosh
+alias mongosh="docker run -it --rm --network host -v (pwd):/root gianni/mongosh:latest"

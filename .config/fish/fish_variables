@@ -4,7 +4,7 @@ SETUVAR --export ABBR_TIPS_PROMPT:\x5cn\U0001f4a1\x20\x5ce\x5b1m\x7b\x7b\x20\x2e
 SETUVAR --export ABBR_TIPS_REGEXES:\x28\x5e\x28\x5cw\x2b\x5cs\x2b\x29\x2b\x28\x2d\x7b1\x2c2\x7d\x29\x5cw\x2b\x29\x28\x5cs\x5cS\x2b\x29\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b3\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b2\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b1\x7d\x29\x2e\x2a
 SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
 SETUVAR FZF_DISABLE_KEYBINDINGS:0
-SETUVAR FZF_LEGACY_KEYBINDINGS:1
+SETUVAR --export FZF_LEGACY_KEYBINDINGS:0
 SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
@@ -233,9 +233,10 @@ SETUVAR _fish_abbr_yta_2D_wav:youtube\x2ddl\x20\x2d\x2dextract\x2daudio\x20\x2d\
 SETUVAR _fish_abbr_ytv_2D_best:youtube\x2ddl\x20\x2df\x20bestvideo\x2bbestaudio\x20
 SETUVAR _fisher_Gazorby_2F_fish_2D_abbreviation_2D_tips_files:/home/huka/\x2econfig/fish/functions/__abbr_tips_bind_newline\x2efish\x1e/home/huka/\x2econfig/fish/functions/__abbr_tips_bind_space\x2efish\x1e/home/huka/\x2econfig/fish/functions/__abbr_tips_init\x2efish\x1e/home/huka/\x2econfig/fish/conf\x2ed/abbr_tips\x2efish
 SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:/home/huka/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e/home/huka/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e/home/huka/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
+SETUVAR _fisher_dracula_2F_fish_files:/home/huka/\x2econfig/fish/conf\x2ed/dracula\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/huka/\x2econfig/fish/functions/fisher\x2efish\x1e/home/huka/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:/home/huka/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/huka/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/huka/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/huka/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/huka/\x2econfig/fish/functions/nvm\x2efish\x1e/home/huka/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/huka/\x2econfig/fish/completions/nvm\x2efish
-SETUVAR _fisher_plugins:danhper/fish\x2dssh\x2dagent\x1ejorgebucaran/nvm\x2efish\x1eGazorby/fish\x2dabbreviation\x2dtips\x1ejorgebucaran/fisher
+SETUVAR _fisher_plugins:danhper/fish\x2dssh\x2dagent\x1ejorgebucaran/nvm\x2efish\x1eGazorby/fish\x2dabbreviation\x2dtips\x1ejorgebucaran/fisher\x1edracula/fish
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
