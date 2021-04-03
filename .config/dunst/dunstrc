@@ -86,7 +86,7 @@
 
     ### Text ###
 
-    font = JetBrainsMono Nerd Font Mono 10
+    font = Cascadia Code 10
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -166,7 +166,7 @@
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/candy-icons/apps/scalable:/usr/share/icons/candy-icons/devices/scalable/
+    icon_path = /home/huka/.icons/candy-icons/apps/scalable:/home/huka/.icons/candy-icons/devices/scalable:/usr/share/icons/candy-icons/apps/scalable:/usr/share/icons/candy-icons/devices/scalable/
 
     ### History ###
 
@@ -289,9 +289,9 @@
     icon = ~/.config/dunst/images/notification.png
 
 [urgency_critical]
-    background = "#ff5555"
-    foreground = "#f8f8f2"
-    timeout = 0
+    background = "#282a36"
+    foreground = "#ff5555"
+    timeout = 10
     # Icon for notifications with critical urgency, uncomment to enable
     icon = ~/.config/dunst/images/notification.png
 

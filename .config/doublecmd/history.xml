@@ -2,57 +2,57 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/usr/share/backgrounds/</Item>
-      <Item>/usr/share/backgrounds/gnome/</Item>
-      <Item>/usr/share/backgrounds/sway/</Item>
-      <Item>/home/huka/_dev/hukacode/</Item>
-      <Item>/home/huka/_dev/hukacode/portfolio/</Item>
-      <Item>/home/huka/_dev/hukacode/hk-library/</Item>
-      <Item>/home/huka/_dev/</Item>
-      <Item>/home/huka/</Item>
-      <Item>/home/huka/hukacode/</Item>
-      <Item>/home/huka/screenshot/</Item>
-      <Item>/home/huka/dotfiles/</Item>
-      <Item>/home/huka/dotfiles/.config/</Item>
-      <Item>/home/huka/dotfiles/.config/qtile/</Item>
-      <Item>/home/huka/dotfiles/.config/rofi/</Item>
-      <Item>/home/huka/dotfiles/script/</Item>
-      <Item>/home/huka/dotfiles/demo/</Item>
-      <Item>/home/huka/Dropbox/_huka/development/hukacode/dotfiles/demo/</Item>
-      <Item>/home/huka/Dropbox/_huka/development/hukacode/dotfiles/</Item>
-      <Item>/home/huka/Dropbox/_huka/development/hukacode/</Item>
-      <Item>/home/huka/Dropbox/_huka/development/</Item>
-      <Item>/home/huka/Dropbox/_huka/</Item>
-      <Item>/home/huka/.config/</Item>
-      <Item>/home/huka/.config/alacritty/</Item>
-      <Item>/home/huka/Dropbox/dotfiles/.config/alacritty/</Item>
-      <Item>/home/huka/Dropbox/dotfiles/.config/</Item>
-      <Item>/home/huka/Dropbox/dotfiles/</Item>
-      <Item>/home/huka/.themes/</Item>
-      <Item>/home/huka/.theme/</Item>
-      <Item>/home/huka/.config/qt5ct/colors/</Item>
-      <Item>/home/huka/.config/qt5ct/</Item>
-      <Item>/mnt/data/Marugoto/</Item>
       <Item>/mnt/data/</Item>
-      <Item>/mnt/data/axon_wfh/_BCP_Public/Step 1 VPN Settings/AxonActive (S6)/</Item>
-      <Item>/home/huka/Downloads/</Item>
-      <Item>/home/huka/Downloads/Genome/.config/</Item>
-      <Item>/home/huka/Downloads/Genome/.config/qtile/</Item>
-      <Item>/home/huka/Downloads/Genome/.config/qtile/custom/</Item>
-      <Item>/home/huka/.config/qtile/</Item>
-      <Item>/home/huka/Downloads/Genome/</Item>
-      <Item>/home/huka/Downloads/Genome/.icons/</Item>
-      <Item>/home/huka/Dropbox/dotfiles/script/</Item>
-      <Item>/home/huka/Dropbox/calibre-library/</Item>
-      <Item>/home/huka/Dropbox/calibre-library/NHK WORLD RADIO JAPAN/</Item>
-      <Item>/home/huka/Dropbox/calibre-library/NHK WORLD RADIO JAPAN/hiragana_vietnamese (169)/</Item>
-      <Item>/home/huka/Dropbox/</Item>
-      <Item>/home/huka/Dropbox/image/</Item>
+      <Item>/home/huka/Dropbox/_huka/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/node/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/$HOME/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/$HOME/fish/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/dropboxignore/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/coffee-shop/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/titama/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/titama/client/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/titama/client/.gradle/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/titama/client/.gradle/npm/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/</Item>
       <Item>/mnt/workspace/</Item>
-      <Item>/mnt/workspace/web-template/</Item>
       <Item>/mnt/workspace/libgdx-project/</Item>
-      <Item>/mnt/workspace/javascript-project/</Item>
-      <Item>/mnt/workspace/javascript-project/keeweb/</Item>
+      <Item>/mnt/workspace/hukacode/</Item>
+      <Item>/mnt/workspace/hukacode/titama/</Item>
+      <Item>/mnt/workspace/hukacode/titama/client/</Item>
+      <Item>/mnt/workspace/hukacode/titama/client/.gradle/</Item>
+      <Item>/mnt/workspace/hukacode/sp-money-tracker/</Item>
+      <Item>/mnt/workspace/hukacode/sp-money-tracker/application/</Item>
+      <Item>/mnt/workspace/hukacode/sp-money-tracker/application/client/</Item>
+      <Item>/mnt/workspace/hukacode/shopify-helper/application/frontend/</Item>
+      <Item>/mnt/workspace/hukacode/shopify-helper/application/</Item>
+      <Item>/mnt/workspace/hukacode/shopify-helper/</Item>
+      <Item>/home/huka/Dropbox/</Item>
+      <Item>/mnt/workspace/hukacode/uml2java/</Item>
+      <Item>/mnt/workspace/hukacode/titama/configuration/</Item>
+      <Item>/mnt/workspace/hukacode/titama/common/</Item>
+      <Item>/mnt/workspace/hukacode/portfolio/</Item>
+      <Item>/mnt/workspace/hukacode/KBreakNeon/</Item>
+      <Item>/mnt/workspace/hukacode/JavaMaster/</Item>
+      <Item>/mnt/workspace/hukacode/hrms/</Item>
+      <Item>/mnt/workspace/hukacode/hk-tool/</Item>
+      <Item>/mnt/workspace/hukacode/go-example/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/common/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/frontend/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/frontend/.history/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/frontend/.history/src/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/frontend/.history/src/app/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/frontend/node/</Item>
+      <Item>/mnt/workspace/hukacode/coffee-shop/core/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/dotfiles/</Item>
+      <Item>/home/huka/Dropbox/_huka/development/hukacode/dotfiles/.colorscheme/</Item>
+      <Item>/home/huka/.icons/</Item>
+      <Item>/home/huka/.icons/Dracula/</Item>
+      <Item>/usr/share/icons/</Item>
     </Navigation>
     <CommandLine>
       <Item>code .</Item>

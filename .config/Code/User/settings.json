@@ -38,7 +38,7 @@
         "plist"
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": " 'JetBrains Mono NL', 'JetBrainsMono Nerd Font Mono','JetBrainsMono NF'",
+    "editor.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
     "editor.letterSpacing": 1.2,
     "editor.fontLigatures": true,
     "disableLigatures.mode": "Cursor",
@@ -89,7 +89,7 @@
     "workbench.editor.wrapTabs": true,
     "workbench.editor.tabSizing": "shrink",
     "editor.cursorBlinking": "expand",
-    "editor.inlineHints.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "editor.inlineHints.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
     "editor.renderWhitespace": "boundary",
     "css.validate": false,
     "editor.quickSuggestions": {
@@ -100,10 +100,9 @@
     },
     "tailwindCSS.emmetCompletions": true,
     "telemetry.enableTelemetry": false,
-    "editor.fontSize": 13,
-    "editor.codeLensFontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
-    "markdown.preview.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
-    "rest-client.fontFamily": "'JetBrainsMono Nerd Font Mono', 'JetBrains Mono NL', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Cascadia Code'",
+    "editor.codeLensFontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+    "markdown.preview.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+    "rest-client.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
     "rest-client.fontSize": 13,
     "go.autocompleteUnimportedPackages": true,
     "files.associations": {
@@ -152,5 +151,5 @@
     "go.toolsManagement.autoUpdate": true,
     "explorer.autoReveal": false,
     "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-    "workbench.colorTheme": "Dracula"
+    "workbench.colorTheme": "Night Owl Light"
 }

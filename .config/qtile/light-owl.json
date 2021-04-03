@@ -1,7 +1,7 @@
 {
-    "background": ["#FBFBFB"],
+    "background": ["#F6F6F6"],
     "foreground": ["#403F53"],   
-    "black": ["#403F53"],
+    "black": ["#E0E0E0"],
     "blue": ["#288ED7"],
     "cyan": ["#2AA298"],
     "green": ["#08916A"],

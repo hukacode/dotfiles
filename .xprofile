@@ -5,3 +5,5 @@ export ELECTRON_TRASH=gio code
 
 setxkbmap -option caps:escape
 # setxkbmap -option caps:swapescape
+
+export PATH="/home/huka/script:$PATH"

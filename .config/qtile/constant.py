@@ -1,6 +1,6 @@
 from os import path
 
-icon_path = path.join(path.expanduser('~'), "Dropbox/_huka/logo/logo-huka_32x32.png")
+icon_path = path.join(path.expanduser('~'), ".config/qtile/logo/logo-huka_32x32.png")
 # theme_path = path.join(path.expanduser('~'), ".cache/wal/colors.json")
 theme_path = path.join(path.expanduser('~'), ".config/qtile/dracula.json")
 
@@ -9,7 +9,7 @@ web_app = "google-chrome-stable"
 editor_app = "code"
 music_app = "clementine"
 
-font = "JetBrainsMono Nerd Font Mono"
+font = "CaskaydiaCove Nerd Font"
 icon_font = "Font Awesome 5 Free"
 
 weather_cmd = terminal_app + " --hold -e curl wttr.in/DaNang"

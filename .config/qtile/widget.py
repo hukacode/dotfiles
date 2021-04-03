@@ -12,7 +12,7 @@ powerline_left = lambda : widget.TextBox(
     foreground=colors["background"],
     background=colors["black"],
     font=font,
-    fontsize=21,
+    fontsize=20,
     text="",
     padding= -1
 )
@@ -21,7 +21,7 @@ powerline_right = lambda : widget.TextBox(
     foreground=colors["background"],
     background=colors["black"],
     font=font,
-    fontsize=21,
+    fontsize=20,
     text="",
     padding= -1
 )
@@ -94,13 +94,14 @@ workspaces = lambda: [
 
     separate(),
 
-    powerline_left(),
-    widget.CurrentLayoutIcon(
-        foreground=colors["foreground"],
-        background=colors["background"],
-        scale=0.65
-    ),
-    powerline_right(),
+    # powerline_left(),
+    # widget.CurrentLayoutIcon(
+    #     custom_icon_paths=[os.path.expanduser("~/.config/qtile/icons")],
+    #     foreground=colors["foreground"],
+    #     background=colors["background"],
+    #     scale=0.7
+    # ),
+    # powerline_right(),
 
     # widget.TaskList(
     #     background=colors["black"],
@@ -153,7 +154,7 @@ primary_widgets = [
     powerline_left(),
     CustomPomodoro(
         background=colors["background"],
-        fontsize=24,
+        fontsize=19,
         color_active=colors["red"],
         color_break=colors["cyan"],
         color_inactive=colors["brightPurple"],
@@ -195,7 +196,7 @@ primary_widgets = [
         mouse_callbacks = {"Button1": lambda: qtile.cmd_spawn(calendar_cmd)},
     ),
     widget.Clock(
-        format="%b %d %a",
+        format="%b %d (%a)",
         foreground=colors["green"],
         background=colors["background"],
         mouse_callbacks = {"Button1": lambda: qtile.cmd_spawn(calendar_cmd)},

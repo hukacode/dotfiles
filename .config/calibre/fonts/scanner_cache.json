@@ -5652,7 +5652,7 @@
       "wws_family_name": null,
       "wws_subfamily_name": null
     },
-    "/usr/share/fonts/TTF/fa-brands-400.ttf||136516:1610646955.0": {
+    "/usr/share/fonts/TTF/fa-brands-400.ttf||134040:1616324484.0": {
       "family_name": "Font Awesome 5 Brands Regular",
       "font-family": "Font Awesome 5 Brands Regular",
       "font-stretch": "normal",
@@ -5688,7 +5688,7 @@
       "wws_family_name": "Font Awesome 5 Brands",
       "wws_subfamily_name": "Regular"
     },
-    "/usr/share/fonts/TTF/fa-regular-400.ttf||34052:1610646955.0": {
+    "/usr/share/fonts/TTF/fa-regular-400.ttf||33736:1616324484.0": {
       "family_name": "Font Awesome 5 Free Regular",
       "font-family": "Font Awesome 5 Free Regular",
       "font-stretch": "normal",
@@ -5724,7 +5724,7 @@
       "wws_family_name": "Font Awesome 5 Free",
       "wws_subfamily_name": "Regular"
     },
-    "/usr/share/fonts/TTF/fa-solid-900.ttf||204528:1610646955.0": {
+    "/usr/share/fonts/TTF/fa-solid-900.ttf||202744:1616324484.0": {
       "family_name": "Font Awesome 5 Free Solid",
       "font-family": "Font Awesome 5 Free Solid",
       "font-stretch": "normal",

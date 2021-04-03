@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"JetBrainsMono Nerd Font 10";
+	font:							"Cascadia Code 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -43,7 +43,7 @@ prompt {
 
 textbox-prompt-colon {
 	padding: 						10px 10px 10px 15px;
-	font:							"JetBrainsMono Nerd Font 10";
+	font:							"Cascadia Code 10";
 	background-color: 				@al;
 	text-color: 					@ac;
 	expand: false;
