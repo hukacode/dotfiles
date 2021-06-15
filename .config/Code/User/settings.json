@@ -68,7 +68,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "disableLigatures.mode": "Cursor",
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.codeLensFontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "editor.codeLensFontFamily": "'JetBrains Mono', 'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono'",
   "editor.cursorBlinking": "expand",
   "editor.detectIndentation": false,
   "editor.emptySelectionClipboard": false,
@@ -313,9 +313,9 @@
   "vsicons.dontShowNewVersionMessage": true,
   "window.newWindowDimensions": "offset",
   "workbench.colorCustomizations": {
-    "tab.activeBorder": "#ff00ff"
+    "tab.activeBorder": "#A3BE8C"
   },
-  "workbench.colorTheme": "Night Owl Light",
+  "workbench.colorTheme": "Nord",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showIcons": false,

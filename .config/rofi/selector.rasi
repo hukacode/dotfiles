@@ -1,13 +1,20 @@
 configuration {
-	font: "Cascadia Code 10";
+    font: "JetBrains Mono 10";
 }
 
 @import "colors.rasi"
 
 #window {
-    background-color: @background;
-    border: 0;
-    padding: 2.5ch;
+    transparency:                   "real";
+    background-color:               @bg;
+    text-color:                     @fg;
+    border:                         0px 0px 0px 0px;
+    border-color:                   @bg;
+    border-radius:                  0px;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+    width:                          550px;
 }
 
 #mainbox {
@@ -17,12 +24,12 @@ configuration {
 
 #message {
     border: 2px 0px 0px;
-    border-color: @border-color;
+    border-color: @ac;
     padding: 1px;
 }
 
 #textbox {
-    text-color: @foreground;
+    text-color: @fg;
 }
 
 #inputbar {
@@ -33,13 +40,13 @@ configuration {
     expand: false;
     str: ":";
     margin: 0px 0.3em 0em 0em;
-    text-color: @normal-foreground;
+    text-color: @fg;
 }
 
 #listview {
     fixed-height: 0;
     border: 2px 0px 0px;
-    border-color: @border-color;
+    border-color: @ac;
     spacing: 2px;
     scrollbar: true;
     padding: 2px 0px 0px;
@@ -51,48 +58,48 @@ configuration {
 }
 
 #element.normal.normal {
-    background-color: @normal-background;
-    text-color: @normal-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.normal.urgent {
-    background-color: @urgent-background;
-    text-color: @urgent-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.normal.active {
-    background-color: @active-background;
-    text-color: @active-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.selected.normal {
-    background-color: @selected-normal-background;
-    text-color: @selected-normal-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.selected.urgent {
-    background-color: @selected-urgent-background;
-    text-color: @selected-urgent-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.selected.active {
-    background-color: @selected-active-background;
-    text-color: @selected-active-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.alternate.normal {
-    background-color: @alternate-normal-background;
-    text-color: @alternate-normal-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.alternate.urgent {
-    background-color: @alternate-urgent-background;
-    text-color: @alternate-urgent-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #element.alternate.active {
-    background-color: @alternate-active-background;
-    text-color: @alternate-active-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #scrollbar {
@@ -104,35 +111,35 @@ configuration {
 
 #sidebar {
     border: 2px 0px 0px;
-    border-color: @border-color;
+    border-color: @ac;
 }
 
 #button {
-    text-color: @normal-foreground;
+    text-color: @fg;
 }
 
 #button.selected {
-    background-color: @selected-normal-background;
-    text-color: @selected-normal-foreground;
+    background-color: @bg;
+    text-color: @fg;
 }
 
 #inputbar {
     spacing: 0;
-    text-color: @normal-foreground;
+    text-color: @fg;
     padding: 1px;
 }
 
 #case-indicator {
     spacing: 0;
-    text-color: @normal-foreground;
+    text-color: @fg;
 }
 
 #entry {
     spacing: 0;
-    text-color: @normal-foreground;
+    text-color: @fg;
 }
 
 #prompt {
     spacing: 0;
-    text-color: @normal-foreground;
+    text-color: @fg;
 }

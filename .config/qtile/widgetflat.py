@@ -18,8 +18,8 @@ separate = lambda : widget.Sep(
 group_box_settings = {
     "padding": 5,
     "borderwidth": 4,
-    "active": colors["cyan"],
-    "inactive": colors["brightBlack"],
+    "active": colors["yellow"],
+    "inactive": colors["brightBlue"],
     "disable_drag": True,
     "rounded": True,
     "highlight_color": colors["foreground"],
@@ -121,7 +121,7 @@ primary_widgets = [
     widget.TextBox(
         text=" ",
         font="Font Awesome 5 Free Solid",
-        foreground=colors["foreground"],
+        foreground=colors["brightGreen"],
         background=colors["background"],
         mouse_callbacks = {"Button1": lambda: qtile.cmd_spawn(clock_cmd)},
     ),
