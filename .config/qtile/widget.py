@@ -3,25 +3,25 @@ import os, subprocess, json
 from libqtile.command import lazy
 from libqtile import bar, widget, qtile
 from constant import launcher_cmd, powermenu_cmd, font, icon_path, weather_cmd, cpu_cmd, \
-    memory_cmd, volume_cmd, calendar_cmd
+    memory_cmd, volume_cmd, calendar_cmd, killwindow_cmd
 from theme import colors
 from custom.pomodoro import Pomodoro as CustomPomodoro
 from custom.windowname import WindowName as CustomWindowName
 
-powerline_left = lambda : widget.TextBox(    
+powerline_left = lambda : widget.TextBox(
     foreground=colors["background"],
     background=colors["black"],
     font=font,
-    fontsize=20,
+    fontsize=18,
     text="",
     padding= -1
 )
 
-powerline_right = lambda : widget.TextBox(    
+powerline_right = lambda : widget.TextBox(
     foreground=colors["background"],
     background=colors["black"],
     font=font,
-    fontsize=20,
+    fontsize=18,
     text="",
     padding= -1
 )
@@ -61,8 +61,17 @@ workspaces = lambda: [
         filename = icon_path,
         mouse_callbacks = {"Button1": lambda: qtile.cmd_spawn(launcher_cmd)}
     ),
-
     separate(),
+
+    powerline_left(),
+    widget.Systray(
+        icon_size=18,
+        background=colors["background"],
+        padding=10,
+    ),
+    powerline_right(),
+
+    widget.Spacer(),
 
     powerline_left(),
     widget.GroupBox(
@@ -123,32 +132,26 @@ workspaces = lambda: [
     # ),
     separate(),
 
-    widget.TextBox(
-        text=" ",
-        foreground=colors["blue"],
-        background=colors["black"],
-        font="Font Awesome 5 Free Solid",
-    ),
-    CustomWindowName(
-        foreground=colors["blue"],
-        background=colors["black"],
-        width=bar.CALCULATED,
-        empty_group_string="Desktop",
-        max_chars=55,
-        mouse_callbacks = {"Button3": lambda: qtile.cmd_spawn(killwindow_cmd)},
-    ),
+    # widget.TextBox(
+    #     text=" ",
+    #     foreground=colors["blue"],
+    #     background=colors["black"],
+    #     font="Font Awesome 5 Free Solid",
+    #     mouse_callbacks = {"Button2": lambda: qtile.cmd_spawn(killwindow_cmd)},
+    # ),
+    # CustomWindowName(
+    #     foreground=colors["blue"],
+    #     background=colors["black"],
+    #     width=bar.CALCULATED,
+    #     empty_group_string="Desktop",
+    #     max_chars=45,
+    #     mouse_callbacks = {"Button2": lambda: qtile.cmd_spawn(killwindow_cmd)},
+    # ),
     widget.Spacer(),
 ]
 primary_widgets = [
     *workspaces(),
-    powerline_left(),
-    widget.Systray(
-        icon_size=18, 
-        background=colors["background"],
-        padding=10,
-    ),
-    powerline_right(),
-    
+
     separate(),
 
     powerline_left(),
@@ -186,7 +189,7 @@ primary_widgets = [
     powerline_right(),
 
     separate(),
-    
+
     powerline_left(),
     widget.TextBox(
         text=" ",

@@ -2,7 +2,7 @@ function timestamp
     python -c 'import time; print(int(time.time()))'
 end
 
-function setcountdown    
+function setcountdown
     sleep $argv[1] && notify-send $argv[2]
 end
 
@@ -20,7 +20,7 @@ end
 
 function digga    ; command dig +nocmd $argv[1] any +multiline +noall +answer; end
 function httpdump ; sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E "Host\: .*|GET \/.*" ; end
-function ip       ; curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g' ; end
+# function ip       ; curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g' ; end
 function localip  ; ipconfig getifaddr en0 ; end
 function lookbusy ; cat /dev/urandom | hexdump -C | grep --color "ca fe" ; end
 
@@ -44,7 +44,7 @@ alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias jctl="journalctl -p 3 -xb"
 
 # navigation
-alias ..='cd ..' 
+alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'

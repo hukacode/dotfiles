@@ -1,15 +1,22 @@
 {
+  "local_storage": {
+    "simple_input_history_net_search_url": [
+      "https://google.com/search?q={q}"
+    ]
+  },
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAAAAAAAGAAABj8AAAODAAAAAAAAABgAAAY/AAADgwAAAAAAAAAABkAAAAAAAAAAGAAABj8AAAOD"
+    "__value__": "AdnQywADAAAAAAT/AAAAFwAACfwAAAWcAAAFAQAAABkAAAn6AAAFmgAAAAAAAAAACgAAAAUBAAAAGQAACfoAAAWa"
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAADbPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAADbAAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlwD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM0A////AAAFOgAAA2wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAENAAAFgvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAAFggAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAABJ4AAADkAAAAlwD///8AAAABAAABIgAAA2z8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAADbAAAAM0A////AAAD5wAABYIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
+  "saved-search-settings": {},
   "session_data": {
     "base_font_size": 22,
+    "book_scrollbar": true,
     "columns_per_screen": {
       "landscape": 1,
       "portrait": 1
@@ -37,18 +44,99 @@
       "middle": "empty",
       "right": "empty"
     },
-    "paged_margin_clicks_scroll_by_screen": false,
-    "read_mode": "paged",
+    "paged_margin_clicks_scroll_by_screen": true,
+    "paged_taps_scroll_by_screen": true,
+    "paged_wheel_scrolls_by_screen": true,
+    "read_mode": "flow",
     "right-margin": {
       "left": "empty",
       "middle": "empty",
       "right": "empty"
+    },
+    "selection_bar_actions": [
+      "quick_highlight",
+      "copy",
+      "lookup",
+      "highlight",
+      "remove_highlight",
+      "search_net",
+      "clear"
+    ],
+    "selection_bar_quick_highlights": [
+      "type:builtin;kind:color;which:yellow;light:undefined;dark:undefined;background-color:undefined;text-decoration-line:undefined;text-decoration-color:undefined;text-decoration-style:undefined"
+    ],
+    "skipped_dialogs": {
+      "confirm_remove_highlight": "2021-05-02T09:34:16.895Z"
     },
     "standalone_font_settings": {},
     "standalone_misc_settings": {
       "remember_window_geometry": true
     },
     "standalone_recently_opened": [
+      {
+        "authors": [
+          "Cụ Thu Giang - Nguyễn Duy Cần"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
+        "timestamp": "2021-06-09T06:26:01.103Z",
+        "title": "Tôi Tự Học"
+      },
+      {
+        "authors": [
+          "Jeanne Boyarsky",
+          "Scott Selikoff"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
+        "timestamp": "2021-06-09T01:25:11.541Z",
+        "title": "OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide"
+      },
+      {
+        "authors": [
+          "Cụ Thu Giang - Nguyễn Duy Cần"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Thu Giang Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Thu Giang Nguyen Duy Can.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Thu Giang Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Thu Giang Nguyen Duy Can.mobi",
+        "timestamp": "2021-06-08T10:34:16.337Z",
+        "title": "Tôi Tự Học"
+      },
+      {
+        "authors": [
+          "Cụ Thu Giang - Nguyễn Duy Cần"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Cu Thu Giang - Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Cu Thu Giang - Nguyen Duy Can.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Cu Thu Giang - Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Cu Thu Giang - Nguyen Duy Can.mobi",
+        "timestamp": "2021-05-21T09:14:24.576Z",
+        "title": "Tôi Tự Học"
+      },
+      {
+        "authors": [
+          "Nguyễn Duy Cần"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Duy Can Nguyen/Toi tu hoc (609)/Toi tu hoc - Duy Can Nguyen.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Duy Can Nguyen/Toi tu hoc (609)/Toi tu hoc - Duy Can Nguyen.mobi",
+        "timestamp": "2021-05-18T15:25:19.898Z",
+        "title": "Tôi Tự Học"
+      },
+      {
+        "authors": [
+          "Trần Thái Đỉnh"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Tran Thai Dinh/Triet Hoc Hien Sinh (567)/Triet Hoc Hien Sinh - Tran Thai Dinh.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Tran Thai Dinh/Triet Hoc Hien Sinh (567)/Triet Hoc Hien Sinh - Tran Thai Dinh.mobi",
+        "timestamp": "2021-04-25T02:25:19.831Z",
+        "title": "Triết Học Hiện Sinh"
+      },
+      {
+        "authors": [
+          "John Schember"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/John Schember/Quick Start Guide (597)/Quick Start Guide - John Schember.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/John Schember/Quick Start Guide (597)/Quick Start Guide - John Schember.epub",
+        "timestamp": "2021-04-25T02:24:51.295Z",
+        "title": "Quick Start Guide"
+      },
       {
         "authors": [
           "Alex Edwards"

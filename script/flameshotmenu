@@ -10,14 +10,14 @@ option4="Window (delay 3s)"
 # options to be displyed
 options="$option0\n$option1\n$option2\n$option3\n$option4"
 
-selected="$(echo -e "$options" | rofi -lines 5 -dmenu -p "Screen Shot" -theme /home/huka/.cache/wal/colors-rofi-light.rasi)"
+selected="$(echo -e "$options" | rofi -lines 5 -dmenu -p "Screen Shot" -theme $HOME/.config/rofi/selector.rasi)"
 case $selected in
     $option0)
-        flameshot full -p ~/screenshot;;
+        flameshot full -d 500 -p ~/screenshot;;
     $option1)
         flameshot gui;;
     $option2)
-        flameshot screen -p ~/screenshot;;
+        flameshot screen -d 500 -p ~/screenshot;;
     $option3)
         flameshot full -d 3000 -p ~/screenshot;;
     $option4)

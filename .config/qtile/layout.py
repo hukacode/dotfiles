@@ -1,20 +1,21 @@
 from libqtile import layout
+from libqtile.config import Match
 from theme import colors
 from custom.bsp import Bsp as CustomBsp
 
 layout_conf = {
     "border_focus": colors["blue"][0],
     "border_width": 2,
-    "margin": 4
+    "margin": 1
 }
 
 layouts = [
-    # layout.MonadTall(**layout_conf, ratio=0.5),
+    layout.MonadTall(**layout_conf, ratio=0.5),
     layout.Max(),
     # layout.Floating(**layout_conf),
-    CustomBsp(**layout_conf, fair=False),
+    # CustomBsp(**layout_conf, fair=False),
     # layout.Tile(shift_windows=True, **layout_conf),
-    # layout.Stack(stacks=2, **layout_conf),
+    layout.Stack(stacks=2, **layout_conf),
     # layout.MonadWide(**layout_conf),
     # layout.Bsp(**layout_conf),
     # layout.Columns(**layout_conf),
@@ -40,69 +41,24 @@ layouts = [
 
 # Run the utility of `xprop` to see the wm class and name of an X client.
 floating_layout = layout.Floating(
-#     float_rules=[
-    #     {"role": "EventDialog"},
-    #     {"role": "Msgcompose"},
-    #     {"role": "Preferences"},
-    #     {"role": "pop-up"},
-    #     {"role": "prefwindow"},
-    #     {"role": "task_dialog"},
-    #     {"wname": "Module"},
-    #     {"wname": "Terminator Preferences"},
-    #     {"wname": "Search Dialog"},
-    #     {"wname": "Goto"},
-    #     {"wname": "IDLE Preferences"},
-    #     {"wname": "Sozi"},
-    #     {"wname": "Create new database"},
-    #     {"wname": "Preferences"},
-    #     {"wname": "File Transfer"},
-    #     {"wname": "confirm"},
-        # {"wmclass": "pavucontrol"},
-    #     {"wmclass": "SmartGit"},
-    #     {"wmclass": "Guake"},
-    #     {"wmclass": "Tilda"},
-    #     {"wmclass": "yakuake"},
-    #     {"wmclass": "Xfce4-appfinder"},
-    #     {"wmclass": "GoldenDict"},
-    #     {"wmclass": "Synapse"},
-    #     {"wmclass": "Pamac-updater"},
-    #     {"wmclass": "TelegramDesktop"},
-    #     {"wmclass": "Galculator"},
-    #     {"wmclass": "notify"},
-    #     {"wmclass": "Lxappearance"},
-    #     {"wmclass": "Nitrogen"},
-    #     {"wmclass": "Oblogout"},
-    #     {"wmclass": "Pavucontrol"},
-    #     {"wmclass": "VirtualBox"},
-    #     {"wmclass": "Skype"},
-    #     {"wmclass": "Steam"},
-    #     {"wmclass": "nvidia-settings"},
-    #     {"wmclass": "Eog"},
-    #     {"wmclass": "Rhythmbox"},
-    #     {"wmclass": "obs"},
-    #     {"wmclass": "Gufw.py"},
-    #     {"wmclass": "Catfish"},
-    #     {"wmclass": "libreoffice-calc"},
-    #     {"wmclass": "LibreOffice 3.4"},
-    #     {"wmclass": "Mlconfig"},
-    #     {"wmclass": "Termite"},
-    #     {"wmclass": "confirm"},
-    #     {"wmclass": "dialog"},
-    #     {"wmclass": "download"},
-    #     {"wmclass": "error"},
-    #     {"wmclass": "file_progress"},
-    #     {"wmclass": "notification"},
-    #     {"wmclass": "splash"},
-    #     {"wmclass": "toolbar"},
-    #     {"wmclass": "Arandr"},
-    #     {"wname": "Open File"},
-    #     {"wmclass": "confirmreset"},  # gitk
-    #     {"wmclass": "makebranch"},  # gitk
-    #     {"wmclass": "maketag"},  # gitk
-    #     {"wname": "branchdialog"},  # gitk
-    #     {"wname": "pinentry"},  # GPG key password entry
-    #     {"wmclass": "ssh-askpass"},  # ssh-askpass
-
-    # ],
+    float_rules=[
+        Match(wm_type='utility'),
+        Match(wm_type='notification'),
+        Match(wm_type='toolbar'),
+        Match(wm_type='splash'),
+        Match(wm_type='dialog'),
+        Match(wm_class='file_progress'),
+        Match(wm_class='confirm'),
+        Match(wm_class='dialog'),
+        Match(wm_class='download'),
+        Match(wm_class='error'),
+        Match(wm_class='notification'),
+        Match(wm_class='splash'),
+        Match(wm_class='toolbar'),
+        Match(func=lambda c: c.has_fixed_size()),
+        Match(wm_class='org.gnome.clocks'),
+        Match(wm_class='pavucontrol'),
+        Match(wm_class='Arandr')
+    ],
     border_focus=colors["purple"][0]
 )

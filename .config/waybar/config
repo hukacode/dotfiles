@@ -1,236 +1,107 @@
 {
-  // "layer": "top", // Waybar at top layer
-  // "position": "bottom", // Waybar position (top|bottom|left|right)		
-  "height": 40, // Waybar height (to be removed for auto height)
-  // "width": 2560, // Waybar width
-  // Choose the order of the modules
-  "modules-left": ["river/tags", "sway/workspaces", "custom/github", "custom/reddit", "custom/youtube", "custom/mail","custom/media",],
-  "modules-center": ["wlr/taskbar"],
-  "output": ["HDMI-A-1"],
-  "modules-right": ["pulseaudio", "custom/weather", "disk", "memory", "cpu",
-  "temperature", "network", "battery#bat2", "backlight", "custom/pacman",
-  "tray", "custom/recorder", "custom/layout", "clock", "custom/power", ],
+  "position": "top",
+  "modules-left": ["custom/menu", "tray"],
+  "modules-center": ["sway/workspaces"],
+  "modules-right": [
+    "pulseaudio",
+    // "network",
+    // "battery",
+    "custom/date",
+    "clock",
+    "custom/power"
+  ],
+	"custom/menu": {
+		"format": "    ",
+		"on-click": "~/script/launcher",
+		"tooltip": false
+	},
   // Modules configuration
+  "tray": {
+      "icon-size": 18,
+      "spacing": 10
+  },
   "sway/workspaces": {
-    "disable-scroll": false,
+    "disable-scroll": true,
     "all-outputs": true,
     "format": "{icon}",
     "persistent_workspaces": {
-      "1": ["HDMI-A-1"],
-      "2": ["HDMI-A-1"],
-      "3": ["HDMI-A-1"],
-      "4": ["HDMI-A-1"],
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
       "5": [],
       "6": [],
       "7": [],
       "8": [],
       "9": [],
+      "10": []
     },
     "format-icons": {
-      "1": "WEB",
-      "2": "DEV",
-      "3": "DOC",
-      "4": "CMD",
-      "5": "DIR",
-      "6": "MED",
-      "7": "七",
-      "8": "八",
-      "9": "九",
-      "focused": "",
-      "urgent": "",
-      "default": ""
-    },
-    "icon-size": 15
-  },
-  "sway/window": {
-    "format": "{}",
-    "max-length": 70,
-  },
-  "custom/media": {
-    "format": "{icon}{}",
-    "return-type": "json",
-    "format-icons": {
-      "Playing": " ",
-      "Paused": " ",
-    },
-    "max-length": 50,
-    "exec": "playerctl metadata --format '{\"text\": \"{{title}}\", \"tooltip\": \"{{playerName}} : {{title}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
-    "on-click": "playerctl play-pause",
-    "on-click-right": "mpc --host 127.0.0.1 --port 6002 toggle",
-    "on-scroll-down": "playerctl next",
-    "on-scroll-up": "playerctl previous"
-  },
-  "custom/layout": {
-    "return-type": "json",
-    "format": " {}",
-    "exec": "~/.config/waybar/scripts/layout.sh",
-    "exec-if": "pgrep river",
-    "signal": 8,
-    "interval": "once",
-    "on-scroll-up": "~/.config/river/layout.sh main_index +1",
-    "on-scroll-down": "~/.config/river/layout.sh main_index -1",
-  },
-  "custom/recorder": {
-    "return-type": "json",
-    "format": "{}",
-    "exec-if": "pgrep wf-recorder",
-    "exec": "echo '{\"text\": \"壘\", \"class\": \"recording\"}'",
-    "signal": 10,
-    "interval": "once",
-    "on-click": "kill -INT $(pgrep wf-recorder)",
-  },
-  "tray": {
-    "spacing": 10,
-  },
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-      "activated": "",
-      "deactivated": ""
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
     }
   },
-  "clock": {
-    // "timezone": "America/New_York",
-    "format": "{:%I:%M %p}",
-    "format-alt": "{:%A, %B %d}",
+  "custom/date": {
+    "format": "󰸗 {}",
+    "interval": 3600,
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    // "format-alt": "{:%Y-%m-%d}"
+    "exec": "/home/huka/.config/waybar/waybar-date.sh"
   },
-  "cpu": {
-    "format": "{usage}  ",
-    "on-click": "foot ytop",
-    "tooltip": false
+  "clock": {
+    "format": "󰅐 {:%H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
   },
-  "memory": {
-    "format": "{}  "
-  },
-  "temperature": {
-    "thermal-zone": 2,
-    "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
-    "critical-threshold": 80,
-    "format-critical": "{temperatureC}°C {icon}",
-    "format": "{temperatureC}  {icon}",
-    "interval": 60,
-    "format-icons": ["", "", ""]
-  },
-  "backlight": {
-    "interval": 5,
-    "format": "{icon}",
-    "format-alt": "{percent}% {icon}",
-    "format-alt-click": "click-right",
-    "format-icons": ["🌕", "🌔", "🌓", "🌒", "🌑"],
-    "on-scroll-down": "brightnessctl -c backlight set +5%",
-    "on-scroll-up": "brightnessctl -c backlight set 5%-"
+  "custom/power": {
+    "format": "󰐥",
+    "on-click": "/home/huka/script/powermenu"
   },
   "battery": {
     "states": {
-      // "good": 95,
       "warning": 30,
       "critical": 15
     },
-    "format": "{capacity}% {icon}",
-    "format-charging": "{capacity}% ",
-    "format-plugged": "{capacity}% ",
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰂄{capacity}%",
     "format-alt": "{time} {icon}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
-    "format-icons": ["", "", "", "", ""]
-  },
-  "battery#bat2": {
-    "bat": "BAT2"
+    "format-full": "󱈑 {capacity}%",
+    "format-icons": ["󱊡", "󱊢", "󱊣"]
   },
   "network": {
-    "interface": "wlan0", // (Optional) To force the use of this interface
-    "format-wifi": "直  connected",
-    "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
-    "interval": 60,
-    "on-click-middle": "exec foot nmtui"
+    "format-wifi": "  {essid}",
+    "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "󰤮 Disconnected",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}"
   },
   "pulseaudio": {
-    "scroll-step": 1, // %, can be a float
-    "format": "{icon}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
-    "format-source": "{volume}% ",
-    "format-source-muted": "",
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰖁 Muted",
     "format-icons": {
-      "headphone": "",
+      "headphone": "",
       "hands-free": "",
       "headset": "",
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["","  -","  --","  ---","  ----","  -----","  ------","  -------","  --------",]
+      "default": ["", "", ""]
     },
-    "on-click": "pavucontrol",
-    "on-scroll-up": "pamixer -ui 2",
-    "on-scroll-down": "pamixer -ud 2",
+    "on-click": "pavucontrol"
   },
-  "custom/weather": {
-    "exec": "~/.config/waybar/scripts/weather.sh Turan",
-    "format": "{}",
-    "return-type": "json",
-    "interval": 600
-  },
-  "custom/pacman": {
-    "format": "{}  ",
-    "interval": 3600, // every hour
-    // "restart-interval": 3600,
-    "exec": "checkupdates | wc -l", // # of updates
-    "exec-if": "exit 0", // always run; consider advanced run conditions
-    "on-click": "foot yay; pkill -SIGRTMIN+8 waybar", // update system
-    "signal": 8,
-  },
-  "disk": {
-    "interval": 30,
-    "format": "{free}",
-    "path": "/run/media/bryan/",
-  },
-  "custom/power": {
-    "format": "⏻",
-    "on-click": "lavalauncher -c ~/.config/lavalauncher/lock.conf",
+  "custom/playerctl": {
+    "format": " {}",
+    "max-length": 40,
+    "interval": 5,
+    "exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
     "tooltip": false
-  },
-  "custom/github": {
-    "format": "",
-    "on-click": "xdg-open https://github.com",
-    "tooltip": false
-  },
-  "custom/reddit": {
-    "format": "樓",
-    "on-click": "xdg-open https://www.reddit.com/",
-    "tooltip": false
-  },
-  "custom/youtube": {
-    "format": "輸",
-    "on-click": "xdg-open https://www.youtube.com/",
-    "tooltip": false
-  },
-  "custom/mail": {
-    "format": "",
-    "on-click": "xdg-open https://moncourriel.etsmtl.ca/",
-    "tooltip": false
-  },
-  "custom/crunchyroll": {
-    "format": "",
-    "on-click": "firefox 'ext+container:name=Crunchyroll&url=https://www.crunchyroll.com/'",
-    "tooltip": false
-  },
-  "wlr/taskbar": {
-    // "format": "{icon}",
-    "all-outputs": false,
-    "format": "{app_id:2}",
-    "max-length": 10,
-    "icon-theme": "Papirus",
-    "icon-size": 15,
-    "on-click": "activate",
-    "markup": true,
-    "max-length": 7,
-    "on-click-right": "minimize",
-    "on-click-middle": "close"
   }
 }

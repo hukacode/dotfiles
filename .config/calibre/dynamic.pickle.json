@@ -1,8 +1,10 @@
 {
+  "add books dialog dir": "/home/huka/Downloads",
   "catalogs_to_be_synced": {
     "__class__": "set",
     "__value__": []
   },
+  "choose library location": "/home/huka/Dropbox/_data/book",
   "database location dialog": "/home/huka/Dropbox/calibre-library",
   "library_delete_books_again": false,
   "merge_books_again": false,
@@ -14,8 +16,8 @@
   },
   "sort_history": [
     [
-      "size",
-      true
+      "timestamp",
+      false
     ],
     [
       "title",
@@ -24,10 +26,6 @@
     [
       "timestamp",
       false
-    ],
-    [
-      "title",
-      true
     ],
     [
       "timestamp",

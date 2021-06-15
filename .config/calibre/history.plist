@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>lineedit_history_choose_library_dialog</key>
+	<array>
+		<string>/home/huka/Dropbox/_data/book</string>
+	</array>
 	<key>lineedit_history_tag_list_search_box_Series</key>
 	<array/>
 	<key>lineedit_history_tag_list_search_box_Tags</key>

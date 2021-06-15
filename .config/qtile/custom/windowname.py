@@ -82,8 +82,11 @@ class WindowName(base._TextBox):
         )
         full_string = pangocffi.markup_escape_text(unescaped)
         if len(full_string) > self.max_chars > 0:
-            trunc_string = full_string[: self.max_chars] + "…"
-            self.text = trunc_string
+            try:
+              trunc_string = full_string[: self.max_chars] + "…"
+              self.text = trunc_string
+            except:
+              self.text = ""
         else:
             self.text = full_string
         self.bar.draw()

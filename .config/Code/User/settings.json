@@ -1,155 +1,356 @@
 {
-    "git.autofetch": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "explorer.confirmDelete": false,
-    "extensions.ignoreRecommendations": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "auto-close-tag.activationOnLanguage": [
-        "xml",
-        "php",
-        "blade",
-        "ejs",
-        "jinja",
-        "plaintext",
-        // "markdown",
-        "vue",
-        "liquid",
-        "erb",
-        "lang-cfml",
-        "cfml",
-        "HTML (EEx)",
-        "HTML (Eex)",
-        "plist"
-    ],
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
-    "editor.letterSpacing": 1.2,
-    "editor.fontLigatures": true,
-    "disableLigatures.mode": "Cursor",
-    "insertDateString.format": "YYYYMMDDhhmmss",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.tabSize": 2,
-    "workbench.iconTheme": "material-icon-theme",
-    "plantuml.server": "https://www.plantuml.com/plantuml",
-    "editor.suggestSelection": "first",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.factorypath": true,
-        "**/.history": true,
-        "**/.project": true,
-        "**/.settings": true
-    },
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-        "vs-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
-        "vs-kubernetes.draft-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
-        "vs-kubernetes.kubectl-path.linux": "/home/huka/.vs-kubernetes/tools/kubectl/kubectl",
-        "vs-kubernetes.minikube-path.linux": "/home/huka/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-        "vs-kubernetes.helm-path.linux": "/home/huka/.vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vs-kubernetes.draft-path.linux": "/home/huka/.vs-kubernetes/tools/draft/linux-amd64/draft",
-        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-    },
-    "openapi.defaultPreviewRenderer": "redoc",
-    "remote.SSH.remotePlatform": {
-        "node1.online.int-vn.td.infra.sys": "linux",
-        "node1.service.int-vn.td.infra.sys": "linux"
-    },
-    "editor.find.autoFindInSelection": "multiline",
-    "blockhighlight.background": [
-        "200",
-        "100",
-        "255",
-        ".05"
-    ],
-    "highlight-matching-tag.styles": {
-        "opening": {
-            "name": {
-                "underline": "red"
-            }
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "files.trimTrailingWhitespace": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "plaintext",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "auto-close-tag.disableOnLanguage": ["markdown"],
+  "blockhighlight.background": ["200", "100", "255", ".05"],
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "breadcrumbs.enabled": false,
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    ".vscode-insiders",
+    "**/public/**"
+  ],
+  "cSpell.language": "vi,en-US",
+  "cSpell.userWords": [
+    "Anki",
+    "Dilmah",
+    "JDBC",
+    "Javadoc",
+    "Marugoto",
+    "Microservices",
+    "Mockito",
+    "Nonnull",
+    "Varargs",
+    "Vietfarm",
+    "YYYYMMDD",
+    "Zettelkasten",
+    "gohugo",
+    "huka",
+    "hukacode",
+    "instanceof",
+    "lastmod",
+    "mkdir",
+    "println",
+    "symlink"
+  ],
+  "css.validate": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "disableLigatures.mode": "Cursor",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.codeLensFontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "editor.cursorBlinking": "expand",
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.folding": false,
+  "editor.fontFamily": "'JetBrains Mono', 'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono'",
+  "editor.fontLigatures": true,
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.formatOnPaste": true,
+  // "editor.glyphMargin": false,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.inlineHints.fontFamily": "'JetBrains Mono', 'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono'",
+  "editor.insertSpaces": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "300",
+  "editor.letterSpacing": 1.2,
+  "editor.lineHeight": 22,
+  "editor.matchBrackets": "never",
+  "editor.occurrencesHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    ".xprofile": "properties",
+    "*.prf": "properties",
+    "config": "properties",
+    "sxhkdrc": "properties"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.history": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "foam.dateSnippets.afterCompletion": "noop",
+  "foam.decorations.links.enable": true,
+  "foam.logging.level": "off",
+  "foam.openDailyNote.directory": "content/note",
+  "foam.openDailyNote.filenameFormat": "yyyymmddHHMMss",
+  "foam.openDailyNote.titleFormat": " ",
+  "foam.edit.linkReferenceDefinitions": "off",
+  "git.autofetch": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "go.autocompleteUnimportedPackages": true,
+  "go.toolsManagement.autoUpdate": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "red"
+      }
+    }
+  },
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "decorations": [
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold",
+          "overviewRulerColor": "#cc0000"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
         }
+      ],
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$"
     },
-    "local-history.path": "~",
-    "local-history.daysLimit": 60,
-    "workbench.editor.wrapTabs": true,
-    "workbench.editor.tabSizing": "shrink",
-    "editor.cursorBlinking": "expand",
-    "editor.inlineHints.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
-    "editor.renderWhitespace": "boundary",
-    "css.validate": false,
-    "editor.quickSuggestions": {
-        "strings": true
+    // "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+    //   "decorations": [
+    //     {
+    //       "backgroundColor": "#cc00cc",
+    //       "color": "#1f1f1f",
+    //       "fontWeight": "bold",
+    //       "overviewRulerColor": "#cc00cc"
+    //     },
+    //     {
+    //       "backgroundColor": "#cc00cc",
+    //       "color": "#1f1f1f"
+    //     }
+    //   ],
+    //   "filterFileRegex": ".*(?<!CHANGELOG.md)$"
+    // },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "decorations": [
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold",
+          "overviewRulerColor": "#00ccff"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ],
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$"
     },
-    "tailwindCSS.includeLanguages": {
-        "plaintext": "html"
-    },
-    "tailwindCSS.emmetCompletions": true,
-    "telemetry.enableTelemetry": false,
-    "editor.codeLensFontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
-    "markdown.preview.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
-    "rest-client.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
-    "rest-client.fontSize": 13,
-    "go.autocompleteUnimportedPackages": true,
-    "files.associations": {
-        "sxhkdrc": "properties",
-        "config": "properties",
-        ".xprofile": "properties"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    // "diffEditor.renderSideBySide": false,
-    "window.newWindowDimensions": "offset",
-    "editor.emptySelectionClipboard": false,
-    // I removed the hyphen "-" from this list for better multi-cursor navigation.
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
-    "editor.quickSuggestionsDelay": 0,
-    "editor.formatOnPaste": true,
-    "editor.snippetSuggestions": "top",
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    "editor.acceptSuggestionOnEnter": "off",
-    "pasteImage.path": "${projectRoot}/inbox",
-    "pasteImage.showFilePathConfirmInputBox": true,
-    "foam.logging.level": "off",
-    "foam.edit.linkReferenceDefinitions": "off",
-    "foam.openDailyNote.directory": "note",
-    "foam.openDailyNote.titleFormat": " ",
-    "foam.openDailyNote.filenameFormat": "yyyymmddHHMMss",
-    "vscodeMarkdownNotes.newNoteDirectory": "note",
-    // "workbench.editor.highlightModifiedTabs": true,
-    "vsicons.dontShowNewVersionMessage": true,
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
-    "workbench.editor.revealIfOpen": true,
-    "search.followSymlinks": false,
-    "breadcrumbs.enabled": false,
-    "go.toolsManagement.autoUpdate": true,
-    "explorer.autoReveal": false,
-    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
-    "workbench.colorTheme": "Night Owl Light"
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "decorations": [
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold",
+          "overviewRulerColor": "#ffcc00"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ],
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$"
+    }
+  },
+  "indenticator.color.dark": "rgba(255,255,255,.1)",
+  "insertDateString.format": "YYYYMMDDhhmmss",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "keyboard.dispatch": "keyCode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "local-history.daysLimit": 60,
+  "local-history.path": "~",
+  "markdown.preview.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "openapi.defaultPreviewRenderer": "redoc",
+  "pasteImage.path": "${projectRoot}/content/document_public",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "remote.SSH.remotePlatform": {
+    "node1.online.int-vn.td.infra.sys": "linux",
+    "node1.service.int-vn.td.infra.sys": "linux"
+  },
+  "rest-client.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "rest-client.fontSize": 13,
+  "search.followSymlinks": false,
+  "settingsSync.keybindingsPerPlatform": false,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo.archive.sortByDate": true,
+  "todo.embedded.provider": "rg",
+  "todo.file.defaultContent": "Todo:  - [ ] Item",
+  "todo.file.exclude": [
+    "**/.!(todo|todos|task|tasks)/**",
+    "**/_output/**",
+    "**/bower_components/**",
+    "**/build/**",
+    "**/dist/**",
+    "**/venv/**",
+    "**/node_modules/**",
+    "**/out/**",
+    "**/output/**",
+    "**/release/**",
+    "**/releases/**",
+    "**/static/**",
+    "**/target/**",
+    "**/third_party/**",
+    "**/vendor/**",
+    "**/publish/**"
+  ],
+  "todo.file.name": "*.todo",
+  "todo.symbols.box": "[ ]",
+  "todo.symbols.cancelled": "[c]",
+  "todo.symbols.done": "[x]",
+  "todomd.activatePattern": "**/{todo,done}.md",
+  "todomd.decorations": {
+    "comment": {},
+    "completedTask": {},
+    "context": {},
+    "due": {},
+    "invalidDue": {},
+    "notDue": {},
+    "overdue": {},
+    "priorityAForeground": {},
+    "priorityBForeground": {},
+    "priorityCForeground": {},
+    "priorityDForeground": {},
+    "priorityEForeground": {},
+    "priorityFForeground": {},
+    "project": {}
+  },
+  "todomd.defaultArchiveFile": "/home/huka/Dropbox/_huka/digital-garden/content/gtd/done.md",
+  "todomd.defaultFile": "/home/huka/Dropbox/_huka/digital-garden/content/gtd/todo.md",
+  "todomd.priorityAForeground": "#0085d9",
+  "todomd.tabSize": 2,
+  "todomd.webview.notificationsEnabled": true,
+  "todomd.webview.scrollbarOverflow": true,
+  "todomd.webview.showTaskDetails": true,
+  "todotxtmode.doneFilename": "done.md",
+  "todotxtmode.excludeDecorationsFilePattern": "^done\\.md$",
+  "todotxtmode.somedayFilename": "someday.md",
+  "todotxtmode.todoFilename": "todo.md",
+  "todotxtmode.todoFilePattern": "^.*\\.md$",
+  "todotxtmode.waitingFilename": "waiting.md",
+  "todotxtmode.highPriorityStyle.light.color": "#cc00cc",
+  "todotxtmode.mediumPriorityStyle.light.color": "#DAAA01",
+  "todotxtmode.lowPriorityStyle.light.color": "#2AA298",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vs-kubernetes": {
+    "vs-kubernetes.draft-path.linux": "/home/huka/.vs-kubernetes/tools/draft/linux-amd64/draft",
+    "vs-kubernetes.draft-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe",
+    "vs-kubernetes.helm-path.linux": "/home/huka/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vs-kubernetes.helm-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vs-kubernetes.kubectl-path.linux": "/home/huka/.vs-kubernetes/tools/kubectl/kubectl",
+    "vs-kubernetes.minikube-path.linux": "/home/huka/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\nlkhung\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.minikube-path.linux": "/home/huka/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.newWindowDimensions": "offset",
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#ff00ff"
+  },
+  "workbench.colorTheme": "Night Owl Light",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  // "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.wrapTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "files.trimTrailingWhitespace": true,
+  "breadcrumbs.symbolPath": "off",
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "node_modules_electron": true,
+    "dev": true,
+    "dist": true
+  },
+  "advancedNewFile.showInformationMessages": true,
+  "advancedNewFile.convenienceOptions": [
+    "last",
+    "current",
+    "root"
+  ],
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "vim.hlsearch": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": false,
+  "debug.javascript.suggestPrettyPrinting": false,
+  "redhat.telemetry.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggest.preview": true
 }

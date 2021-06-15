@@ -4,7 +4,7 @@
 RFILE="$HOME/.config/rofi/colors.rasi"
 
 # Change colors
-change_color() {	
+change_color_transparent() {
 	# rofi
 	cat > $RFILE <<- EOF
 	/* colors */
@@ -22,6 +22,24 @@ change_color() {
 	EOF
 }
 
+change_color() {
+	# rofi
+	cat > $RFILE <<- EOF
+	/* colors */
+
+
+	* {
+		al:   ${BG};
+		bg:   ${BG};
+		bga:  ${BG};
+		fga:  ${FG};
+		fg:   ${FG};
+		ac:   ${AC};
+		se:   ${AC};
+	}
+	EOF
+}
+
 if  [[ $1 = "--nord" ]]; then
 	BG="#2E3440"
 	FG="#D8DEE9"
@@ -32,7 +50,7 @@ elif  [[ $1 = "--gruvbox" ]]; then
 	BG="#282828"
 	FG="#EBDBB2"
 	AC="#928374"
-	
+
 	change_color
 elif  [[ $1 = "--dracula" ]]; then
 	BG="#182A36"
@@ -44,6 +62,12 @@ elif  [[ $1 = "--nightowl" ]]; then
 	BG="#011627"
 	FG="#D6DEEB"
 	AC="#575656"
+
+	change_color
+elif  [[ $1 = "--lightowl" ]]; then
+	BG="#F6F6F6"
+	FG="#403f53"
+	AC="#E0E0E0"
 
 	change_color
 elif  [[ $1 = "--pywal" ]]; then

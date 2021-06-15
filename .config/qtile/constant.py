@@ -2,14 +2,14 @@ from os import path
 
 icon_path = path.join(path.expanduser('~'), ".config/qtile/logo/logo-huka_32x32.png")
 # theme_path = path.join(path.expanduser('~'), ".cache/wal/colors.json")
-theme_path = path.join(path.expanduser('~'), ".config/qtile/dracula.json")
+theme_path = path.join(path.expanduser('~'), ".config/qtile/light-owl.json")
 
 terminal_app = "alacritty"
 web_app = "google-chrome-stable"
 editor_app = "code"
 music_app = "clementine"
 
-font = "CaskaydiaCove Nerd Font"
+font = "JetBrainsMono Nerd Font Mono"
 icon_font = "Font Awesome 5 Free"
 
 weather_cmd = terminal_app + " --hold -e curl wttr.in/DaNang"
@@ -27,6 +27,7 @@ mute_cmd = "playerctl play-pause && pulsemixer --unmute"
 lower_cmd = "pulsemixer --change-volume -10 --unmute"
 raise_cmd = "pulsemixer --change-volume 10 --unmute"
 killwindow_cmd = "xdotool getwindowfocus windowkill"
+clock_cmd = "gnome-clocks"
 brightnessUp_cmd = "brightnessctl set +10%"
 brightnessDown_cmd = "brightnessctl set 10%-"
 translate_cmd = path.join(path.expanduser('~'), "script/wordlookup")

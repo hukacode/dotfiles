@@ -2,9 +2,9 @@ import subprocess
 from libqtile.config import Screen
 from libqtile import bar
 from theme import colors
-from widget import primary_widgets, secondary_widgets, status_bar
+from widgetflat import primary_widgets, secondary_widgets, status_bar
 
-screens = [Screen(top=status_bar(primary_widgets))]
+screens = [Screen(top=status_bar(primary_widgets)), Screen(top=status_bar(primary_widgets))]
 
 connected_monitors = subprocess.run(
     "xrandr | grep 'connected' | cut -d ' ' -f 2",

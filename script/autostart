@@ -1,15 +1,19 @@
 #!/usr/bin/env bash
 
-# nextcloud &
-# syncthing -no-browser &
-# xrandr --output DisplayPort-1 --primary --mode 2560x1080 &
-# xrandr --output HDMI-0 --mode 1920x1080 --right-of DisplayPort-1 &
+# xrandr | grep 'connected'
+xrandr --output DVI-I-1 --off
+# xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
+# xrandr --addmode HDMI-1 "2560x1440_60.00"
+# xrandr --output HDMI-1 --primary --mode 2560x1440_60.00
+# xrandr --output DVI-I-1 --mode 1600x900 --left-of HDMI-1 &
 # xautolock -time 5 -locker "lock" &
 # redshift-gtk &
 # changedynamictheme colony &
 # changetheme &
 # wal -R -q &
-feh --randomize --bg-fill "/home/huka/Dropbox/_data/wallpaper/"
+# nextcloud &
+# syncthing -no-browser &
+feh --randomize --bg-fill "/mnt/data/_data/wallpaper/" --bg-fill "/mnt/data/_data/wallpaper/" &
 dropbox &
 numlockx on &
 picom --experimental-backends &

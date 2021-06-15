@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/go,java,maven,python,gradle,vscode,angular,eclipse,dropbox,java-web,intellij,code-java,windows,linux,archlinuxpackages
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,java,maven,python,gradle,vscode,angular,eclipse,dropbox,java-web,intellij,code-java,windows,linux,archlinuxpackages
+# Created by https://www.toptal.com/developers/gitignore/api/go,java,maven,linux,python,gradle,vscode,windows,angular,eclipse,dropbox,java-web,intellij,code-java,archlinuxpackages,cvs
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,java,maven,linux,python,gradle,vscode,windows,angular,eclipse,dropbox,java-web,intellij,code-java,archlinuxpackages,cvs
 
 ### Angular ###
 ## Angular ##
@@ -54,6 +54,12 @@ src/
 .project
 .classpath
 factoryConfiguration.json
+
+### CVS ###
+/CVS/*
+**/CVS/*
+.cvsignore
+*/.cvsignore
 
 ### Dropbox ###
 # Dropbox settings and caches
@@ -497,4 +503,4 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/go,java,maven,python,gradle,vscode,angular,eclipse,dropbox,java-web,intellij,code-java,windows,linux,archlinuxpackages
+# End of https://www.toptal.com/developers/gitignore/api/go,java,maven,linux,python,gradle,vscode,windows,angular,eclipse,dropbox,java-web,intellij,code-java,archlinuxpackages,cvs

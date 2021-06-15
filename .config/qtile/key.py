@@ -29,7 +29,7 @@ keys = [
         lazy.spawn(launcher_cmd),
         desc='Run Launcher'
     ),
-    Key([mod], 'e', lazy.spawn(rofimoji_cmd)),
+    Key([mod], 'period', lazy.spawn(rofimoji_cmd)),
     Key([], 'Print', lazy.spawn(screenshot_area_cmd)),
     Key([mod], 'Print', lazy.spawn(screenshot_menu_cmd)),
     Key(['control'], 'Print', lazy.spawn(screenshot_full_cmd)),
@@ -49,24 +49,24 @@ keys = [
     ]),
 
     ### Switch focus of monitors
-    Key([mod], "period",
-        lazy.next_screen(),
-        desc='Move focus to next monitor'
-        ),
-    Key([mod], "comma",
-        lazy.prev_screen(),
-        desc='Move focus to prev monitor'
-        ),
-        
+    # Key([mod, "control"], "period",
+    #     lazy.next_screen(),
+    #     desc='Move focus to next monitor'
+    #     ),
+    # Key([mod, "control"], "comma",
+    #     lazy.prev_screen(),
+    #     desc='Move focus to prev monitor'
+    #     ),
+
     ### Switch focus to specific monitor
-    # Key([mod], "w",
-    #     lazy.to_screen(0),
-    #     desc='Keyboard focus to monitor 1'
-    #     ),
-    # Key([mod], "e",
-    #     lazy.to_screen(1),
-    #     desc='Keyboard focus to monitor 2'
-    #     ),
+    Key([mod], "w",
+        lazy.to_screen(0),
+        desc='Keyboard focus to monitor 1'
+        ),
+    Key([mod], "e",
+        lazy.to_screen(1),
+        desc='Keyboard focus to monitor 2'
+        ),
 
     # Layout Management
     Key([mod], "n", lazy.next_layout()),
@@ -139,7 +139,7 @@ keys = [
         lazy.layout.flip(),
         desc='Switch which side main pane occupies (XmonadTall)'
         ),
-        
+
     Key(["mod1"], "Tab",
         lazy.layout.next(),
         desc='Switch window focus to other pane(s) of stack'
@@ -168,13 +168,13 @@ keys = [
 for i in groups:
     keys.extend([
         # Workspace navigation
-        Key([mod], i.name, lazy.group[i.name].toscreen()), 
+        Key([mod], i.name, lazy.group[i.name].toscreen()),
         # Switch group
         # Key([mod], "Tab", lazy.screen.next_group()),
         # Key([mod, "shift"], "Tab", lazy.screen.prev_group()),
         Key([mod, "control"], "Left", lazy.screen.prev_group()),
         Key([mod, "control"], "Right", lazy.screen.next_group()),
-        Key([mod, "control"], i.name, lazy.window.togroup(i.name)), 
+        Key([mod, "control"], i.name, lazy.window.togroup(i.name)),
         Key([mod, "shift"], i.name, lazy.window.togroup(i.name) , lazy.group[i.name].toscreen()),
     ])
 

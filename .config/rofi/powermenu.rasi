@@ -8,9 +8,9 @@
  */
 
 configuration {
-	font:							"Cascadia Code 10";
+	font:							"JetBrains Mono 10";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"candy-icons";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;

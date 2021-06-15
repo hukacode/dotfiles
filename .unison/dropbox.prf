@@ -1,6 +1,97 @@
-# Unison preferences file
+# Unison synchronization profile
 
-root = /home/huka/
+# Run "which unison".
+servercmd=/usr/bin/unison
+
+# Roots
 root = /home/huka/Dropbox/
+root = /mnt/data/
 
-path = 
+# Paths to keep synchronized. These are relative paths from the root
+# defined above.
+path = _huka
+path = _data/book
+
+# Ignore these files/paths
+ignore = Name application-prd.properties
+ignore = Name application-prd.yml
+ignore = Name rest-api-client.d.ts
+ignore = Name app/**/*.js.map
+ignore = Name app/**/*.js
+ignore = Name npm-debug.log
+ignore = Name testem.log
+ignore = Name e2e/*.js
+ignore = Name e2e/*.map
+ignore = Name .project
+ignore = Name .classpath
+ignore = Name factoryConfiguration.json
+ignore = Name .metadata
+ignore = Name *.tmp
+ignore = Name *.bak
+ignore = Name *.swp
+ignore = Name *~.nib
+ignore = Name local.properties
+ignore = Name .loadpath
+ignore = Name .recommenders
+ignore = Name *.launch
+ignore = Name *.pydevproject
+ignore = Name .cproject
+ignore = Name .autotools
+ignore = Name .factorypath
+ignore = Name .buildpath
+ignore = Name .target
+ignore = Name .tern-project
+ignore = Name .texlipse
+ignore = Name .springBeans
+ignore = Name .cache-main
+ignore = Name .scala_dependencies
+ignore = Name .worksheet
+ignore = Name *.log
+ignore = Name *.class
+ignore = Name *.jar
+ignore = Name *.war
+ignore = Name *.nar
+ignore = Name *.ear
+ignore = Name *.zip
+ignore = Name *.tar.gz
+ignore = Name *.rar
+ignore = Path *dist*
+ignore = Path *clientnode*
+ignore = Path *resourcesstatic*
+ignore = Path *.gradlenpm*
+ignore = Path *bower_components*
+ignore = Path *.idea*
+ignore = Path *bin*
+ignore = Path *out*
+ignore = Path *build*
+ignore = Path {.*,*,*/,.*/}.unison
+ignore = Name {.*,*,*/,.*/}.bundle
+ignore = Name {.*,*,*/,.*/}node_module
+
+# Prefer allows the newer file to be synchronized.
+prefer = newer
+
+# Don't prompt us, just do the right thing.
+batch = true
+
+# Permissions should be retained.
+# owner = true
+# group = true
+
+# Backups.
+# Unison will store backups in a "central" location as defined by backupdir.
+# You can opt for a 'local' backups which creates the backups in the directory
+# wehere the sync happens, but that gets messy real quick.
+backuplocation = central
+backupdir = /home/huka/.unisonbackups
+
+# Backup file should have their original name prefixed with the $VERSION of the
+# backup. Keep last 7 versions.
+backup = Name *
+backupprefix = $VERSION.
+maxbackups = 7
+
+# Generate a unison.log in the directory we invoke it in.
+log = true
+
+perms = 0

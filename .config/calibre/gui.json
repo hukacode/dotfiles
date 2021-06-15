@@ -103,6 +103,10 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABfAAAAQAA/////wEAAAABAA=="
   },
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAAAAAAOgAABfkAAANZAAAAAAAAADoAAAX5AAADWQAAAAAAAAAABkAAAAAAAAAAOgAABfkAAANZ"
+  },
   "cover_browser_splitter_vertical_state": [
     false,
     300
@@ -214,7 +218,11 @@
   "default_author_link": null,
   "duplicates-question-dialog-geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAC8AAAAywAAAtsAAAJHAAAAvQAAAMwAAALaAAACRgAAAAAAAAAABkAAAAC9AAAAzAAAAtoAAAJG"
+    "__value__": "AdnQywADAAAAAAC8AAAAywAAAukAAAJHAAAAvQAAAMwAAALoAAACRgAAAAAAAAAABkAAAAC9AAAAzAAAAugAAAJG"
+  },
+  "export-annotations-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAJbAAABfgAAA9EAAAHNAAACXAAAAX8AAAPQAAABzAAAAAAAAAAABkAAAAJcAAABfwAAA9AAAAHM"
   },
   "font": [
     "JetBrains Mono",
@@ -226,11 +234,11 @@
   "grid view visible": false,
   "jobs view column layout3": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk0AAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAvQAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAA"
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqoAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABDwAAAAEAAAAAAAAAbwAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAA"
   },
   "jobs_dialog_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAHaAAAAlwAABFIAAAK0AAAB2gAAAJcAAARSAAACtAAAAAAAAAAABkAAAAHaAAAAlwAABFIAAAK0"
+    "__value__": "AdnQywADAAAAAAHZAAAAlgAABFMAAAK1AAAB2gAAAJcAAARSAAACtAAAAAAAAAAABkAAAAHaAAAAlwAABFIAAAK0"
   },
   "library-annotations-browser-geometry": {
     "__class__": "bytearray",
@@ -241,8 +249,8 @@
     "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
   },
   "library_usage_stats": {
-    "/home/huka/Dropbox/calibre-library": 38,
-    "/run/media/huka/workspace/Dropbox (Maestral)/calibre-library": 2
+    "/home/huka/Dropbox/_data/book": 60,
+    "/home/huka/Dropbox/calibre-library": 39
   },
   "memory_view books view state": {
     "column_alignment": {
@@ -275,17 +283,21 @@
       ]
     ]
   },
+  "metadata-download-identify-widget-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAACAAAAAQAA/////wEAAAABAA=="
+  },
   "metadata_single_gui_geom": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAF6AAAApwAABM0AAAMAAAABewAAAKgAAATMAAAC/wAAAAAAAAAABkAAAAF7AAAAqAAABMwAAAL/"
+    "__value__": "AdnQywADAAAAAANMAAABhwAABp0AAAPeAAADTAAAAYcAAAadAAAD3gAAAAAAAAAACgAAAANMAAABhwAABp0AAAPe"
   },
   "metasingle_window_geometry3": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAACAAAAGgAABkMAAAOHAAAAAwAAABsAAAZCAAADhgAAAAAAAAAABkAAAAADAAAAGwAABkIAAAOG"
+    "__value__": "AdnQywADAAAAAAGgAAAA0wAACEsAAASUAAABoQAAANQAAAhKAAAEkwAAAAAAAAAACgAAAAGhAAAA1AAACEoAAAST"
   },
   "preferences dialog geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAAAAAAAAAAABkEAAANtAAAAAQAAAAEAAAZAAAADbAAAAAAAAAAABkAAAAABAAAAAQAABkAAAANs"
+    "__value__": "AdnQywADAAAAAAMuAAABWwAABtEAAAQsAAADLwAAAVwAAAbQAAAEKwAAAAAAAAAACgAAAAMvAAABXAAABtAAAAQr"
   },
   "previous_sort_order_BooksView": {
     "size": true,
@@ -298,7 +310,8 @@
   "quick_start_guide_added": true,
   "quickview visible": false,
   "recently_used_languages": [
-    "English"
+    "English",
+    "Vietnamese"
   ],
   "replace_scene_breaks_history": [
     "",

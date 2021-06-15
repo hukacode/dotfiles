@@ -53,6 +53,18 @@ elif  [[ $1 = "--nightowl" ]]; then
     CF="#D6DEEB"
     
     reload_dunst
+elif  [[ $1 = "--lightowl" ]]; then
+    LFR="#2AA298"
+    NFR="#288ed7"
+    CFR="#de3d3b"
+    LB="#F6F6F6"
+    NB="#F6F6F6"
+    CB="#F6F6F6"
+    LF="#403f53"
+    NF="#403f53"
+    CF="#403f53"
+    
+    reload_dunst
 elif  [[ $1 = "--dracula" ]]; then
     LFR="#8BE9FD"
     NFR="#bd93f9"
@@ -83,6 +95,6 @@ elif  [[ $1 = "--pywal" ]]; then
 else
 	cat <<- _EOF_
     No option specified, Available options:
-    --nord    --gruvbox    --dracula    --pywal    --nightowl
+    --nord    --gruvbox    --dracula    --pywal    --nightowl    --nightowl
 	_EOF_
 fi
