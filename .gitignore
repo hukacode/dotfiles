@@ -1,4 +1,5 @@
-
+rclone.conf
+.netrc
 # Created by https://www.toptal.com/developers/gitignore/api/go,java,maven,linux,python,gradle,vscode,windows,angular,eclipse,dropbox,java-web,intellij,code-java,archlinuxpackages,cvs
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,java,maven,linux,python,gradle,vscode,windows,angular,eclipse,dropbox,java-web,intellij,code-java,archlinuxpackages,cvs
 

@@ -12,7 +12,7 @@
 #import:
 #  - /path/to/alacritty.yml
 import:
-  - ~/.config/alacritty/nord.yml
+  - ~/.config/alacritty/light-owl.yml
   - C:\\Users\\nlkhung\\AppData\\Roaming\\alacritty\\light-owl.yml
 
 # Any items in the `env` entry below will be added as

@@ -82,6 +82,6 @@ elif  [[ $1 = "--pywal" ]]; then
 else
 	cat <<- _EOF_
 	No option specified, Available options:
-	--nord    --gruvbox    --dracula    --pywal    --nightowl
+	--nord    --gruvbox    --dracula    --pywal    --nightowl    --lightowl
 	_EOF_
 fi
