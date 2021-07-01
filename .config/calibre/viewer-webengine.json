@@ -1,4 +1,5 @@
 {
+  "highlight_export_format": "txt",
   "local_storage": {
     "simple_input_history_net_search_url": [
       "https://google.com/search?q={q}"
@@ -6,11 +7,11 @@
   },
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAT/AAAAFwAACfwAAAWcAAAFAQAAABkAAAn6AAAFmgAAAAAAAAAACgAAAAUBAAAAGQAACfoAAAWa"
+    "__value__": "AdnQywADAAAAAAAAAAAAGAAACf8AAAWfAAAAAAAAABgAAAn/AAAFnwAAAAAAAAAACgAAAAAAAAAAGAAACf8AAAWf"
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAENAAAFgvwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAAFggAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAABJ4AAADkAAAAlwD///8AAAABAAABIgAAA2z8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAADbAAAAM0A////AAAD5wAABYIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAENAAAFiPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAAFiAAAAIgA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAABMQAAADEAAAAlwD///8AAAABAAABIgAABXL8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACAAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOwA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAAAAAFcgAAAM0A////AAAI7QAABYgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "saved-search-settings": {},
@@ -75,12 +76,122 @@
     "standalone_recently_opened": [
       {
         "authors": [
-          "Cụ Thu Giang - Nguyễn Duy Cần"
+          "Mark Heckler"
         ],
-        "key": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
-        "pathtoebook": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
-        "timestamp": "2021-06-09T06:26:01.103Z",
-        "title": "Tôi Tự Học"
+        "key": "C:\\Dropbox\\_data\\book\\Mark Heckler\\Spring Boot_ Up and Running (671)\\Spring Boot_ Up and Running - Mark Heckler.epub",
+        "pathtoebook": "C:\\Dropbox\\_data\\book\\Mark Heckler\\Spring Boot_ Up and Running (671)\\Spring Boot_ Up and Running - Mark Heckler.epub",
+        "timestamp": "2021-07-01T06:24:51.984Z",
+        "title": "Spring Boot: Up and Running"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "timestamp": "2021-06-30T13:40:09.310Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "C:\\Dropbox\\_data\\book\\Ranga Rao Karanam\\Mastering Spring 5.0 (470)\\Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "pathtoebook": "C:\\Dropbox\\_data\\book\\Ranga Rao Karanam\\Mastering Spring 5.0 (470)\\Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "timestamp": "2021-06-30T09:58:39.005Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (676)/Mastering Spring 5.0 - Ranga Rao Karanam.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (676)/Mastering Spring 5.0 - Ranga Rao Karanam.epub",
+        "timestamp": "2021-06-27T15:45:40.845Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (675)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (675)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "timestamp": "2021-06-27T15:44:19.753Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (673)/Mastering Spring 5.0 - Ranga Rao Karanam.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (673)/Mastering Spring 5.0 - Ranga Rao Karanam.epub",
+        "timestamp": "2021-06-27T15:17:03.580Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Ranga Rao Karanam"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (674)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ranga Rao Karanam/Mastering Spring 5.0 (674)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
+        "timestamp": "2021-06-27T15:15:52.846Z",
+        "title": "Mastering Spring 5.0"
+      },
+      {
+        "authors": [
+          "Amritendu De"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Amritendu De/Spring, Hibernate, Data Modeling, Rest and Tdd_ Agile Java Design and Development (657)/Spring, Hibernate, Data Modeling, Rest and - Amritendu De.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Amritendu De/Spring, Hibernate, Data Modeling, Rest and Tdd_ Agile Java Design and Development (657)/Spring, Hibernate, Data Modeling, Rest and - Amritendu De.epub",
+        "timestamp": "2021-06-26T04:39:02.031Z",
+        "title": "Spring, Hibernate, Data Modeling, REST and TDD:Agile Java Design and Development"
+      },
+      {
+        "authors": [
+          "Raoul-Gabriel Urma"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (670)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (670)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
+        "timestamp": "2021-06-26T04:34:55.525Z",
+        "title": "Java 8 in Action  Lambdas, Streams, and Fu"
+      },
+      {
+        "authors": [
+          "Jaroslaw Krochmalski"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Jaroslaw Krochmalski/Docker and Kubernetes for Java Developers (672)/Docker and Kubernetes for Java Developers - Jaroslaw Krochmalski.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Jaroslaw Krochmalski/Docker and Kubernetes for Java Developers (672)/Docker and Kubernetes for Java Developers - Jaroslaw Krochmalski.mobi",
+        "timestamp": "2021-06-26T04:32:04.643Z",
+        "title": "Docker and Kubernetes for Java Developers"
+      },
+      {
+        "authors": [
+          "Mark Heckler"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Mark Heckler/Spring Boot_ Up and Running (671)/Spring Boot_ Up and Running - Mark Heckler.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Mark Heckler/Spring Boot_ Up and Running (671)/Spring Boot_ Up and Running - Mark Heckler.epub",
+        "timestamp": "2021-06-26T04:25:49.157Z",
+        "title": "Spring Boot: Up and Running"
+      },
+      {
+        "authors": [
+          "Kelsey Hightower",
+          "Joe Beda",
+          "Brendan Burns"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Kelsey Hightower/Kubernetes_ Up and Running_ Dive In (458)/Kubernetes_ Up and Running_ Div - Kelsey Hightower.epub",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Kelsey Hightower/Kubernetes_ Up and Running_ Dive In (458)/Kubernetes_ Up and Running_ Div - Kelsey Hightower.epub",
+        "timestamp": "2021-06-24T08:43:18.607Z",
+        "title": "Kubernetes: Up and Running, 2nd Edition"
+      },
+      {
+        "authors": [
+          "Lý Ngọc Anh (VINBUS-PNSHC)"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Ly Ngoc Anh (VINBUS-PNSHC)/Thois q (652)/Thois q - Ly Ngoc Anh (VINBUS-PNSHC).mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Ly Ngoc Anh (VINBUS-PNSHC)/Thois q (652)/Thois q - Ly Ngoc Anh (VINBUS-PNSHC).mobi",
+        "timestamp": "2021-06-23T07:06:35.881Z",
+        "title": "Atomic Habit"
       },
       {
         "authors": [
@@ -89,8 +200,37 @@
         ],
         "key": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
         "pathtoebook": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
-        "timestamp": "2021-06-09T01:25:11.541Z",
+        "timestamp": "2021-06-21T03:09:11.743Z",
         "title": "OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide"
+      },
+      {
+        "authors": [
+          "Jeanne Boyarsky",
+          "Scott Selikoff"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Jeanne Boyarsky/OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide (610)/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.mobi",
+        "timestamp": "2021-06-17T02:46:55.114Z",
+        "title": "OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide"
+      },
+      {
+        "authors": [
+          "Jeanne Boyarsky",
+          "Scott Selikoff"
+        ],
+        "key": "/home/huka/Downloads/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
+        "pathtoebook": "/home/huka/Downloads/OCP Oracle Certified Professional Java SE - Jeanne Boyarsky.epub",
+        "timestamp": "2021-06-17T02:45:45.722Z",
+        "title": "OCP Oracle Certified Professional Java SE 11 Developer Complete Study Guide"
+      },
+      {
+        "authors": [
+          "Cụ Thu Giang - Nguyễn Duy Cần"
+        ],
+        "key": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
+        "pathtoebook": "/home/huka/Dropbox/_data/book/Nguyen Duy Can/Toi Tu Hoc (632)/Toi Tu Hoc - Nguyen Duy Can.mobi",
+        "timestamp": "2021-06-09T06:26:01.103Z",
+        "title": "Tôi Tự Học"
       },
       {
         "authors": [
@@ -163,99 +303,6 @@
         "pathtoebook": "/home/huka/Dropbox/calibre-library/Nathan Youngman/Get Programming With Go (477)/Get Programming With Go - Nathan Youngman.epub",
         "timestamp": "2021-02-14T03:42:14.662Z",
         "title": "Get Programming with Go"
-      },
-      {
-        "authors": [
-          "Jay McGavren"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Jay McGavren/Head First Go (422)/Head First Go - Jay McGavren.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Jay McGavren/Head First Go (422)/Head First Go - Jay McGavren.epub",
-        "timestamp": "2021-02-14T02:18:29.867Z",
-        "title": "Head First Go"
-      },
-      {
-        "authors": [
-          "Suraj Patil"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Suraj Patil/Webapps in Go (492)/Webapps in Go - Suraj Patil.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Suraj Patil/Webapps in Go (492)/Webapps in Go - Suraj Patil.epub",
-        "timestamp": "2021-02-13T03:08:02.065Z",
-        "title": "Webapps in Go"
-      },
-      {
-        "authors": [
-          "lnc, mEm",
-          "Bach, John"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (475)/Go Programming Language_ The Ul - Mem Lnc.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (475)/Go Programming Language_ The Ul - Mem Lnc.epub",
-        "timestamp": "2021-02-13T02:52:27.586Z",
-        "title": "Go programming language: The Ultimate Beginner's Guide to Learn Go Programming Step by Step"
-      },
-      {
-        "authors": [
-          "Matt Aimonetti"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Matt Aimonetti/Go Bootcamp (480)/Go Bootcamp - Matt Aimonetti.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Matt Aimonetti/Go Bootcamp (480)/Go Bootcamp - Matt Aimonetti.epub",
-        "timestamp": "2021-02-13T02:37:46.277Z",
-        "title": "Go Bootcamp"
-      },
-      {
-        "authors": [
-          "Raoul-Gabriel Urma"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (432)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Raoul-Gabriel Urma/Java 8 in Action_ Lambdas, Streams, and Functional-Style Programming (432)/Java 8 in Action_ Lambdas, Streams, and Fu - Raoul-Gabriel Urma.epub",
-        "timestamp": "2021-02-08T15:23:28.244Z",
-        "title": "Java 8 in Action, Lambdas Streams and Functional-Style Programming (2015 2019)"
-      },
-      {
-        "authors": [
-          "Ranga Rao Karanam"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Ranga Rao Karanam/Mastering Spring 5.0 (470)/Mastering Spring 5.0 - Ranga Rao Karanam.mobi",
-        "timestamp": "2021-02-07T12:59:58.098Z",
-        "title": "Mastering Spring 5.0"
-      },
-      {
-        "authors": [
-          "Go Design Patterns-Packt (2017)"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Go Design Patterns-Packt (2017)/Go Design Patterns (487)/Go Design Patterns - Go Design Patterns-Packt (2017).mobi",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Go Design Patterns-Packt (2017)/Go Design Patterns (487)/Go Design Patterns - Go Design Patterns-Packt (2017).mobi",
-        "timestamp": "2021-02-06T02:27:09.267Z",
-        "title": "Go Design Patterns"
-      },
-      {
-        "authors": [
-          "lnc, mEm",
-          "Bach, John"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (418)/Go Programming Language_ The Ul - Mem Lnc.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Mem Lnc/Go Programming Language_ The Ultima (418)/Go Programming Language_ The Ul - Mem Lnc.epub",
-        "timestamp": "2021-02-03T14:02:50.837Z",
-        "title": "Go programming language: The Ultimate Beginner's Guide to Learn Go Programming Step by Step"
-      },
-      {
-        "authors": [
-          "Ashish Sarin",
-          "J Sharma"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Ashish Sarin/Getting started with Spring Framewo (467)/Getting started with Spring Fra - Ashish Sarin.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Ashish Sarin/Getting started with Spring Framewo (467)/Getting started with Spring Fra - Ashish Sarin.epub",
-        "timestamp": "2021-01-31T15:58:32.588Z",
-        "title": "Getting started with Spring Framework, Second Edition"
-      },
-      {
-        "authors": [
-          "Bock, Laszlo"
-        ],
-        "key": "/home/huka/Dropbox/calibre-library/Bock, Laszlo/Work Rules! (416)/Work Rules! - Bock, Laszlo.epub",
-        "pathtoebook": "/home/huka/Dropbox/calibre-library/Bock, Laszlo/Work Rules! (416)/Work Rules! - Bock, Laszlo.epub",
-        "timestamp": "2021-01-27T15:32:30.103Z",
-        "title": "Work Rules!"
       }
     ]
   }

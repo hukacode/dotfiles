@@ -413,7 +413,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>0</ActiveTab>
+        <ActiveTab>9</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -475,7 +475,7 @@
                   <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
                   <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
                   <Path Filename="..">/home/huka/Dropbox/_huka/development/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/</Path>
+                  <Path Filename="">/home/huka/Dropbox/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -779,7 +779,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="@archive">/home/huka/.history/@digital-brain/</Path>
                   <Path Filename="+learn-japanese">/home/huka/.history/@digital-brain/@archive/</Path>
                   <Path Filename="..">/home/huka/.history/@digital-brain/@archive/+learn-japanese/</Path>
                   <Path Filename="2021">/home/huka/.history/@digital-brain/@archive/</Path>
@@ -828,7 +827,8 @@
                   <Path Filename="..">/home/huka/Downloads/Genome/.config/qtile/custom/</Path>
                   <Path Filename="config.py">/home/huka/Downloads/Genome/.config/qtile/</Path>
                   <Path Filename="qtile">/home/huka/Downloads/Genome/.config/</Path>
-                  <Path Filename="">/home/huka/Downloads/</Path>
+                  <Path Filename="..">/home/huka/Downloads/</Path>
+                  <Path Filename="Sync">/home/huka/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1047,9 +1047,79 @@
             </ColumnsView>
           </FileView>
         </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/+learn-japanese/</Path>
+                  <Path Filename="2021">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/2021/</Path>
+                  <Path Filename="2020">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/2020/</Path>
+                  <Path Filename="2020">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="@inbox">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@inbox/</Path>
+                  <Path Filename="@note">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@note/</Path>
+                  <Path Filename="@working">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@working/</Path>
+                  <Path Filename="@working">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="digital-brain">/home/huka/.history/</Path>
+                  <Path Filename="inbox">/home/huka/.history/digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/digital-brain/inbox/</Path>
+                  <Path Filename="digital-brain">/home/huka/.history/</Path>
+                  <Path Filename=".history">/home/huka/</Path>
+                  <Path Filename="@digital-brain">/home/huka/.history/</Path>
+                  <Path Filename="@archive">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="2021">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/2021/</Path>
+                  <Path Filename="2020">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/2020/</Path>
+                  <Path Filename="+learn-japanese">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/+learn-japanese/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@archive/</Path>
+                  <Path Filename="@inbox">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@inbox/</Path>
+                  <Path Filename="@neuron">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@neuron/</Path>
+                  <Path Filename="@note">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/.history/@digital-brain/@note/</Path>
+                  <Path Filename="@note">/home/huka/.history/@digital-brain/</Path>
+                  <Path Filename="@digital-brain">/home/huka/.history/</Path>
+                  <Path Filename="Downloads">/home/huka/</Path>
+                  <Path Filename="Genome">/home/huka/Downloads/</Path>
+                  <Path Filename=".icons">/home/huka/Downloads/Genome/</Path>
+                  <Path Filename="..">/home/huka/Downloads/Genome/.icons/</Path>
+                  <Path Filename=".config">/home/huka/Downloads/Genome/</Path>
+                  <Path Filename="qtile">/home/huka/Downloads/Genome/.config/</Path>
+                  <Path Filename="..">/home/huka/Downloads/Genome/.config/qtile/</Path>
+                  <Path Filename="qtile">/home/huka/Downloads/Genome/.config/</Path>
+                  <Path Filename="custom">/home/huka/Downloads/Genome/.config/qtile/</Path>
+                  <Path Filename="..">/home/huka/Downloads/Genome/.config/qtile/custom/</Path>
+                  <Path Filename="config.py">/home/huka/Downloads/Genome/.config/qtile/</Path>
+                  <Path Filename="qtile">/home/huka/Downloads/Genome/.config/</Path>
+                  <Path Filename="..">/home/huka/Downloads/</Path>
+                  <Path Filename="Sync">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/dotfiles/.config/calibre/viewer/annots/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
       </Left>
       <Right>
-        <ActiveTab>0</ActiveTab>
+        <ActiveTab>7</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -1062,40 +1132,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="">/home/huka/Dropbox/knowledge-base/</Path>
-                  <Path Filename="second-brain">/home/huka/Dropbox/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/second-brain/</Path>
-                  <Path Filename="digital-brain">/home/huka/Dropbox/</Path>
-                  <Path Filename="archive">/home/huka/Dropbox/digital-brain/</Path>
-                  <Path Filename="@doc">/home/huka/Dropbox/</Path>
-                  <Path Filename="@archive">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@archive/</Path>
-                  <Path Filename="attachment">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/attachment/</Path>
-                  <Path Filename="@archive">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@archive/</Path>
-                  <Path Filename="attachment">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/attachment/</Path>
-                  <Path Filename=".vscode">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/.vscode/</Path>
-                  <Path Filename="@archive">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@archive/</Path>
-                  <Path Filename="@project">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@project/</Path>
-                  <Path Filename="@resource">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@resource/</Path>
-                  <Path Filename="@resource">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@doc/@resource/</Path>
-                  <Path Filename="@inbox">/home/huka/Dropbox/@doc/</Path>
-                  <Path Filename="@digital-brain">/home/huka/Dropbox/</Path>
-                  <Path Filename="@resource">/home/huka/Dropbox/@digital-brain/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@resource/</Path>
-                  <Path Filename="@working">/home/huka/Dropbox/@digital-brain/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@working/</Path>
-                  <Path Filename="@working">/home/huka/Dropbox/@digital-brain/</Path>
-                  <Path Filename="learn-japanese.md">/home/huka/Dropbox/@digital-brain/@working/</Path>
-                  <Path Filename="@digital-brain">/home/huka/Dropbox/</Path>
-                  <Path Filename="@archive">/home/huka/Dropbox/@digital-brain/</Path>
                   <Path Filename="..">/home/huka/Dropbox/@digital-brain/@archive/</Path>
                   <Path Filename="@someday">/home/huka/Dropbox/@digital-brain/</Path>
                   <Path Filename="..">/home/huka/Dropbox/@digital-brain/@someday/</Path>
@@ -1112,6 +1148,40 @@
                   <Path Filename="_huka">/home/huka/Dropbox/</Path>
                   <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
                   <Path Filename="..">/mnt/data/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="garden-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/garden-helper/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="digital-garden">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/digital-garden/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="docker-compose">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="pihole">/home/huka/Dropbox/_huka/development/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/home/huka/Dropbox/_huka/development/docker-compose/pihole/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="windows-config">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/windows-config/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/playlist/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="design">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/design/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="blog-graph">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="miserables.json">/home/huka/Dropbox/_huka/development/hukacode/blog-graph/</Path>
+                  <Path Filename="">/home/huka/Dropbox/_huka/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1129,16 +1199,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
-                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
-                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
-                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
-                  <Path Filename="gtk-3.0">/home/huka/.config/</Path>
-                  <Path Filename="..">/home/huka/.config/gtk-3.0/</Path>
-                  <Path Filename="fish">/home/huka/.config/</Path>
-                  <Path Filename="..">/home/huka/.config/fish/</Path>
-                  <Path Filename="fish">/home/huka/.config/</Path>
-                  <Path Filename="fish_plugins">/home/huka/.config/fish/</Path>
                   <Path Filename="KeeWeb">/home/huka/.config/</Path>
                   <Path Filename="..">/home/huka/.config/KeeWeb/</Path>
                   <Path Filename="KeeWeb">/home/huka/.config/</Path>
@@ -1178,7 +1238,17 @@
                   <Path Filename="..">/mnt/data/Genki/</Path>
                   <Path Filename="Marugoto">/mnt/data/</Path>
                   <Path Filename="..">/mnt/data/Marugoto/</Path>
-                  <Path Filename="..">/mnt/data/</Path>
+                  <Path Filename="_data">/mnt/data/</Path>
+                  <Path Filename="book">/mnt/data/_data/</Path>
+                  <Path Filename="..">/mnt/data/_data/book/</Path>
+                  <Path Filename="development">/mnt/data/_data/</Path>
+                  <Path Filename="garden-helper">/mnt/data/_data/development/</Path>
+                  <Path Filename="node_modules">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/garden-helper/node_modules/</Path>
+                  <Path Filename="node_modules">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="garden-helper">/mnt/data/_data/development/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="">/mnt/data/_data/development/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1189,60 +1259,66 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="fish">/run/media/huka/workspace/huka-project/coffee-shop/$HOME/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename=".gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="configuration">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="src">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/</Path>
-                  <Path Filename="main">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/</Path>
-                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/resources/</Path>
-                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
-                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
-                  <Path Filename="com">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/com/</Path>
-                  <Path Filename="com">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/java/</Path>
-                  <Path Filename="java">/run/media/huka/workspace/huka-project/coffee-shop/application/configuration/src/main/</Path>
-                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="package.json">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="presentation">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/presentation/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="presentation">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/application/presentation/</Path>
-                  <Path Filename="frontend">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/frontend/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="security">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/security/</Path>
-                  <Path Filename="application">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="core">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/core/</Path>
-                  <Path Filename="infrastructure">/run/media/huka/workspace/huka-project/coffee-shop/application/</Path>
-                  <Path Filename="build.gradle">/run/media/huka/workspace/huka-project/coffee-shop/application/infrastructure/</Path>
-                  <Path Filename="integration-test">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/</Path>
-                  <Path Filename="integration-test">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
-                  <Path Filename="src">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/</Path>
-                  <Path Filename="main">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/</Path>
-                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/</Path>
-                  <Path Filename="..">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/resources/</Path>
-                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/main/</Path>
-                  <Path Filename="test">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/</Path>
-                  <Path Filename="resources">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/test/</Path>
                   <Path Filename="api.http">/run/media/huka/workspace/huka-project/coffee-shop/integration-test/src/test/resources/</Path>
                   <Path Filename="">/run/media/huka/workspace/huka-project/coffee-shop/</Path>
                   <Path Filename="..">/run/media/</Path>
                   <Path Filename="Music">/mnt/entertaiment/</Path>
                   <Path Filename="..">/mnt/entertaiment/Music/</Path>
+                  <Path Filename="..">/mnt/entertaiment/</Path>
+                  <Path Filename="data">/mnt/</Path>
+                  <Path Filename="_data">/mnt/data/</Path>
+                  <Path Filename="movie">/mnt/data/_data/</Path>
+                  <Path Filename="Taare Zameen Par 2007 Hindi 720P BRRip x264 E-SuB xRG">/mnt/data/_data/movie/</Path>
+                  <Path Filename="..">/mnt/data/_data/movie/Taare Zameen Par 2007 Hindi 720P BRRip x264 E-SuB xRG/</Path>
+                  <Path Filename="Darling.2010.720.Bluray.srt">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Darling.2010.720.Bluray.mkv">/mnt/data/_data/movie/Darling.2010.720.Bluray.srt/</Path>
+                  <Path Filename="Dhada.mHD.BluRay.x264.EPiK">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Dhada.mHD.BluRay.x264.EPiK.mkv">/mnt/data/_data/movie/Dhada.mHD.BluRay.x264.EPiK/</Path>
+                  <Path Filename="Kah ho na ho Brip.mkv">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Kah ho na ho Brip.mkv">/mnt/data/_data/movie/Kah ho na ho Brip.mkv/</Path>
+                  <Path Filename="Killer">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Killer.avi">/mnt/data/_data/movie/Killer/</Path>
+                  <Path Filename="koizora - Ho">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Koizora_CD1.avi">/mnt/data/_data/movie/koizora - Ho/</Path>
+                  <Path Filename="KOPPS">/mnt/data/_data/movie/</Path>
+                  <Path Filename="KOPPS.2003.SWEDiSH.DVDRiP.XviD-CURE.avi">/mnt/data/_data/movie/KOPPS/</Path>
+                  <Path Filename="Krrish (2006).mkv">/mnt/data/_data/movie/Krrish 2006 Vsub/</Path>
+                  <Path Filename="Love.Aaj.Kal.2009.720p.BluRay.x264-EbP">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Love.Aaj.Kal.2009.720p.BluRay.x264-EbP.mkv">/mnt/data/_data/movie/Love.Aaj.Kal.2009.720p.BluRay.x264-EbP/</Path>
+                  <Path Filename="Megamind.The.Button.of.Doom.2010.720">/mnt/data/_data/movie/</Path>
+                  <Path Filename="WWW.VN-ZOOM.COM.Megamind.The.Button.of.Doom.2010.720p.BluRay.AC3.x264-EliteCoder.mkv">/mnt/data/_data/movie/Megamind.The.Button.of.Doom.2010.720/</Path>
+                  <Path Filename="Merantau (2009)">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Merantau.2009.Chicharito_82.mkv">/mnt/data/_data/movie/Merantau (2009)/</Path>
+                  <Path Filename="Mr.Perfect.2011.1CD.BluRay.Rip.X264.Subs.480P">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Mr.Perfect.2011.1CD.BluRay.Rip.X264.Subs.480P-By.www.DownloadsGuru.com.mkv">/mnt/data/_data/movie/Mr.Perfect.2011.1CD.BluRay.Rip.X264.Subs.480P/</Path>
+                  <Path Filename="..">/mnt/data/_data/movie/Ps I love you (2007)/</Path>
+                  <Path Filename="..">/mnt/data/_data/movie/Pyaar Impossible.mkv/</Path>
+                  <Path Filename="..">/mnt/data/_data/movie/Ps I love you (2007)/</Path>
+                  <Path Filename="Pyaar Impossible.mkv">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Pyaar Impossible.mkv">/mnt/data/_data/movie/Pyaar Impossible.mkv/</Path>
+                  <Path Filename="Rang.De.Basanti.2006">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Rang.De.Basanti.2006.H.264.720p.Upscaled.DVDRiP.RRG.SoLiD.mkv">/mnt/data/_data/movie/Rang.De.Basanti.2006/</Path>
+                  <Path Filename="Singham.2011.mHD.Bluray.AC3.x26.EPiK">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Singham.2011.mHD.Bluray.AC3.x26.EPiK.mkv">/mnt/data/_data/movie/Singham.2011.mHD.Bluray.AC3.x26.EPiK/</Path>
+                  <Path Filename="Taare Zameen Par 2007 Hindi 720P BRRip x264 E-SuB xRG">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Taare Zameen Par 720P BRRip xRG.mkv">/mnt/data/_data/movie/Taare Zameen Par 2007 Hindi 720P BRRip x264 E-SuB xRG/</Path>
+                  <Path Filename="The.Double.2011.BRRIP.550MB.mkv">/mnt/data/_data/movie/The.Double.2011.BRRIP.550MB.mkv/</Path>
+                  <Path Filename="The.Ugly.Truth.2009.BDRip_www.thaiphienonline.net_.avi">/mnt/data/_data/movie/The.Ugly.Truth.2009.BDRip/</Path>
+                  <Path Filename="Tucker And Dale vs Evil">/mnt/data/_data/movie/</Path>
+                  <Path Filename="tkrvsdl.br_300mbfilms.com.mkv">/mnt/data/_data/movie/Tucker And Dale vs Evil/</Path>
+                  <Path Filename="Zindagi Na Milegi Dobara 2011 mHD BluRay DD5.1 x264-EPiK">/mnt/data/_data/movie/</Path>
+                  <Path Filename="Zindagi.Na.Milegi.Dobara.2011.mHD.BluRay.DD5.1.x264-EPiK.mkv">/mnt/data/_data/movie/Zindagi Na Milegi Dobara 2011 mHD BluRay DD5.1 x264-EPiK/</Path>
+                  <Path Filename="">/mnt/data/_data/movie/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1452,7 +1528,7 @@
                   <Path Filename="scripts">/home/huka/Dropbox/_huka/development/hukacode/dotfiles/.config/polybar/pwidgets/</Path>
                   <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/dotfiles/.config/polybar/pwidgets/scripts/</Path>
                   <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/dotfiles/.config/</Path>
-                  <Path Filename=".Xresources">/home/huka/</Path>
+                  <Path Filename="">/home/huka/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1466,63 +1542,267 @@
             <Sortings>
               <Sorting>
                 <Direction>2</Direction>
-                <Function>2</Function>
+                <Function>12</Function>
               </Sorting>
             </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="shopify-helper">/mnt/workspace/hukacode/</Path>
-                  <Path Filename="application">/mnt/workspace/hukacode/shopify-helper/</Path>
-                  <Path Filename="frontend">/mnt/workspace/hukacode/shopify-helper/application/</Path>
-                  <Path Filename="..">/mnt/workspace/hukacode/shopify-helper/application/frontend/</Path>
-                  <Path Filename="sp-money-tracker">/mnt/workspace/hukacode/</Path>
-                  <Path Filename="application">/mnt/workspace/hukacode/sp-money-tracker/</Path>
-                  <Path Filename="client">/mnt/workspace/hukacode/sp-money-tracker/application/</Path>
-                  <Path Filename="..">/mnt/workspace/hukacode/sp-money-tracker/application/client/</Path>
-                  <Path Filename="client">/mnt/workspace/hukacode/sp-money-tracker/application/</Path>
-                  <Path Filename="application">/mnt/workspace/hukacode/sp-money-tracker/</Path>
-                  <Path Filename="titama">/mnt/workspace/hukacode/</Path>
-                  <Path Filename="client">/mnt/workspace/hukacode/titama/</Path>
-                  <Path Filename=".gradle">/mnt/workspace/hukacode/titama/client/</Path>
-                  <Path Filename="..">/mnt/workspace/hukacode/titama/client/.gradle/</Path>
-                  <Path Filename=".gradle">/mnt/workspace/hukacode/titama/client/</Path>
-                  <Path Filename="..">/mnt/workspace/hukacode/titama/</Path>
-                  <Path Filename="titama">/mnt/workspace/hukacode/</Path>
-                  <Path Filename="libgdx-project">/mnt/workspace/</Path>
-                  <Path Filename="..">/mnt/workspace/libgdx-project/</Path>
-                  <Path Filename="libgdx-project">/mnt/workspace/</Path>
-                  <Path Filename=".gradle">/home/huka/Dropbox/_huka/development/hukacode/titama/client/</Path>
-                  <Path Filename="npm">/home/huka/Dropbox/_huka/development/hukacode/titama/client/.gradle/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/titama/client/.gradle/npm/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/titama/client/.gradle/</Path>
-                  <Path Filename=".gradle">/home/huka/Dropbox/_huka/development/hukacode/titama/client/</Path>
-                  <Path Filename="shopify-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename=".gitignore">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Path>
-                  <Path Filename="titama">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename=".gitignore">/home/huka/Dropbox/_huka/development/hukacode/titama/</Path>
-                  <Path Filename="shopify-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename=".gitignore">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Path>
-                  <Path Filename="coffee-shop">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename=".gitignore">/home/huka/Dropbox/_huka/development/hukacode/coffee-shop/</Path>
-                  <Path Filename="dropboxignore">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/dropboxignore/</Path>
-                  <Path Filename="dropboxignore">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/dropboxignore/</Path>
-                  <Path Filename="shopify-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
-                  <Path Filename="application">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/</Path>
-                  <Path Filename="application">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Path>
-                  <Path Filename="frontend">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/</Path>
-                  <Path Filename="$HOME">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/</Path>
-                  <Path Filename="fish">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/$HOME/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/$HOME/fish/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/$HOME/</Path>
-                  <Path Filename="node">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/</Path>
-                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/node/</Path>
-                  <Path Filename="node">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/application/frontend/</Path>
-                  <Path Filename=".gitignore">/home/huka/Dropbox/_huka/development/hukacode/shopify-helper/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/@archive/</Path>
+                  <Path Filename="attachment">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/attachment/</Path>
+                  <Path Filename=".vscode">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/.vscode/</Path>
+                  <Path Filename="@archive">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/@archive/</Path>
+                  <Path Filename="@project">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/@project/</Path>
+                  <Path Filename="@resource">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/@resource/</Path>
+                  <Path Filename="@resource">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@doc/@resource/</Path>
+                  <Path Filename="@inbox">/home/huka/Dropbox/@doc/</Path>
+                  <Path Filename="@digital-brain">/home/huka/Dropbox/</Path>
+                  <Path Filename="@resource">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@resource/</Path>
+                  <Path Filename="@working">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@working/</Path>
+                  <Path Filename="@working">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="learn-japanese.md">/home/huka/Dropbox/@digital-brain/@working/</Path>
+                  <Path Filename="@digital-brain">/home/huka/Dropbox/</Path>
+                  <Path Filename="@archive">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@archive/</Path>
+                  <Path Filename="@someday">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@someday/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="image">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/image/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="script">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="autostart">/home/huka/Dropbox/dotfiles/script/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/mnt/data/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="garden-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename=".git">/home/huka/Dropbox/_huka/development/hukacode/garden-helper/</Path>
+                  <Path Filename="post-utility">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/post-utility/</Path>
+                  <Path Filename="blogging-tool">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="">/home/huka/Dropbox/_huka/development/hukacode/blogging-tool/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/.local/bin/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/</Path>
+                  <Path Filename="gohugo">/mnt/workspace/</Path>
+                  <Path Filename="..">/mnt/workspace/gohugo/</Path>
+                  <Path Filename="..">/mnt/workspace/</Path>
+                  <Path Filename="..">/mnt/entertaiment/Films/Châu Tinh Trì/</Path>
+                  <Path Filename="..">/mnt/entertaiment/</Path>
+                  <Path Filename="Genki">/mnt/data/</Path>
+                  <Path Filename="..">/mnt/data/Genki/</Path>
+                  <Path Filename="Marugoto">/mnt/data/</Path>
+                  <Path Filename="..">/mnt/data/Marugoto/</Path>
+                  <Path Filename="_data">/mnt/data/</Path>
+                  <Path Filename="book">/mnt/data/_data/</Path>
+                  <Path Filename="..">/mnt/data/_data/book/</Path>
+                  <Path Filename="development">/mnt/data/_data/</Path>
+                  <Path Filename="garden-helper">/mnt/data/_data/development/</Path>
+                  <Path Filename="node_modules">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/garden-helper/node_modules/</Path>
+                  <Path Filename="node_modules">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="garden-helper">/mnt/data/_data/development/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/garden-helper/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/</Path>
+                  <Path Filename="photo">/mnt/data/_data/</Path>
+                  <Path Filename="..">/mnt/data/_data/photo/</Path>
+                  <Path Filename="_huka">/mnt/data/</Path>
+                  <Path Filename="development">/mnt/data/_huka/</Path>
+                  <Path Filename="..">/mnt/data/_huka/development/</Path>
+                  <Path Filename="development">/mnt/data/_huka/</Path>
+                  <Path Filename="_data">/mnt/data/</Path>
+                  <Path Filename="google-drive">/mnt/data/_data/</Path>
+                  <Path Filename="photo">/mnt/data/_data/google-drive/</Path>
+                  <Path Filename="My love">/mnt/data/_data/google-drive/photo/</Path>
+                  <Path Filename="..">/mnt/data/_data/google-drive/photo/My love/</Path>
+                  <Path Filename="development">/mnt/data/_data/</Path>
+                  <Path Filename="..">/mnt/data/_data/development/</Path>
+                  <Path Filename="development">/mnt/data/_data/</Path>
+                  <Path Filename="_huka">/mnt/data/</Path>
+                  <Path Filename="development">/mnt/data/_huka/</Path>
+                  <Path Filename="docker-compose">/mnt/data/_huka/development/</Path>
+                  <Path Filename="pihole">/mnt/data/_huka/development/docker-compose/</Path>
+                  <Path Filename="..">/mnt/data/_huka/development/docker-compose/pihole/</Path>
+                  <Path Filename="pihole">/mnt/data/_huka/development/docker-compose/</Path>
+                  <Path Filename="..">/mnt/data/_huka/development/docker-compose/pihole/</Path>
+                  <Path Filename="pihole">/mnt/data/_huka/development/docker-compose/</Path>
+                  <Path Filename="hukacode">/mnt/data/_huka/development/</Path>
+                  <Path Filename="..">/mnt/data/_huka/development/hukacode/</Path>
+                  <Path Filename="hukacode">/mnt/data/_huka/development/</Path>
+                  <Path Filename="jenkins">/mnt/data/_huka/development/hukacode/</Path>
+                  <Path Filename="Dockerfile">/mnt/data/_huka/development/hukacode/jenkins/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@archive/</Path>
+                  <Path Filename="@someday">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@someday/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="image">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/image/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="script">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="autostart">/home/huka/Dropbox/dotfiles/script/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/mnt/data/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="garden-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/garden-helper/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="digital-garden">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/digital-garden/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="docker-compose">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="pihole">/home/huka/Dropbox/_huka/development/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/home/huka/Dropbox/_huka/development/docker-compose/pihole/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="windows-config">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/windows-config/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/playlist/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="design">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/design/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="blog-graph">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="miserables.json">/home/huka/Dropbox/_huka/development/hukacode/blog-graph/</Path>
+                  <Path Filename="">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="@someday">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/@someday/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/@digital-brain/</Path>
+                  <Path Filename="image">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/image/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="dotfiles">/home/huka/Dropbox/</Path>
+                  <Path Filename="script">/home/huka/Dropbox/dotfiles/</Path>
+                  <Path Filename="autostart">/home/huka/Dropbox/dotfiles/script/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/mnt/data/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="garden-helper">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/garden-helper/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="digital-garden">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/digital-garden/</Path>
+                  <Path Filename="document">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="huka-accounting.xlsx">/home/huka/Dropbox/_huka/document/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="docker-compose">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="pihole">/home/huka/Dropbox/_huka/development/docker-compose/</Path>
+                  <Path Filename="docker-compose.yml">/home/huka/Dropbox/_huka/development/docker-compose/pihole/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="Dropbox">/home/huka/</Path>
+                  <Path Filename="windows-config">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/windows-config/</Path>
+                  <Path Filename="playlist">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/playlist/</Path>
+                  <Path Filename="_huka">/home/huka/Dropbox/</Path>
+                  <Path Filename="design">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/design/</Path>
+                  <Path Filename="development">/home/huka/Dropbox/_huka/</Path>
+                  <Path Filename="hukacode">/home/huka/Dropbox/_huka/development/</Path>
+                  <Path Filename="blog-graph">/home/huka/Dropbox/_huka/development/hukacode/</Path>
+                  <Path Filename="miserables.json">/home/huka/Dropbox/_huka/development/hukacode/blog-graph/</Path>
+                  <Path Filename="..">/home/huka/Dropbox/_huka/digital-garden/assets/data/</Path>
+                  <Path Filename="">/home/huka/Dropbox/_huka/digital-garden/assets/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1559,8 +1839,8 @@
     <GridHorzLine>False</GridHorzLine>
     <ShowWarningMessages>True</ShowWarningMessages>
     <SpaceMovesDown>False</SpaceMovesDown>
-    <DirBrackets>True</DirBrackets>
-    <InplaceRename>False</InplaceRename>
+    <DirBrackets>False</DirBrackets>
+    <InplaceRename>True</InplaceRename>
     <InplaceRenameButton>False</InplaceRenameButton>
     <DblClickToParent>False</DblClickToParent>
     <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
@@ -1761,7 +2041,7 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>363</Width>
+          <Width>604</Width>
           <Align>0</Align>
           <Font>
             <Name>Fira Code</Name>

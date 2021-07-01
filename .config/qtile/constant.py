@@ -1,8 +1,8 @@
 from os import path
 
-icon_path = path.join(path.expanduser('~'), ".config/qtile/logo/logo-huka_32x32.png")
+icon_path = path.join(path.expanduser('~'), ".config/qtile/theme/logo-huka_32x32.png")
 # theme_path = path.join(path.expanduser('~'), ".cache/wal/colors.json")
-theme_path = path.join(path.expanduser('~'), ".config/qtile/light-owl.json")
+theme_path = path.join(path.expanduser('~'), ".config/qtile/theme/light-owl.json")
 
 terminal_app = "alacritty"
 web_app = "google-chrome-stable"

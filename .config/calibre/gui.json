@@ -1,111 +1,78 @@
 {
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAANFAAABsAAABv0AAAOwAAADRgAAAc8AAAb8AAADrwAAAAAAAAAACgAAAANGAAABzwAABvwAAAOv"
+  },
+  "action-layout-toolbar": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    null,
+    "Store",
+    "Donate",
+    "Fetch News",
+    "Help",
+    null,
+    "Remove Books",
+    "Choose Library",
+    "Save To Disk",
+    "Connect Share",
+    "Tweak ePub",
+    "Preferences",
+    "Find Duplicates"
+  ],
+  "action-layout-toolbar-device": [
+    "Add Books",
+    "Edit Metadata",
+    null,
+    "Convert Books",
+    "View",
+    "Send To Device",
+    null,
+    null,
+    "Location Manager",
+    null,
+    null,
+    "Fetch News",
+    "Save To Disk",
+    "Store",
+    "Connect Share",
+    null,
+    "Remove Books",
+    null,
+    "Help",
+    "Preferences",
+    "Find Duplicates"
+  ],
   "basic_metadata_widget_splitter_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAADAAAA+wAAAWgAAAEZAf////8BAAAAAQA="
+    "__value__": "AAAA/wAAAAEAAAADAAAA7gAAAVwAAAEZAf////8BAAAAAQA="
   },
   "book_details_splitter_horizontal_state": [
     true,
     200
   ],
-  "book_info_dialog_layout": [
-    {
-      "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAGpAAAAPgAABJgAAANfAAABqgAAAD8AAASXAAADXgAAAAAAAAAABkAAAAGqAAAAPwAABJcAAANe"
-    },
-    {
-      "__class__": "bytearray",
-      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAV4B/////wEAAAABAA=="
-    }
-  ],
   "book_list_pin_splitter_state": {
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
-  "card_a_view books view state": {
-    "column_alignment": {
-      "size": "center",
-      "timestamp": "center"
-    },
-    "column_positions": {
-      "authors": 2,
-      "collections": 5,
-      "inlibrary": 0,
-      "size": 4,
-      "timestamp": 3,
-      "title": 1
-    },
-    "column_sizes": {
-      "authors": 92,
-      "collections": 107,
-      "inlibrary": 99,
-      "size": 56,
-      "timestamp": 68,
-      "title": 63
-    },
-    "hidden_columns": [],
-    "languages_injected": true,
-    "last_modified_injected": true,
-    "sort_history": [
-      [
-        "timestamp",
-        false
-      ]
-    ]
-  },
-  "card_b_view books view state": {
-    "column_alignment": {
-      "size": "center",
-      "timestamp": "center"
-    },
-    "column_positions": {
-      "authors": 2,
-      "collections": 5,
-      "inlibrary": 0,
-      "size": 4,
-      "timestamp": 3,
-      "title": 1
-    },
-    "column_sizes": {
-      "authors": 92,
-      "collections": 107,
-      "inlibrary": 99,
-      "size": 56,
-      "timestamp": 68,
-      "title": 63
-    },
-    "hidden_columns": [],
-    "languages_injected": true,
-    "last_modified_injected": true,
-    "sort_history": [
-      [
-        "timestamp",
-        false
-      ]
-    ]
-  },
   "choose-icon-theme-dialog-geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAFfAAAAGwAABOQAAANVAAABYAAAABwAAATjAAADVAAAAAAAAAAABkAAAAFgAAAAHAAABOMAAANU"
+    "__value__": "AdnQywADAAAAAAOoAAAABwAABy0AAAV7AAADqQAAACYAAAcsAAAFegAAAAAAAAAACgAAAAOpAAAAJgAABywAAAV6"
   },
   "choose-merge-dialog-geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAHDAAAA+QAABG0AAAJXAAABxAAAAPoAAARsAAACVgAAAAAAAAAABkAAAAHEAAAA+gAABGwAAAJW"
+    "__value__": "AdnQywADAAAAAAShAAACFQAABzkAAANsAAAEogAAAjQAAAc4AAADawAAAAAAAAAACgAAAASiAAACNAAABzgAAANr"
   },
   "choose-merge-dialog-splitter-state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAABkwAAAQAA/////wEAAAABAA=="
-  },
-  "confirm-merge-dialog-geometry": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAG4AAABGwAABHUAAAIzAAABuQAAARwAAAR0AAACMgAAAAAAAAAABkAAAAG5AAABHAAABHQAAAIy"
-  },
-  "confirm-merge-dialog-splitter-state": {
-    "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAABfAAAAQAA/////wEAAAABAA=="
+    "__value__": "AAAA/wAAAAEAAAACAAABgQAAAQAA/////wEAAAABAA=="
   },
   "convert_single_dialog_geom": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAAAAAAAOgAABfkAAANZAAAAAAAAADoAAAX5AAADWQAAAAAAAAAABkAAAAAAAAAAOgAABfkAAANZ"
+    "__value__": "AdnQywADAAAAAAJkAAACSAAABrwAAASxAAACZQAAAmcAAAa7AAAEsAAAAAAAAAAACgAAAAJlAAACZwAABrsAAASw"
   },
   "cover_browser_splitter_vertical_state": [
     false,
@@ -216,102 +183,47 @@
     ]
   ],
   "default_author_link": null,
+  "duplicate finder plugin:duplicate dialog": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAQKAAABLQAABjgAAAQzAAAECwAAAUwAAAY3AAAEMgAAAAAAAAAACgAAAAQLAAABTAAABjcAAAQy"
+  },
   "duplicates-question-dialog-geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAC8AAAAywAAAukAAAJHAAAAvQAAAMwAAALoAAACRgAAAAAAAAAABkAAAAC9AAAAzAAAAugAAAJG"
-  },
-  "export-annotations-geometry": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAJbAAABfgAAA9EAAAHNAAACXAAAAX8AAAPQAAABzAAAAAAAAAAABkAAAAJcAAABfwAAA9AAAAHM"
+    "__value__": "AdnQywADAAAAAAQ5AAACFwAABmYAAANQAAAEOgAAAjYAAAZlAAADTwAAAAAAAAAACgAAAAQ6AAACNgAABmUAAANP"
   },
   "font": [
     "JetBrains Mono",
     9,
-    57,
+    50,
     false
   ],
   "font_stretch": 0,
+  "gpm_template_editor_font": "Cascadia Code",
   "grid view visible": false,
-  "jobs view column layout3": {
-    "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqoAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABDwAAAAEAAAAAAAAAbwAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAA"
-  },
-  "jobs_dialog_geometry": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAHZAAAAlgAABFMAAAK1AAAB2gAAAJcAAARSAAACtAAAAAAAAAAABkAAAAHaAAAAlwAABFIAAAK0"
-  },
-  "library-annotations-browser-geometry": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAFJAAAAYAAABOIAAALsAAABSQAAAGAAAATiAAAC7AAAAAAAAAAABkAAAAFJAAAAYAAABOIAAALs"
-  },
-  "library-annotations-browser-splitter-state": {
-    "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAABwgAAAcIA/////wEAAAABAA=="
-  },
   "library_usage_stats": {
-    "/home/huka/Dropbox/_data/book": 60,
-    "/home/huka/Dropbox/calibre-library": 39
-  },
-  "memory_view books view state": {
-    "column_alignment": {
-      "size": "center",
-      "timestamp": "center"
-    },
-    "column_positions": {
-      "authors": 2,
-      "collections": 5,
-      "inlibrary": 0,
-      "size": 4,
-      "timestamp": 3,
-      "title": 1
-    },
-    "column_sizes": {
-      "authors": 93,
-      "collections": 107,
-      "inlibrary": 99,
-      "size": 56,
-      "timestamp": 98,
-      "title": 100
-    },
-    "hidden_columns": [],
-    "languages_injected": true,
-    "last_modified_injected": true,
-    "sort_history": [
-      [
-        "timestamp",
-        false
-      ]
-    ]
-  },
-  "metadata-download-identify-widget-splitter-state": {
-    "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAACAAAAAQAA/////wEAAAABAA=="
-  },
-  "metadata_single_gui_geom": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAANMAAABhwAABp0AAAPeAAADTAAAAYcAAAadAAAD3gAAAAAAAAAACgAAAANMAAABhwAABp0AAAPe"
+    "/home/huka/C:\\Dropbox\\_data\\book": 2,
+    "/home/huka/Dropbox/_data/book": 5,
+    "C:/Dropbox/_data/book": 11,
+    "C:/home/huka/Dropbox/_data/book": 3
   },
   "metasingle_window_geometry3": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAGgAAAA0wAACEsAAASUAAABoQAAANQAAAhKAAAEkwAAAAAAAAAACgAAAAGhAAAA1AAACEoAAAST"
+    "__value__": "AdnQywADAAAAAALYAAACEgAACRcAAAUPAAAC2QAAAjEAAAkWAAAFDgAAAAAAAAAACgAAAALZAAACMQAACRYAAAUO"
   },
   "preferences dialog geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAMuAAABWwAABtEAAAQsAAADLwAAAVwAAAbQAAAEKwAAAAAAAAAACgAAAAMvAAABXAAABtAAAAQr"
+    "__value__": "AdnQywADAAAAAAOZAAABSQAABzwAAAQ4AAADmgAAAWgAAAc7AAAENwAAAAAAAAAACgAAAAOaAAABaAAABzsAAAQ3"
   },
   "previous_sort_order_BooksView": {
-    "size": true,
+    "marked": true,
+    "pubdate": false,
     "timestamp": false,
     "title": true
   },
-  "questions_to_auto_skip": [
-    "auto_convert_before_send"
-  ],
   "quick_start_guide_added": true,
   "quickview visible": false,
   "recently_used_languages": [
-    "English",
-    "Vietnamese"
+    "English"
   ],
   "replace_scene_breaks_history": [
     "",
@@ -324,19 +236,18 @@
     "∞ ∞ ∞",
     "¤ ¤ ¤"
   ],
+  "scheduler_dialog_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAANKAAABhQAABmsAAAP8AAADSwAAAaQAAAZqAAAD+wAAAAAAAAAACgAAAANLAAABpAAABmoAAAP7"
+  },
   "search bar visible": true,
   "show_emblems": false,
   "show_splash_screen": false,
   "tag browser search box visible": false,
   "tag_browser_splitter_horizontal_state": [
     true,
-    199
+    200
   ],
-  "tag_editor_geometry": {
-    "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAHaAAAAcwAABFsAAAMOAAAB2wAAAHQAAARaAAADDQAAAAAAAAAABkAAAAHbAAAAdAAABFoAAAMN"
-  },
-  "tag_editor_last_filter": "add_tag_input",
-  "tags_browser_partition_method": "first letter",
-  "toolbar_icon_size": "small"
+  "toolbar_icon_size": "small",
+  "windows_register_default_programs": "5.22.1"
 }

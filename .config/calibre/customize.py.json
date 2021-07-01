@@ -1,0 +1,15 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "Find Duplicates": "C:\\Users\\nlkhung\\AppData\\Roaming\\calibre\\plugins\\Find Duplicates.zip"
+  }
+}

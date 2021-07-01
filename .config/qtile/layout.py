@@ -5,8 +5,8 @@ from custom.bsp import Bsp as CustomBsp
 
 layout_conf = {
     "border_focus": colors["blue"][0],
-    "border_width": 2,
-    "margin": 1
+    "border_width": 0,
+    "margin": 0
 }
 
 layouts = [
@@ -15,7 +15,7 @@ layouts = [
     # layout.Floating(**layout_conf),
     # CustomBsp(**layout_conf, fair=False),
     # layout.Tile(shift_windows=True, **layout_conf),
-    layout.Stack(stacks=2, **layout_conf),
+    # layout.Stack(stacks=2, **layout_conf),
     # layout.MonadWide(**layout_conf),
     # layout.Bsp(**layout_conf),
     # layout.Columns(**layout_conf),

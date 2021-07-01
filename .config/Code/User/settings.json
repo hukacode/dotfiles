@@ -56,13 +56,16 @@
     "YYYYMMDD",
     "Zettelkasten",
     "gohugo",
+    "hrms",
     "huka",
     "hukacode",
     "instanceof",
     "lastmod",
     "mkdir",
     "println",
-    "symlink"
+    "roadmap",
+    "symlink",
+    "wikilink"
   ],
   "css.validate": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -143,7 +146,7 @@
     }
   },
   "highlight.regexes": {
-    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
       "decorations": [
         {
           "backgroundColor": "#cc0000",
@@ -211,7 +214,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "local-history.daysLimit": 60,
   "local-history.path": "~",
-  "markdown.preview.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "markdown.preview.fontFamily": "'JetBrains Mono', 'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono'",
   "openapi.defaultPreviewRenderer": "redoc",
   "pasteImage.path": "${projectRoot}/content/document_public",
   "pasteImage.showFilePathConfirmInputBox": true,
@@ -220,7 +223,7 @@
     "node1.online.int-vn.td.infra.sys": "linux",
     "node1.service.int-vn.td.infra.sys": "linux"
   },
-  "rest-client.fontFamily": "'Cascadia Code', 'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF'",
+  "rest-client.fontFamily": "'JetBrains Mono', 'JetBrainsMono NF', 'JetBrainsMono Nerd Font Mono'",
   "rest-client.fontSize": 13,
   "search.followSymlinks": false,
   "settingsSync.keybindingsPerPlatform": false,
@@ -229,7 +232,6 @@
     "plaintext": "html"
   },
   "telemetry.enableTelemetry": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -315,7 +317,7 @@
   "workbench.colorCustomizations": {
     "tab.activeBorder": "#A3BE8C"
   },
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Night Owl Light",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.showIcons": false,
@@ -352,5 +354,14 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.suggest.preview": true
+  "editor.suggest.preview": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "glassit.alpha": 220,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "foam.orphans.exclude": ["**content/graph.md", "**/themes/**/*"],
+  "foam.placeholders.exclude": ["**content/graph.md", "**/themes/**/*"]
 }

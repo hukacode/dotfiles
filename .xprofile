@@ -7,3 +7,5 @@ setxkbmap -option caps:escape
 # setxkbmap -option caps:swapescape
 
 export PATH="/home/huka/script:$PATH"
+
+/home/huka/script/autostart

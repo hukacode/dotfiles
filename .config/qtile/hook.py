@@ -5,9 +5,9 @@ from group import groups
 
 floating_types = ["notification", "toolbar", "splash", "dialog", "utility", "menu", "dropdown_menu", "popup_menu", "tooltip", "dock"]
 
-@hook.subscribe.startup_once
-def start_once():
-    subprocess.call([autostart_cmd])
+# @hook.subscribe.startup_once
+# def start_once():
+#     subprocess.call([autostart_cmd])
 
 @hook.subscribe.startup
 def start():
@@ -19,7 +19,7 @@ def start():
 	# qtile.cmd_restart()
 
 @hook.subscribe.client_new
-def modify_window(client):    
+def modify_window(client):
     transient = client.window.get_wm_transient_for()
     if client.window.get_wm_type() in floating_types or transient:
         client.floating = True
@@ -32,4 +32,3 @@ def modify_window(client):
                 ]  # there can be multiple instances of a group
                 targetgroup.cmd_toscreen(toggle=False)
                 break
-        
