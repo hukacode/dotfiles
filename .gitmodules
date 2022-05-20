@@ -1,0 +1,24 @@
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule ".vim/plugged/nord-vim"]
+	path = .vim/plugged/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule ".vim/plugged/vim-airline"]
+	path = .vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/plugged/vim-airline-themes"]
+	path = .vim/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule ".vim/plugged/vim-commentary"]
+	path = .vim/plugged/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule ".vim/plugged/vim-css-color"]
+	path = .vim/plugged/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
+[submodule ".vim/plugged/vim-easymotion"]
+	path = .vim/plugged/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule ".vim/plugged/vim-surround"]
+	path = .vim/plugged/vim-surround
+	url = https://github.com/tpope/vim-surround.git

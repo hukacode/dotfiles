@@ -1,0 +1,21 @@
+{
+  "background": ["#f9f5d7"],
+  "foreground": ["#3c3836"],
+  "black": ["#EBDBB2"],
+  "black2": ["#f2e5bc"],
+  "blue": ["#458588"],
+  "cyan": ["#689D6A"],
+  "green": ["#98971A"],
+  "purple": ["#B16286"],
+  "red": ["#CC241D"],
+  "white": ["#7c6f64"],
+  "yellow": ["#D79921"],
+  "brightBlack": ["#928374"],
+  "brightBlue": ["#076678"],
+  "brightCyan": ["#427b58"],
+  "brightGreen": ["#79740e"],
+  "brightPurple": ["#8f3f71"],
+  "brightRed": ["#9d0006"],
+  "brightWhite": ["#3c3836"],
+  "brightYellow": ["#b57614"]
+}
