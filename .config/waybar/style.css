@@ -1,0 +1,128 @@
+@import "light-owl.css";
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "CaskaydiaCove Nerd Font";
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: @background;
+  color: @foreground;
+}
+
+#workspaces {
+  background-color: @black;
+  margin: 5px;
+  /* margin-left: 10px; */
+  border-radius: 5px;
+}
+#workspaces button {
+  padding: 0 4 0 0px;
+  color: @green;
+}
+
+#workspaces button.focused {
+  /* border-style: solid;
+	border-width: 0 0 2 0; */
+	border-color: @foreground;
+  color: @selection;
+  background-color: @cyan;
+  border-radius: 5px;
+}
+
+#workspaces button:hover {
+  background-color: @blue;
+  color: @white;
+  border-radius: 5px;
+}
+
+#workspaces button.persistent {
+  /* border: none; */
+  color: @brightBlack;
+  background-color: transparent;
+}
+
+#workspaces button.urgent {
+  background-color: @purple;
+  border-radius: 5px;
+}
+
+#custom-menu{
+	background-image: url('logo-huka_32x32.png');
+	background-repeat: no-repeat;
+  background-size: 28px;
+}
+
+#tray {
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 0px 10px;
+  background-color: @black;
+}
+
+#custom-date,
+#clock,
+#battery,
+#pulseaudio,
+#network {
+  background-color: @black;
+  padding: 0px 10px;
+  margin: 5px 0px;
+}
+
+#pulseaudio {
+  color: @purple;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#custom-date {
+  color: @blue;
+}
+
+#clock {
+  color: @brightBlack;
+  border-radius: 0px 5px 5px 0px;
+  margin-right: 10px;
+}
+
+#custom-power {
+  color: @foreground;
+  background-color: @purple;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding: 0px 10px;
+}
+
+#battery {
+  color: @green;
+}
+
+@keyframes blink {
+  to {
+    background-color: @white;
+    color: black;
+  }
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.critical:not(.charging) {
+  background-color: @red;
+  color: @white;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#network {
+  color: @orange;
+}

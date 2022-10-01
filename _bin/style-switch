@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+SDIR="$HOME/_bin"
+
+# Launch Rofi
+MENU="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
+-theme $HOME/.config/rofi/styles.rasi \
+<<< " Nord| Gruvbox| Dracula|")"
+case "$MENU" in
+	*Nord)
+			"$SDIR"/roficolor --nord
+			"$SDIR"/dunstcolor --nord
+			;;
+	*Gruvbox)
+			"$SDIR"/roficolor --gruvbox
+			"$SDIR"/dunstcolor --gruvbox
+			;;
+	*Dracula)
+			"$SDIR"/roficolor --dracula
+			"$SDIR"/dunstcolor --dracula
+			;;
+	*Pywal)
+			"$SDIR"/roficolor --pywal
+			"$SDIR"/dunstcolor --pywal
+			;;
+esac

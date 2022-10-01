@@ -1,0 +1,13 @@
+#!/bin/bash
+
+dir="${HOME}"'/wallpaper/'
+
+change_wall() {
+  while true; do
+  feh --randomize --bg-fill "$dir"
+  sleep 1800
+  done
+  # feh --randomize --bg-fill "$dir"
+}
+
+change_wall &

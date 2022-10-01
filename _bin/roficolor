@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+# Color files
+RFILE="$HOME/.config/rofi/colors.rasi"
+
+# Change colors
+change_color_transparent() {
+	# rofi
+	cat > $RFILE <<- EOF
+	/* colors */
+
+
+	* {
+		al:   ${BG}00;
+		bg:   ${BG}99;
+		bga:  ${BG}33;
+		fga:  ${FG}FF;
+		fg:   ${FG}FF;
+		ac:   ${AC}FF;
+		se:   ${AC}40;
+	}
+	EOF
+}
+
+change_color() {
+	# rofi
+	cat > $RFILE <<- EOF
+	/* colors */
+
+
+	* {
+		al:   ${BG};
+		bg:   ${BG};
+		bga:  ${BG};
+		fga:  ${FG};
+		fg:   ${FG};
+		ac:   ${AC};
+		se:   ${AC};
+	}
+	EOF
+}
+
+if  [[ $1 = "--nord" ]]; then
+	BG="#2E3440"
+	FG="#D8DEE9"
+	AC="#4C566A"
+
+	change_color
+elif  [[ $1 = "--gruvbox" ]]; then
+	BG="#282828"
+	FG="#EBDBB2"
+	AC="#928374"
+
+	change_color
+elif  [[ $1 = "--dracula" ]]; then
+	BG="#182A36"
+	FG="#F8F8F2"
+	AC="#6272a4"
+
+	change_color
+elif  [[ $1 = "--nightowl" ]]; then
+	BG="#011627"
+	FG="#D6DEEB"
+	AC="#575656"
+
+	change_color
+elif  [[ $1 = "--lightowl" ]]; then
+	BG="#F6F6F6"
+	FG="#403f53"
+	AC="#E0E0E0"
+
+	change_color
+elif  [[ $1 = "--pywal" ]]; then
+	# Source the pywal color file
+	. "$HOME/.cache/wal/colors.sh"
+
+	BG=$background
+	FG=$foreground
+	AC=$color1
+
+	change_color
+else
+	cat <<- _EOF_
+	No option specified, Available options:
+	--nord    --gruvbox    --dracula    --pywal    --nightowl    --lightowl
+	_EOF_
+fi

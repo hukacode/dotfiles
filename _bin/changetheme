@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dir="${HOME}"'/Dropbox/_public/wallpaper/'
+
+change_theme() {
+  DISPLAY=:0 wal -i "$dir" -n ; feh --no-fehbg --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+  dunstcolor
+  roficolor
+  qtile cmd-obj -o cmd -f restart
+}
+
+change_theme &

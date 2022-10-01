@@ -1,0 +1,107 @@
+{
+  "position": "top",
+  "modules-left": ["custom/menu", "tray"],
+  "modules-center": ["sway/workspaces"],
+  "modules-right": [
+    "pulseaudio",
+    // "network",
+    // "battery",
+    "custom/date",
+    "clock",
+    "custom/power"
+  ],
+	"custom/menu": {
+		"format": "    ",
+		"on-click": "~/script/launcher",
+		"tooltip": false
+	},
+  // Modules configuration
+  "tray": {
+      "icon-size": 18,
+      "spacing": 10
+  },
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    },
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    }
+  },
+  "custom/date": {
+    "format": "󰸗 {}",
+    "interval": 3600,
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "exec": "/home/huka/.config/waybar/waybar-date.sh"
+  },
+  "clock": {
+    "format": "󰅐 {:%H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "custom/power": {
+    "format": "󰐥",
+    "on-click": "/home/huka/script/powermenu"
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰂄{capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-full": "󱈑 {capacity}%",
+    "format-icons": ["󱊡", "󱊢", "󱊣"]
+  },
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "󰤮 Disconnected",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}"
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰖁 Muted",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/playerctl": {
+    "format": " {}",
+    "max-length": 40,
+    "interval": 5,
+    "exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
+    "tooltip": false
+  }
+}

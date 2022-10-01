@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# options to be displayed
+option0="Full"
+option1="Area"
+option2="Window"
+option3="Full (delay 3s)"
+option4="Area (delay 3s)"
+option5="Window (delay 3s)"
+
+# options to be displyed
+options="$option0\n$option1\n$option2\n$option3\n$option4\n$option5"
+
+selected="$(echo -e "$options" | rofi -lines 6 -dmenu -p "" -theme ~/.config/rofi/launcher.rasi )"
+case $selected in
+    $option0)
+        flameshot full -d 500 -p ~/screenshot;;
+    $option1)
+        flameshot gui;;
+    $option2)
+        flameshot screen -d 500 -p ~/screenshot;;
+    $option3)
+        flameshot full -d 3000 -p ~/screenshot;;
+    $option4)
+        flameshot gui -d 3000;;
+    $option5)
+        flameshot screen -d 3000 -p ~/screenshot;;
+esac

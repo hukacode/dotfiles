@@ -1,0 +1,30 @@
+time:  UE384
+time:  UF252
+shell:  UE60A
+shell:  UE795
+kernel:  UE712
+debian:  UF306
+arch:  UF303
+DE:  UF69E
+DE:   UE8AA
+packages:  UF8D6
+memory: ﴝ UFD1D
+disk: ◕ U25D5
+disk:   UE6C4
+coffee: ☕ U2615
+other:  UE614
+cpu:  Uf2db
+info " " distro
+# info " " model
+info " " kernel
+# info " " uptime
+info " " packages
+# info "" resolution
+info "" de
+info "类" wm
+# info "WM Theme" wm_theme
+info " " term
+info " " shell
+info " " term_font
+info " " theme
+info " " icons

@@ -1,0 +1,139 @@
+# [bar/bottom]
+# height = 24
+# width = 2560
+# offset-y = 0
+# offset-x = 1300
+# radius = 0
+# line-size = 3
+# fixed-center = true
+# wm-restack = bspwm
+# background = #2e2e2e
+
+# modules-center = bspwm
+# modules-right = cpu pulseaudio wired-network wireless-network date time powermenu
+
+# font-0 = "JetBrainsMono Nerd Font Mono :style=Regular:size=18;4"
+# font-1 = "JetBrainsMono Nerd Font Mono :style=Regular:size=12;3"
+
+[bar/topbar]
+height = 24
+width = 100%
+offset-y = 0
+offset-x = 0
+radius = 0
+line-size = 3
+fixed-center = true
+wm-restack = bspwm
+background = #2e2e2e
+
+modules-center = bspwm
+modules-right = cpu pulseaudio wired-network wireless-network date time powermenu
+
+font-0 = "JetBrainsMono Nerd Font Mono :style=Regular:size=18;4"
+font-1 = "JetBrainsMono Nerd Font Mono :style=Regular:size=12;3"
+
+[module/bspwm]
+type = internal/bspwm
+pin-workspaces = true
+inline-mode = true
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+fuzzy-match = true
+format = <label-state>
+
+ws-icon-0 = 1;%{F#ff873d}%{F-}
+ws-icon-1 = 2;%{O-10}%{F#ff6363}%{F-}
+ws-icon-2 = 3;%{O-10}%{F#aa42ff}%{F-}
+ws-icon-3 = 4;%{O-10}%{F#faff63}%{F-}
+ws-icon-4 = 5;%{O-10}%{F#ffe563}%{F-}
+ws-icon-5 = 6;%{O-10}%{F#70ff63}%{F-}
+ws-icon-6 = 7;%{O-10}%{F#9c63ff}%{F-}
+ws-icon-7 = 8;%{O-10}%{F#63ffa4}%{F-}
+ws-icon-8 = 9;%{O-10}%{F#63ffa4}%{F-}
+ws-icon-9 = 0;%{O-10}%{F#63ffa4}%{F-}
+
+label-focused = %{u#6bff63}%{+u}%icon%%{-u}
+label-focused-padding = 1
+
+label-occupied = %{u#ff6363}%{+u}%icon%%{-u}
+label-occupied-padding = 1
+
+label-empty = %icon%
+label-empty-padding = 1
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+format-font = 0
+format = %{O8}<label>%{O20}
+format-foreground = #ff5252
+label-font = 2
+label = %percentage%%{O5}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+sink = alsa_output.pci-0000_00_14.2.analog-stereo
+format-volume = ﰝ%{O10}<label-volume>%{O20}
+label-volume-font = 2
+format-volume-foreground = #ff9d52
+format-muted = %{O10}遼%{O20}
+label-muted-font = 2
+format-muted-foreground = #ff9d52
+use-ui-max = true
+interval = 5
+
+[module/wired-network]
+type = internal/network
+interface = enp3s0
+interval = 3
+format-connected = ﯱ<label-connected>%{O20}
+label-connected = %downspeed:9%
+label-connected-font = 2
+format-connected-foreground = #ffe252
+
+[module/wireless-network]
+type = internal/network
+interface = wlo1
+interval = 3
+format-connected = <label-connected>%{O20}
+label-connected = %downspeed:9%
+label-connected-font = 2
+format-connected-foreground = #ffe252
+
+[module/date]
+type = internal/date
+interval = 1
+
+time= "%b %d (%a)"
+
+format = <label>
+format-foreground = #c5ff52
+format-padding = 1
+format-prefix = %{T4} %{T-}
+format-prefix-foreground = #ffe252
+label = %{T2}%time%%{T-}
+
+[module/time]
+type = internal/date
+interval = 1.0
+time = %I:%M %P
+label = %time%
+label-font = 2
+format = %{O10}<label>%{O20}
+format-foreground = #c5ff52
+
+[module/powermenu]
+type = custom/menu
+format-foreground = #83ff52
+menu-0-0 = %{F#ff7575}%{F-}
+menu-0-0-exec = systemctl poweroff
+menu-0-1 = %{F#ffbc75}%{F-}
+menu-0-1-exec = bspc quit
+menu-0-2 = %{F#fff945}勒%{F-}
+menu-0-2-exec = systemctl reboot
+menu-0-3 = %{F#00bcf5}鈴%{F-}%{O15}
+menu-0-3-exec = systemctl hibernate
+label-open = %{O10}
+label-close = %{F#ff8c8c}%{F-}
+label-separator = %{O5}%{O5}

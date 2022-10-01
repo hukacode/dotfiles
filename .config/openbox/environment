@@ -1,0 +1,11 @@
+#
+# Set system-wide environment variables here for Openbox
+# User-specific variables should be placed in $HOME/.config/openbox/environment
+#
+# ---
+
+# Use qt5-styleplugins for QT Themes
+export QT_QPA_PLATFORMTHEME=gtk2
+
+# Make our environment identity considered as GNOME (tdesktop affected, so it will using GTK file chooser)
+export XDG_CURRENT_DESKTOP=gnome

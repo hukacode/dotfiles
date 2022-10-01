@@ -1,0 +1,55 @@
+colors:
+  primary:
+    background: "#efeae9"
+    foreground: "#af5fdf"
+
+    # Cursor colors
+    cursor:
+      text: CellBackground
+      cursor: "#100a14"
+
+    # Vi mode cursor colors
+    vi_mode_cursor:
+      text: CellBackground
+      cursor: "#67b11d"
+
+    # Selection colors
+    selection:
+      text: "#000000"
+      background: "#e8e3f0"
+
+    # Search colors
+    search:
+      matches:
+        foreground: "#F6F6F6"
+        background: "#67b11d"
+
+        focused_match:
+          foreground: "#000000"
+          background: "#67b11d"
+
+      bar:
+        foreground: "#403f53"
+        background: "#E0E0E0"
+
+    # Normal colors
+    normal:
+      black: "#403f53"
+      red: "#f2241f"
+      green: "#67b11d"
+      yellow: "#b1951d"
+      blue: "#3a81c3"
+      magenta: "#a31db1"
+      cyan: "#21b8c7"
+      white: "#fbf8ef"
+
+    # Bright colors
+    bright:
+      black: "#403f53"
+      red: "#f2241f"
+      green: "#67b11d"
+      yellow: "#b1951d"
+      blue: "#3a81c3"
+      magenta: "#a31db1"
+      cyan: "#21b8c7"
+      white: "#fbf8ef"

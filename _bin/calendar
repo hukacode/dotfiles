@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cal=$(cal)
+
+notify-send -a Calendar -u normal -i /usr/share/icons/Papirus/48x48/apps/calendar.svg "$cal"

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# xautolock -time 5 -locker "lock" &
+# redshift-gtk &
+# changedynamictheme colony &
+# changetheme &
+# wal -R -q &
+# nextcloud &
+# feh --randomize --bg-fill "/mnt/data/_public/wallpaper/" --bg-fill "/mnt/data/_public/wallpaper/" &
+feh --randomize --bg-fill "/mnt/data/_public/wallpaper/background-cmd-huka.jpg"
+syncthing -no-browser &
+dropbox &
+numlockx on &
+# picom --experimental-backends &
+# picom
+exec /usr/bin/lxpolkit &
+ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3 &
+nm-applet &
+udiskie -t &
+greenclip daemon &
+dunst &

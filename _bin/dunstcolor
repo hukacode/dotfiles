@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+
+reload_dunst() {
+    pkill dunst
+    dunst \
+         -frame_width 2 \
+        -lfr "${LFR}" \
+        -nfr "${NFR}" \
+        -cfr "${CFR}" \
+        -lb "${LB}" \
+        -nb "${NB}" \
+        -cb "${CB}" \
+        -lf "${LF}" \
+        -nf "${NF}" \
+        -cf "${CF}" &
+}
+
+reload_dunst
+
+if  [[ $1 = "--nord" ]]; then
+    LFR="#88C0D0"
+    NFR="#81A1C1"
+    CFR="#BF616A"
+    LB="#2E3440"
+    NB="#2E3440"
+    CB="#2E3440"
+    LF="#E5E9F0"
+    NF="#E5E9F0"
+    CF="#E5E9F0"
+
+    reload_dunst
+elif  [[ $1 = "--gruvbox" ]]; then
+    LFR="#689D6A"
+    NFR="#458588"
+    CFR="#FB4934"
+    LB="#282828"
+    NB="#282828"
+    CB="#282828"
+    LF="#EBDBB2"
+    NF="#EBDBB2"
+    CF="#EBDBB2"
+
+    reload_dunst
+elif  [[ $1 = "--nightowl" ]]; then
+    LFR="#21C7A8"
+    NFR="#82AAFF"
+    CFR="#EF5350"
+    LB="#011627"
+    NB="#011627"
+    CB="#011627"
+    LF="#D6DEEB"
+    NF="#D6DEEB"
+    CF="#D6DEEB"
+    
+    reload_dunst
+elif  [[ $1 = "--lightowl" ]]; then
+    LFR="#2AA298"
+    NFR="#288ed7"
+    CFR="#de3d3b"
+    LB="#F6F6F6"
+    NB="#F6F6F6"
+    CB="#F6F6F6"
+    LF="#403f53"
+    NF="#403f53"
+    CF="#403f53"
+    
+    reload_dunst
+elif  [[ $1 = "--dracula" ]]; then
+    LFR="#8BE9FD"
+    NFR="#bd93f9"
+    CFR="#ff5555"
+    LB="#282a36"
+    NB="#282a36"
+    CB="#282a36"
+    LF="#F8F8F2"
+    NF="#F8F8F2"
+    CF="#F8F8F2"
+
+    reload_dunst
+elif  [[ $1 = "--pywal" ]]; then
+	# Source the pywal color file
+	. "$HOME/.cache/wal/colors.sh"
+
+    LFR=${color3}
+    NFR=${color3}
+    CFR=${color3}
+    LB=${color0}
+    NB=${color0}
+    CB=${color0}
+    LF=${color2}
+    NF=${color2}
+    CF=${color2}
+
+    reload_dunst
+else
+	cat <<- _EOF_
+    No option specified, Available options:
+    --nord    --gruvbox    --dracula    --pywal    --nightowl    --nightowl
+	_EOF_
+fi
